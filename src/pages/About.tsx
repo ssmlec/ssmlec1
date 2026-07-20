@@ -51,7 +51,7 @@ const timeline = [
       },
     ],
   },
-   {
+  {
     year: "2025",
     items: [
       {
@@ -62,7 +62,7 @@ const timeline = [
   },
   {
     year: "2026",
-    items:[
+    items: [
       {
         title: "AutoCAD",
         desc: "Expanded AutoCAD training for Mechanical, Electrical, Civil, and Architecture.",
@@ -93,31 +93,31 @@ const leadership = [
   },
   {
     name: "Nidhi Gandhi",
-    role: "Software Trainer",
+    role: "Trainer",
   },
   {
     name: "Chandni Joshi",
-    role: "Software Trainer",
+    role: "Trainer",
   },
   {
     name: "Nayan Kumar Singh",
-    role: "Software Trainer",
+    role: "Trainer",
   },
   {
     name: "Harshal Patel",
-    role: "Software Trainer",
+    role: "Trainer",
   },
   {
     name: "Khyati Patel",
-    role: "Software Trainer",
+    role: "Trainer",
   },
   {
     name: "Sakshi Shah",
-    role: "Software Trainer",
+    role: "Trainer",
   },
   {
     name: "Deepak Patel",
-    role: "Software Trainer",
+    role: "Trainer",
   },
 ];
 const infrastructure = [
@@ -154,9 +154,10 @@ export default function AboutPage() {
       /> */}
       <section className="relative overflow-hidden bg-gradient-hero pb-0 pt-32 text-white sm:pb-20 sm:pt-36">
 
-
         <section className="py-10 sm:py-2">
+          
           <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+
             <Reveal>
               <img src={aboutLab} alt="SSMLEC training facility" width={1280} height={960} loading="lazy" className="rounded-3xl shadow-glow" />
 
@@ -202,17 +203,38 @@ export default function AboutPage() {
               </div>
             </Reveal>
 
+            
+
             <div>
-              <SectionHeading
+
+              
+              
+              {/* <SectionHeading
 
                 align="left"
                 light={true}
-                eyebrow="Institute Overview"
+                // eyebrow="Institute Overview"
                 title="Transforming Potential into Professional Excellence"
                 subtitle="SSM Learning Excellence Centre (SSM LEC) is the talent development and workforce transformation division of SSM Infotech Solutions, a trusted leader with over 25 years of expertise in Industrial Software, Industrial Automation, Digital Engineering, and Information Technology solutions.
             Established in April 2023, SSM LEC was founded with a clear vision—to bridge the gap between academic education and industry expectations by developing highly skilled, industry-ready professionals equipped for the future of engineering and digital transformation.
             Through a unique blend of experiential learning, industry-led curriculum, hands-on project exposure, and globally recognized certifications, we empower students, working professionals, and corporate teams with the competencies required to excel in today's technology-driven industrial ecosystem."
-              />
+              /> */}
+
+              <SectionHeading
+  align="left"
+  light={true}
+  title={
+    <>
+      <span className="bg-gradient-to-r from-accent to-[oklch(0.72_0.18_35)] bg-clip-text text-transparent">
+        Transforming
+      </span>{" "}
+      Potential into Professional Excellence
+    </>
+  }
+  subtitle="SSM Learning Excellence Centre (SSM LEC) is the talent development and workforce transformation division of SSM Infotech Solutions, a trusted leader with over 25 years of expertise in Industrial Software, Industrial Automation, Digital Engineering, and Information Technology solutions.
+Established in April 2023, SSM LEC was founded with a clear vision—to bridge the gap between academic education and industry expectations by developing highly skilled, industry-ready professionals equipped for the future of engineering and digital transformation.
+Through a unique blend of experiential learning, industry-led curriculum, hands-on project exposure, and globally recognized certifications, we empower students, working professionals, and corporate teams with the competencies required to excel in today's technology-driven industrial ecosystem."
+/>
 
             </div>
           </div>
@@ -245,7 +267,8 @@ export default function AboutPage() {
               title="Transforming Potential into Professional Excellence"
               subtitle="SSM Learning Excellence Centre (SSM LEC) is the talent development and workforce transformation division of SSM Infotech Solutions, a trusted leader with over 25 years of expertise in Industrial Software, Industrial Automation, Digital Engineering, and Information Technology solutions.
               Established in April 2023, SSM LEC was founded with a clear vision—to bridge the gap between academic education and industry expectations by developing highly skilled, industry-ready professionals equipped for the future of engineering and digital transformation.
-              Through a unique blend of experiential learning, industry-led curriculum, hands-on project exposure, and globally recognized certifications, we empower students, working professionals, and corporate teams with the competencies required to excel in today's technology-driven industrial ecosystem."
+              Through a unique blend of experiential learning, industry-led
+               curriculum, hands-on project exposure, and globally recognized certifications, we empower students, working professionals, and corporate teams with the competencies required to excel in today's technology-driven industrial ecosystem."
             />
       
           </div>
@@ -288,7 +311,7 @@ export default function AboutPage() {
             </h1>
 
           </center>
-          
+
 
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {mvp.map((m, i) => {
@@ -329,61 +352,61 @@ export default function AboutPage() {
 
           {/* ======================== */}
           <center>
-      <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
-            {/* Craft your inner{" "} */}
-            <span className="bg-gradient-to-r from-accent to-[oklch(0.72_0.18_35)] bg-clip-text text-transparent">
-              Our Journey
-            </span>{" "}
-            {/* & shape your future */}
-          </h1>
+            <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
+              {/* Craft your inner{" "} */}
+              <span className="bg-gradient-to-r from-accent to-[oklch(0.72_0.18_35)] bg-clip-text text-transparent">
+                Our Journey
+              </span>{" "}
+              {/* & shape your future */}
+            </h1>
 
           </center>
-           <center>
-      <div className="text-center">
- <div className="text-center">
-  <h2 className="mt-6 text-2xl font-bold leading-tight text-black sm:text-3xl lg:text-4xl">
-    A history of excellence
-  </h2>
-</div>
-</div>
-          
+          <center>
+            <div className="text-center">
+              <div className="text-center">
+                <h2 className="mt-6 text-2xl font-bold leading-tight text-black sm:text-3xl lg:text-4xl">
+                  A history of excellence
+                </h2>
+              </div>
+            </div>
+
           </center>
           {/* ========================= */}
-         <ol className="relative mt-14 space-y-8 border-l-2 border-dashed border-border pl-8">
-  {timeline.map((t, i) => (
-    <Reveal key={t.year} delay={i * 0.05}>
-      <li className="relative">
-        <span className="absolute -left-[43px] grid size-8 place-items-center rounded-full bg-gradient-brand text-xs font-bold text-white">
-          <History className="size-4" />
-        </span>
+          <ol className="relative mt-14 space-y-8 border-l-2 border-dashed border-border pl-8">
+            {timeline.map((t, i) => (
+              <Reveal key={t.year} delay={i * 0.05}>
+                <li className="relative">
+                  <span className="absolute -left-[43px] grid size-8 place-items-center rounded-full bg-gradient-brand text-xs font-bold text-white">
+                    <History className="size-4" />
+                  </span>
 
-        <div className="rounded-2xl border bg-card p-5 shadow-soft">
-          <p className="font-display text-lg font-extrabold text-accent">
-            {t.year}
-          </p>
+                  <div className="rounded-2xl border bg-card p-5 shadow-soft">
+                    <p className="font-display text-lg font-extrabold text-accent">
+                      {t.year}
+                    </p>
 
-          <div className="mt-3 space-y-4">
-            {t.items.map((item, index) => (
-              <div
-                key={index}
-                className={
-                  index !== t.items.length - 1
-                    ? "border-b border-border pb-3"
-                    : ""
-                }
-              >
-                <h3 className="font-bold">{item.title}</h3>
-                <p className="mt-1 text-sm text-muted-foreground">
-                  {item.desc}
-                </p>
-              </div>
+                    <div className="mt-3 space-y-4">
+                      {t.items.map((item, index) => (
+                        <div
+                          key={index}
+                          className={
+                            index !== t.items.length - 1
+                              ? "border-b border-border pb-3"
+                              : ""
+                          }
+                        >
+                          <h3 className="font-bold">{item.title}</h3>
+                          <p className="mt-1 text-sm text-muted-foreground">
+                            {item.desc}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </li>
+              </Reveal>
             ))}
-          </div>
-        </div>
-      </li>
-    </Reveal>
-  ))}
-</ol>
+          </ol>
         </div>
       </section>
 
@@ -392,24 +415,24 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* <SectionHeading eyebrow="Leadership" title="Meet the team behind SSMLEC" /> */}
           <center>
-      <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
-            {/* Craft your inner{" "} */}
-            <span className="bg-gradient-to-r from-accent to-[oklch(0.72_0.18_35)] bg-clip-text text-transparent">
-             Leadership
-            </span>{" "}
-            {/* & shape your future */}
-          </h1>
+            <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
+              {/* Craft your inner{" "} */}
+              <span className="bg-gradient-to-r from-accent to-[oklch(0.72_0.18_35)] bg-clip-text text-transparent">
+                Leadership
+              </span>{" "}
+              {/* & shape your future */}
+            </h1>
 
           </center>
-           <center>
-      <div className="text-center">
- <div className="text-center">
-  <h2 className="mt-6 text-2xl font-bold leading-tight text-black sm:text-3xl lg:text-4xl">
-    Meet the team behind SSMLEC
-  </h2>
-</div>
-</div>
-          
+          <center>
+            <div className="text-center">
+              <div className="text-center">
+                <h2 className="mt-6 text-2xl font-bold leading-tight text-black sm:text-3xl lg:text-4xl">
+                  Meet the team behind SSMLEC
+                </h2>
+              </div>
+            </div>
+
           </center>
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
             {leadership.map((l, i) => (
@@ -429,21 +452,21 @@ export default function AboutPage() {
 
       {/* Infrastructure & Certifications */}
       <section className="py-20 sm:py-28">
-         <center>
-      <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
+        <center>
+          <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
             {/* Craft your inner{" "} */}
             <span className="bg-gradient-to-r from-accent to-[oklch(0.72_0.18_35)] bg-clip-text text-transparent">
-             Infrastructure & Certifications 
+              Infrastructure & Certifications
             </span>{" "}
             {/* & shape your future */}
           </h1>
 
-          </center>
+        </center>
         <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           <div>
             {/* <SectionHeading align="left" eyebrow="Infrastructure" title="World-class facilities" /> */}
-           
-           
+
+
             <ul className="mt-8 grid gap-3">
               {infrastructure.map((f) => (
                 <li key={f} className="flex items-center gap-3 rounded-xl border bg-card p-4 text-sm shadow-soft">

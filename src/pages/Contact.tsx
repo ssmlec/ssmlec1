@@ -4,7 +4,6 @@ import { PageHero } from "@/components/page-hero";
 import { EnquiryForm } from "@/components/enquiry-form";
 import { Seo } from "@/components/seo";
 import { contactInfo } from "@/lib/site-data";
-import { FaqSection } from "./Home.tsx";
 
 export default function ContactPage() {
   const items = [
@@ -27,14 +26,14 @@ export default function ContactPage() {
         ]}
         links={[{ rel: "canonical", href: "/contact" }]}
       />
-      <PageHero eyebrow="Contact" title="Let's start your journey" subtitle="Have a question about a program, admissions or placements? We're here to help." crumbs={[{ label: "Contact" }]} />
+      <PageHero title="Let's start your journey" subtitle="Have a question about a program, admissions or placements? We're here to help." crumbs={[{ label: "Contact" }]} />
       <section className="py-16 sm:py-20">
         <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[1fr_1.2fr] lg:px-8">
-          <div className="space-y-4">
+          <div className="space-y-10">
             {items.map((it) => {
               const Icon = it.icon;
               const inner = (
-                <div className="card-hover flex items-start gap-4 rounded-2xl border bg-card p-6 shadow-soft">
+                <div className="card-hover flex items-start gap-4 rounded-2xl border bg-card my-6 p-6 shadow-soft">
                   <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-gradient-brand text-white"><Icon className="size-6" /></span>
                   <div>
                     <p className="text-sm font-semibold text-muted-foreground">{it.label}</p>
@@ -60,7 +59,6 @@ export default function ContactPage() {
             <div className="mt-6"><EnquiryForm /></div>
           </div>
         </div>
-        <FaqSection/>
       </section>
     </>
   );

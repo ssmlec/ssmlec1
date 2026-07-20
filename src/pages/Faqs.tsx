@@ -1,4 +1,5 @@
 import { PageHero } from "@/components/page-hero";
+import { FaqSection } from "./Home.tsx";
 import { SectionHeading } from "@/components/section-heading";
 import { EnquiryDialog } from "@/components/enquiry-dialog";
 import { Button } from "@/components/ui/button";
@@ -35,10 +36,10 @@ export default function FaqsPage() {
           },
         ]}
       />
-      <PageHero eyebrow="Help Center" title="Frequently asked questions" subtitle="Everything you need to know about our programs, admissions and placement support." crumbs={[{ label: "FAQs" }]} />
-      <section className="py-16 sm:py-20">
+      <PageHero title="Frequently asked questions" subtitle="Everything you need to know about our programs, admissions and placement support." crumbs={[{ label: "FAQs" }]} />
+      <section className="py-16 sm:py-2">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <SectionHeading eyebrow="Got Questions?" title="We've got answers" />
+          {/* <SectionHeading eyebrow="Got Questions?" title="We've got answers" /> */}
           <Accordion type="single" collapsible className="mt-10">
             {generalFaqs.map((f, i) => (
               <AccordionItem key={i} value={`f-${i}`} className="mb-3 rounded-xl border bg-card px-5 shadow-soft">
@@ -56,6 +57,8 @@ export default function FaqsPage() {
           </div>
         </div>
       </section>
+        {/* <FaqSection/> */}
+
     </>
   );
 }

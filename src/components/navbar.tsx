@@ -139,7 +139,8 @@ export function Navbar() {
   {/* <NavItem to="/placements" label="Placements" scrolled={scrolled} /> */}
   <NavItem to="/gallery" label="Gallery" scrolled={scrolled} />
   {/* <NavItem to="/blog" label="Blog" scrolled={scrolled} /> */}
-  <NavItem to="/Success_Stories" label="Success Stories" scrolled={scrolled} />
+  {/* <NavItem to="/Success_Stories" label="Success Stories" scrolled={scrolled} /> */}
+  <NavItem to="/faqs" label="FAQ" scrolled={scrolled} />
   <NavItem to="/contact" label="Contact" scrolled={scrolled} />
 </div>
 
