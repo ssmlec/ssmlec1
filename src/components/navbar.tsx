@@ -97,7 +97,7 @@ export function Navbar() {
           transition={{ duration: 0.2 }}
           className="absolute left-1/2 top-full w-[min(92vw,880px)] -translate-x-1/2 pt-3"
         >
-          <div className="glass grid grid-cols-3 gap-2 rounded-2xl p-4">
+          <div className="bg-white grid grid-cols-3 gap-2 rounded-2xl p-4">
             {categories.map((cat) => {
               const meta = categoryMeta[cat];
               const Icon = meta.icon;
