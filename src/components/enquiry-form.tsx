@@ -19,7 +19,7 @@ import { courseOptions } from "@/lib/site-data";
 import { cn } from "@/lib/utils";
 
 const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbwTwVJVBcCaMz37140Sk1sJTmnvOze1pUQgj9iSqgXuGynUvWwK59RNRctBgNPVhoud/exec";
+  "https://script.google.com/macros/s/AKfycbzIxI_CdW1oaetuS6qpMQFikfbZzitA0WSCVeDtCacBMLQAvx7oQHtTk4S66bgfOw_6/exec";
 
 const schema = z.object({
   name: z.string().trim().min(2, "Please enter your name").max(80),
