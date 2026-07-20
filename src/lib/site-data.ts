@@ -436,13 +436,19 @@ export const featuredCourseSlugs = [
   "autocad-mechanical",
 ];
 
+import {
+  GraduationCap,
+  BadgeCheck,
+  Handshake,
+  Trophy,
+} from "lucide-react";
+ 
 export const stats = [
-  { value: 800, suffix: "+", label: "Learners Trained" },
-  { value: 60, suffix: "+", label: "Corporate Training" },
-  { value: 4, suffix: "+", label: "Years of Excellence" },
-  { value: 30, suffix: "+", label: "Corporate Clients" },
+  { value: 800, suffix: "+", label: "Learners Trained", icon: GraduationCap },
+  { value: 300, suffix: "+", label: "Corporate Training", icon: BadgeCheck },
+  { value: 45, suffix: "+", label: "Corporate Clients", icon: Handshake },
+  { value: 4, suffix: "+", label: "Years of Excellence", icon: Trophy },
 ];
-
 export const placementStats = [
   { value: 95, suffix: "%", label: "Placement Rate" },
   { value: 18, suffix: " LPA", label: "Highest Package" },
