@@ -36,7 +36,7 @@ export default function FaqsPage() {
           },
         ]}
       />
-      <PageHero title="Frequently asked questions" subtitle="Everything you need to know about our programs, admissions and placement support." crumbs={[{ label: "FAQs" }]} />
+      <PageHero title="FAQs" subtitle="Everything you need to know about our programs, admissions and placement support" crumbs={[{ label: "FAQs" }]} />
       <section className="py-16 sm:py-2">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           {/* <SectionHeading eyebrow="Got Questions?" title="We've got answers" /> */}

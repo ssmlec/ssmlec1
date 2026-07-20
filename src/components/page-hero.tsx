@@ -23,7 +23,7 @@ export function PageHero({
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-20%,rgba(255,255,255,0.12),transparent_60%)]" />
       </div>
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <Breadcrumbs items={crumbs} />
+        {/* <Breadcrumbs items={crumbs} /> */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -35,7 +35,7 @@ export function PageHero({
               {eyebrow}
             </span>
           )}
-          <h1 className="text-4xl font-extrabold leading-[1.05] sm:text-5xl md:text-6xl">{title}</h1>
+          <h1 className="bg-gradient-to-r from-accent to-[oklch(0.72_0.18_35)] bg-clip-text text-transparent text-4xl font-extrabold leading-[1.05] sm:text-5xl md:text-6xl">{title}</h1>
           {subtitle && <p className="mt-5 max-w-2xl text-lg text-white/75">{subtitle}</p>}
           {children && <div className="mt-8">{children}</div>}
         </motion.div>
