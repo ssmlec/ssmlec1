@@ -12,7 +12,7 @@ export default function FaqsPage() {
     <>
       <Seo
         meta={[
-          { title: "FAQs — Courses, Admissions & Placements | SSMLEC" },
+          { title: "SSM Learning Excellence Centre" },
           {
             name: "description",
             content: "Frequently asked questions about SSMLEC courses, admissions, certifications and placement support.",

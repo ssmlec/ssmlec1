@@ -134,7 +134,7 @@ export default function AboutPage() {
     <>
       <Seo
         meta={[
-          { title: "About SSMLEC — Our Mission, Vision & Story | Learning Excellence Centre" },
+          { title: "SSM Learning Excellence Centre" },
           {
             name: "description",
             content:
@@ -155,7 +155,7 @@ export default function AboutPage() {
       <section className="relative overflow-hidden bg-gradient-hero pb-0 pt-32 text-white sm:pb-20 sm:pt-36">
 
         <section className="py-10 sm:py-2">
-          
+
           <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
 
             <Reveal>
@@ -203,12 +203,12 @@ export default function AboutPage() {
               </div>
             </Reveal>
 
-            
+
 
             <div>
 
-              
-              
+
+
               {/* <SectionHeading
 
                 align="left"
@@ -221,20 +221,20 @@ export default function AboutPage() {
               /> */}
 
               <SectionHeading
-  align="left"
-  light={true}
-  title={
-    <>
-      <span className="bg-gradient-to-r from-accent to-[oklch(0.72_0.18_35)] bg-clip-text text-transparent">
-        Transforming
-      </span>{" "}
-      Potential into Professional Excellence
-    </>
-  }
-  subtitle="SSM Learning Excellence Centre (SSM LEC) is the talent development and workforce transformation division of SSM Infotech Solutions, a trusted leader with over 25 years of expertise in Industrial Software, Industrial Automation, Digital Engineering, and Information Technology solutions.
+                align="left"
+                light={true}
+                title={
+                  <>
+                    <span className="bg-gradient-to-r from-accent to-[oklch(0.72_0.18_35)] bg-clip-text text-transparent">
+                      Transforming
+                    </span>{" "}
+                    Potential into Professional Excellence
+                  </>
+                }
+                subtitle="SSM Learning Excellence Centre (SSM LEC) is the talent development and workforce transformation division of SSM Infotech Solutions, a trusted leader with over 25 years of expertise in Industrial Software, Industrial Automation, Digital Engineering, and Information Technology solutions.
 Established in April 2023, SSM LEC was founded with a clear vision—to bridge the gap between academic education and industry expectations by developing highly skilled, industry-ready professionals equipped for the future of engineering and digital transformation.
 Through a unique blend of experiential learning, industry-led curriculum, hands-on project exposure, and globally recognized certifications, we empower students, working professionals, and corporate teams with the competencies required to excel in today's technology-driven industrial ecosystem."
-/>
+              />
 
             </div>
           </div>

@@ -12,7 +12,7 @@ export default function CoursesPage() {
     <>
       <Seo
         meta={[
-          { title: "Courses — Industrial Automation, AI Software & CAD Design | SSMLEC" },
+          { title: "SSM Learning Excellence Centre" },
           {
             name: "description",
             content:
@@ -25,7 +25,7 @@ export default function CoursesPage() {
         links={[{ rel: "canonical", href: "/courses" }]}
       />
       <PageHero
-        eyebrow="Our Programs"
+        // eyebrow="Our Programs"
         title="Courses built for real careers"
         subtitle="Three specialized tracks — Industrial Automation, AI Software Technologies and CAD Design — each with hands-on labs, expert mentorship and dedicated placement support."
         crumbs={[{ label: "Courses" }]}

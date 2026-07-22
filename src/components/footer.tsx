@@ -64,40 +64,40 @@ export function Footer() {
             </div> */}
 
             <div className="mt-5 flex gap-2">
-                  {[
-                    { 
-                      icon: Linkedin, 
-                      label: "LinkedIn", 
-                      url: "https://www.linkedin.com/in/harshal-patel-70111a344/"
-                    },
-                    { 
-                      icon: Facebook, 
-                      label: "Facebook", 
-                      url: "https://www.facebook.com/p/SSM-Learning-Excellence-Centre-61566556467100/"
-                    },
-                    { 
-                      icon: Instagram, 
-                      label: "Instagram", 
-                      url: "https://www.instagram.com/ssmlec24/"
-                    },
-                    // { 
-                    //   icon: Youtube, 
-                    //   label: "YouTube", 
-                    //   url: "https://www.youtube.com/@your-channel"
-                    // },
-                  ].map(({ icon: Icon, label, url }) => (
-                    <a
-                      key={label}
-                      href={url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={label}
-                      className="grid size-9 place-items-center rounded-full border border-white/20 text-white/80 transition-colors hover:border-accent hover:bg-accent hover:text-white"
-                    >
-                      <Icon className="size-4" />
-                    </a>
-                  ))}
-                </div>
+              {[
+                {
+                  icon: Linkedin,
+                  label: "LinkedIn",
+                  url: "https://www.linkedin.com/in/harshal-patel-70111a344/"
+                },
+                {
+                  icon: Facebook,
+                  label: "Facebook",
+                  url: "https://www.facebook.com/p/SSM-Learning-Excellence-Centre-61566556467100/"
+                },
+                {
+                  icon: Instagram,
+                  label: "Instagram",
+                  url: "https://www.instagram.com/ssmlec24/"
+                },
+                // { 
+                //   icon: Youtube, 
+                //   label: "YouTube", 
+                //   url: "https://www.youtube.com/@your-channel"
+                // },
+              ].map(({ icon: Icon, label, url }) => (
+                <a
+                  key={label}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="grid size-9 place-items-center rounded-full border border-white/20 text-white/80 transition-colors hover:border-accent hover:bg-accent hover:text-white"
+                >
+                  <Icon className="size-4" />
+                </a>
+              ))}
+            </div>
           </div>
 
           <div className="lg:col-span-2">
@@ -175,7 +175,7 @@ export function Footer() {
             </form> */}
           </div>
         </div>
-      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.134544025956!2d72.75712867587472!3d21.147043283704207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f9bef549299%3A0x6a4d5142101724c8!2sSSM%20Learning%20Excellence%20Centre!5e0!3m2!1sen!2sin!4v1784115735535!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> */}
+        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.134544025956!2d72.75712867587472!3d21.147043283704207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f9bef549299%3A0x6a4d5142101724c8!2sSSM%20Learning%20Excellence%20Centre!5e0!3m2!1sen!2sin!4v1784115735535!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> */}
         <div className="mt-12 overflow-hidden rounded-2xl border border-white/10">
           <iframe
             title="SSMLEC location map"
@@ -189,10 +189,15 @@ export function Footer() {
         <div className="mt-8 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-sm text-primary-foreground/60 sm:flex-row">
           <p>© {new Date().getFullYear()} SSM Learning Excellence Centre. All rights reserved.</p>
           <div className="flex gap-4">
-            {/* <Link to="/privacy" className="hover:text-accent">Privacy Policy</Link> */}
-            {/* <Link to="/terms" className="hover:text-accent">Terms &amp; Conditions</Link> */}
+            <p className="mt-1 text-xs text-primary-foreground/50">
+              Created and Managed by{" "}
+              <span className="font-medium text-primary-foreground/70">
+                SSM Learning Excellence Centre
+              </span>
+            </p>
           </div>
         </div>
+
       </div>
     </footer>
   );
