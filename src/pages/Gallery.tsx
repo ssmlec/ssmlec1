@@ -14,7 +14,7 @@ export default function GalleryPage() {
     <>
       <Seo
         meta={[
-          { title: "Gallery — Campus, Labs & Student Life | SSMLEC" },
+          { title: "SSM Learning Excellence Centre" },
           {
             name: "description",
             content:
@@ -25,10 +25,10 @@ export default function GalleryPage() {
         ]}
         links={[{ rel: "canonical", href: "/gallery" }]}
       />
-      <PageHero eyebrow="Gallery" title="Life at SSMLEC" subtitle="A glimpse into our labs, classrooms, events and the technocrats we shape every day." crumbs={[{ label: "Gallery" }]} />
+      <PageHero title="Gallery" subtitle="A glimpse into our labs, classrooms, events and the technocrats we shape every day." crumbs={[{ label: "Gallery" }]} />
       <section className="py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <SectionHeading eyebrow="Moments" title="Explore our campus & events" />
+          {/* <SectionHeading eyebrow="Moments" title="Explore our campus & events" /> */}
           <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
             {captions.map((c, i) => (
               <Reveal key={c} delay={(i % 4) * 0.05}>

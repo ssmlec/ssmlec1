@@ -58,7 +58,7 @@ export default function Home() {
     <>
       <Seo
         meta={[
-          { title: "SSMLEC — Automation, AI & Industry 4.0 Training | Learning Excellence Centre" },
+          { title: "SSM Learning Excellence Centre" },
           {
             name: "description",
             content:
@@ -297,6 +297,7 @@ function WhyChoose() {
         <SectionHeading
           // eyebrow=""
           // title="Everything you need to become job-ready"
+          title=""
           subtitle="A premium learning experience engineered around real industry outcomes."
         />
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

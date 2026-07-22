@@ -54,7 +54,7 @@ export default function CourseDetail() {
   const related = courses.filter((c) => c.category === course.category && c.slug !== course.slug).slice(0, 3);
 
   const facts = [
-    { icon: Clock, label: "Duration", value: course.duration },
+    // { icon: Clock, label: "Duration", value: course.duration },
     { icon: Signal, label: "Level", value: course.level },
     { icon: Monitor, label: "Mode", value: course.mode },
     { icon: GraduationCap, label: "Eligibility", value: course.eligibility },
@@ -89,7 +89,7 @@ export default function CourseDetail() {
         ]}
       />
       <PageHero
-        eyebrow={cat.label}
+        // eyebrow={cat.label}
         title={course.title}
         subtitle={course.tagline}
         crumbs={[

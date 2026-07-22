@@ -15,7 +15,7 @@ export default function ContactPage() {
     <>
       <Seo
         meta={[
-          { title: "Contact SSMLEC — Enquire About Courses & Admissions" },
+          { title: "SSM Learning Excellence Centre" },
           {
             name: "description",
             content:

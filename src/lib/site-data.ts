@@ -174,22 +174,37 @@ export const courses: Course[] = [
     category: "software-technologies",
     tagline: "Design, query and supercharge databases with GenAI.",
     description:
-      "Become a database specialist who blends advanced SQL with generative-AI copilots for querying, optimization and automation.",
+      "The SQL Database Specialist with GenAI program is an industry-focused certification designed to build expertise in SQL, database development, performance optimization, and SQL Server administration. Learners gain practical skills to develop complex database solutions and work with professional SQL technologies. The program also introduces GenAI-assisted SQL development, helping learners use modern AI tools to improve productivity, problem-solving, and data workflows.",
     duration: "4 Months",
     eligibility: "Any graduate with logical aptitude",
-    mode: "Classroom + Online",
+    mode: "Classroom / Online / Hybrid",
     level: "Beginner to Advanced",
     icon: Database,
-    skills: ["Advanced SQL", "Database Design", "Query Optimization", "GenAI Prompting", "Data Modeling"],
-    technologies: ["PostgreSQL", "MySQL", "SQL Server", "OpenAI", "LangChain"],
-    careers: ["Database Developer", "SQL Analyst", "Data Engineer", "BI Developer"],
-    outcomes: ["Write complex production-grade queries", "Optimize slow databases", "Build GenAI-assisted data tools"],
+    skills: ["Database Design", "Database Programming", "Advanced SQL Development", "Query Optimization", "GenAI-Assisted SQL"],
+    technologies: ["Microsoft SQL Server","SQL Server Management Studio (SSMS)","Database Programming","Generative AI"],
+    careers: ["GenAI-Assisted SQL Developer", "Data Engineer — Entry Level", "SQL Database Specialist", "Database Developer"],
+    outcomes: ["Design scalable and efficient database solutions", "Develop professional database-driven applications", "Write complex, production-ready SQL queries", "Analyze and optimize database performance", "Use GenAI to accelerate SQL development and data workflows"],
     curriculum: [
-      { title: "SQL Fundamentals", detail: "Joins, subqueries, aggregation and set operations." },
-      { title: "Advanced SQL", detail: "Window functions, CTEs, indexing and tuning." },
-      { title: "Database Design", detail: "Normalization, schema design and modeling." },
-      { title: "GenAI for Data", detail: "Natural-language querying and AI copilots." },
-      { title: "Capstone", detail: "Build an AI-assisted analytics database." },
+      {
+        title: "SQL Fundamentals",
+        detail: "Build a strong foundation in databases and professional SQL development."
+      },
+      {
+        title: "Advanced SQL & Database Programming",
+        detail: "Develop the skills to work with complex data and enterprise-level database solutions."
+      },
+      {
+        title: "Database Engineering",
+        detail: "Learn to build reliable, scalable and well-structured database systems."
+      },
+      {
+        title: "Performance & Optimization",
+        detail: "Master the techniques used to improve database performance and efficiency."
+      },
+      {
+        title: "GenAI for Database Professionals",
+        detail: "Leverage Generative AI to accelerate SQL development, data analysis and database productivity."
+      },
     ],
     faqs: faqBase,
   },
@@ -442,7 +457,7 @@ import {
   Handshake,
   Trophy,
 } from "lucide-react";
- 
+
 export const stats = [
   { value: 800, suffix: "+", label: "Learners Trained", icon: GraduationCap },
   { value: 300, suffix: "+", label: "Corporate Training", icon: BadgeCheck },
