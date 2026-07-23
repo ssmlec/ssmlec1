@@ -19,9 +19,16 @@ import Privacy from "@/pages/Privacy";
 import Terms from "@/pages/Terms";
 import NotFound from "@/pages/NotFound";
 import Success_Stories from "./pages/Success_Stories";
+
+import CategoryPage from "./pages/gallery/CategoryPage.jsx";
+import CompanyPage from "./pages/gallery/CompanyPage.jsx";
+import TrainingPage from "./pages/gallery/TrainingPage.jsx";
+
+import ScrollToTop from "./ScrollToTop.jsx";
 export default function App() {
   return (
     <ErrorBoundary>
+      <ScrollToTop />
       <Navbar />
       <main className="min-h-screen">
         <Routes>
@@ -31,6 +38,20 @@ export default function App() {
           <Route path="/courses/:slug" element={<CourseDetail />} />
           <Route path="/placements" element={<Placements />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route
+            path="/gallery/:category"
+            element={<CategoryPage />}
+
+          />
+          <Route
+            path="/gallery/:category/:company"
+            element={<CompanyPage />}
+          />
+          <Route
+            path="/gallery/:category/:company/:training"
+            element={<TrainingPage />}
+          />
           <Route path="/blog" element={<Blog />} />
           <Route path="/Success_Stories" element={<Success_Stories />} />
           <Route path="/faqs" element={<Faqs />} />
