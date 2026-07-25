@@ -9,7 +9,7 @@ export default function CategoryPage() {
 
   if (!data) {
     return (
-      <div className="py-24 text-center">
+      <div className="flex min-h-[60vh] items-center justify-center">
         <h1 className="text-4xl font-bold">Category Not Found</h1>
       </div>
     );
@@ -17,61 +17,75 @@ export default function CategoryPage() {
 
   return (
     <>
-      <PageHero
+      {/* <PageHero
         title={data.title}
-        subtitle={`Explore all ${data.title}`}
+        subtitle={`Explore our ${data.title}`}
         crumbs={[
           { label: "Gallery", href: "/gallery" },
           { label: data.title },
         ]}
-      />
+      /> */}
 
-      <section className="py-20">
+      <section className="bg-gray-50 py-20">
         <div className="mx-auto max-w-7xl px-6">
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+         
+
+          {/* Logo Grid */}
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 
             {data.entities.map((entity) => (
-
               <Link
                 key={entity.id}
                 to={`/gallery/${category}/${entity.id}`}
+                className="group"
               >
-                <div className="group overflow-hidden rounded-3xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+                <div className="relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
 
-                  <div className="overflow-hidden">
+                  {/* Logo */}
+                  <div className="flex h-36 items-center justify-center">
 
                     <img
-                      src={entity.cover}
+                      src={entity.logo || entity.cover}
                       alt={entity.name}
-                      className="h-64 w-full object-cover transition duration-500 group-hover:scale-110"
+                      className="max-h-24 max-w-full object-contain transition-transform duration-300 group-hover:scale-110"
                     />
 
                   </div>
 
-                  <div className="p-6">
+                  {/* Divider */}
+                  <div className="my-6 border-t"></div>
 
-                    <h2 className="text-2xl font-bold">
-                      {entity.name}
-                    </h2>
+                  {/* Name */}
+                  <h3 className="text-center text-xl font-bold text-gray-800">
+                    {entity.name}
+                  </h3>
 
-                    <p className="mt-2 text-gray-500">
-                      {entity.totalTrainings} Trainings
-                    </p>
+                  {/* Training Count */}
+                  {/* <p className="mt-2 text-center text-gray-500">
+                    {entity.totalTrainings}{" "}
+                    {entity.totalTrainings === 1
+                      ? "Training"
+                      : "Trainings"}
+                  </p> */}
 
-                    <button className="mt-6 rounded-xl bg-blue-600 px-5 py-2 text-white transition hover:bg-blue-700">
-                      View Trainings →
-                    </button>
+                  {/* Button */}
+                  <div className="mt-8 flex justify-center">
+
+                    <span className="rounded-full bg-blue-600 px-6 py-2 text-sm font-semibold text-white transition-all duration-300 group-hover:bg-blue-700">
+                      View Gallery →
+                    </span>
 
                   </div>
 
+                  {/* Hover Border */}
+                  <div className="absolute inset-0 rounded-3xl border-2 border-blue-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
+
                 </div>
               </Link>
-
             ))}
 
           </div>
-
         </div>
       </section>
     </>

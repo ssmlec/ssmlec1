@@ -1,5 +1,5 @@
 // ===== Corporate Images =====
-import relianceCover from "@/assets/gallery/corporate/reliance/cover.jpg";
+import relianceCover from "@/assets/gallery/corporate/reliance/";
 import r1 from "@/assets/gallery/corporate/reliance/1.jpg";
 import r2 from "@/assets/gallery/corporate/reliance/2.jpg";
 import r3 from "@/assets/gallery/corporate/reliance/3.jpg";

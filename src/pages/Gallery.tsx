@@ -5,8 +5,8 @@ import { Seo } from "@/components/seo";
  import {Link} from "react-router-dom";
 import im from "../assets/about-lab.jpg"
 
-import corporateImg from "../assets/hero-bg.jpg";
-import studentImg from "../assets/home-about-1.png";
+import corporateImg from "../assets/gallery/corporate/image (3).png";
+import studentImg from "../assets/gallery/students/image (4).png";
 import eventImg from "../assets/home-2nd-photo.jpg";
 
 
@@ -46,11 +46,11 @@ export default function GalleryPage() {
 
       <PageHero title="Gallery" subtitle="A glimpse into our labs, classrooms, events and the technocrats we shape every day." crumbs={[{ label: "Gallery" }]} />
       <section className="py-16 sm:py-4">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-12">
           {/* <SectionHeading eyebrow="Moments" title="Explore our campus & events" /> */}
          
 
-          <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-3">
+          <div className="mt-12 grid grid-cols-2 gap-24 md:grid-cols-3 lg:grid-cols-3">
             {captions.map((item, i) => (
               <Reveal key={item.title} delay={(i % 4) * 0.05}>
                 <Link to={item.link}>

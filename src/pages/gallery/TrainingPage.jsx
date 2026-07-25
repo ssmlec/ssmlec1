@@ -72,7 +72,7 @@ export default function TrainingPage() {
                             </p>
 
                         </div>
-
+{/* 
                         <div className="rounded-3xl bg-gray-100 p-8">
 
                             <h3 className="text-2xl font-bold">
@@ -121,7 +121,7 @@ export default function TrainingPage() {
 
                             </div>
 
-                        </div>
+                        </div> */}
 
                     </div>
 
