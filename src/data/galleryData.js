@@ -106,9 +106,9 @@ import tp3 from "@/assets/gallery/corporate/torrent/3.png";
 
 // Merck
 import merckCover from "../assets/maquee _logos/Merck.webp";
-import merck1 from "@/assets/gallery/corporate/Merck/1.png";
-import merck2 from "@/assets/gallery/corporate/Merck/2.png";
-import merck3 from "@/assets/gallery/corporate/Merck/3.png";
+import merck1 from "@/assets/gallery/corporate/merck/1.png";
+import merck2 from "@/assets/gallery/corporate/merck/2.png";
+import merck3 from "@/assets/gallery/corporate/merck/3.png";
 
 
 
