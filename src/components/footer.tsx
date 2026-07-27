@@ -186,10 +186,11 @@ export function Footer() {
           />
         </div>
 
-        <div className="mt-8 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-sm text-primary-foreground/60 sm:flex-row">
+         <div className="mt-8 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-sm text-primary-foreground/60 sm:flex-row">
           <p>© {new Date().getFullYear()} SSM Learning Excellence Centre. All rights reserved.</p>
+
           <div className="flex gap-4">
-            <p className="mt-1 text-xs text-primary-foreground/50">
+            <p className="mt-1 text-sm text-primary-foreground/60">
               Created and Managed by{" "}
               <span className="font-medium text-primary-foreground/70">
                 SSM Learning Excellence Centre
