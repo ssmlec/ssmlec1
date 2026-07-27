@@ -144,7 +144,7 @@ export function Navbar() {
           </div>
 
           {/* Gallery dropdown */}
-          <div
+          {/* <div
             className="relative"
             onMouseEnter={() => setGalleryOpen(true)}
             onMouseLeave={() => setGalleryOpen(false)}
@@ -185,7 +185,7 @@ export function Navbar() {
                 </motion.div>
               )}
             </AnimatePresence>
-          </div>
+          </div> */}
 
           {/* <NavItem to="/placements" label="Placements" scrolled={scrolled} /> */}
           {/* <NavItem to="/blog" label="Blog" scrolled={scrolled} /> */}
