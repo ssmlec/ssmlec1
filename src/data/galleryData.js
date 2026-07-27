@@ -287,9 +287,9 @@ export const galleryData = {
 
                 trainings: [
                     {
-                        id: "power-bi-enterprise",
+                        id: "AVEVA InTouch HMI 2023",
 
-                        title: "Enterprise Power BI",
+                        title: "AVEVA InTouch HMI 2023",
 
                         coverImage: r1,
 
@@ -306,10 +306,7 @@ export const galleryData = {
                         participants: 35,
 
                         technologies: [
-                            "Power BI",
-                            "DAX",
-                            "Power Query",
-                            "Dashboard"
+                            "AVEVA InTouch HMI 2023",
                         ],
 
                         description:
@@ -381,9 +378,9 @@ export const galleryData = {
 
                 trainings: [
                     {
-                        id: "python-ai",
+                        id: "AVEVA System Platform 2023",
 
-                        title: "Python for AI",
+                        title: "AVEVA System Platform 2023",
 
                         coverImage: r1,
 
@@ -400,10 +397,7 @@ export const galleryData = {
                         participants: 45,
 
                         technologies: [
-                            "Python",
-                            "NumPy",
-                            "Pandas",
-                            "Machine Learning"
+                           "AVEVA System Platform 2023"
                         ],
 
                         description:
@@ -419,9 +413,9 @@ export const galleryData = {
                     },
 
                     {
-                        id: "react-training",
+                        id: "AVEVA MES 2023",
 
-                        title: "React Development",
+                        title: "AVEVA MES 2023",
 
                         coverImage: r1,
 
@@ -438,10 +432,75 @@ export const galleryData = {
                         participants: 40,
 
                         technologies: [
-                            "React",
-                            "JavaScript",
-                            "Tailwind",
-                            "API"
+                            "AVEVA MES 2023",
+                        ],
+
+                        description:
+                            "Modern React development with hooks and REST APIs.",
+
+                        images: [r1, r2],
+
+                        videos: [],
+
+                        certificates: [],
+
+                        feedback: [],
+                    },
+                    {
+                        id: "AVEVA Model-Driven MES 2023",
+
+                        title: "AVEVA Model-Driven MES 2023",
+
+                        coverImage: r1,
+
+                        date: "15 March 2026",
+
+                        year: 2026,
+
+                        duration: "5 Days",
+
+                        location: "Hyderabad",
+
+                        trainer: "SSM LEC",
+
+                        participants: 40,
+
+                        technologies: [
+                            "AVEVA Model-Driven MES 2023",
+                        ],
+
+                        description:
+                            "Modern React development with hooks and REST APIs.",
+
+                        images: [r1, r2],
+
+                        videos: [],
+
+                        certificates: [],
+
+                        feedback: [],
+                    },
+                    {
+                        id: "AVEVA Work Tasks 2023",
+
+                        title: "AVEVA Work Tasks 2023",
+
+                        coverImage: r1,
+
+                        date: "15 March 2026",
+
+                        year: 2026,
+
+                        duration: "5 Days",
+
+                        location: "Hyderabad",
+
+                        trainer: "SSM LEC",
+
+                        participants: 40,
+
+                        technologies: [
+                            "AVEVA Work Tasks 2023",
                         ],
 
                         description:
@@ -622,9 +681,9 @@ export const galleryData = {
 
                 trainings: [
                     {
-                        id: "plc-scada",
+                        id: "AVEVA System Platform 2023",
 
-                        title: "PLC & SCADA Programming",
+                        title: "AVEVA System Platform 2023",
 
                         coverImage: sch1,
 
@@ -641,11 +700,7 @@ export const galleryData = {
                         participants: 42,
 
                         technologies: [
-                            "PLC",
-                            "SCADA",
-                            "VFD",
-                            "HMI",
-                            "Industrial Automation"
+                            "AVEVA System Platform 2023",
                         ],
 
                         description:

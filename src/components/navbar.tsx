@@ -35,9 +35,16 @@ const navLinks = [
 
 const categories = Object.keys(categoryMeta) as CourseCategory[];
 
+const galleryLinks = [
+  { title: "Corporate Training", to: "/gallery/corporate-training" },
+  { title: "Students Training", to: "/gallery/students-training" },
+  { title: "Events", to: "/gallery/events" },
+];
+
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
+  const [galleryOpen, setGalleryOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
@@ -48,101 +55,144 @@ export function Navbar() {
   }, []);
 
   return (
- <header
-  className={cn(
-    "fixed inset-x-0 top-0 z-50 transition-all duration-300",
-    scrolled
-      ? "bg-white/80 backdrop-blur-xl shadow-lg border-b border-blue-100 py-2"
-      : "bg-white/80 backdrop-blur-xl shadow-lg border-b border-blue-100 py-2"
-  )}
->
+    <header
+      className={cn(
+        "fixed inset-x-0 top-0 z-50 transition-all duration-300",
+        scrolled
+          ? "bg-white/80 backdrop-blur-xl shadow-lg border-b border-blue-100 py-2"
+          : "bg-white/80 backdrop-blur-xl shadow-lg border-b border-blue-100 py-2"
+      )}
+    >
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
         <Logo />
 
         {/* Desktop nav */}
-   <div className="hidden items-center gap-1 lg:flex">
-  <NavItem to="/" label="Home" scrolled={scrolled} />
-  <NavItem to="/about" label="About" scrolled={scrolled} />
+        <div className="hidden items-center gap-1 lg:flex">
+          <NavItem to="/" label="Home" scrolled={scrolled} />
+          <NavItem to="/about" label="About" scrolled={scrolled} />
 
-  {/* Courses mega menu */}
-  <div
-    className="relative"
-    onMouseEnter={() => setMegaOpen(true)}
-    onMouseLeave={() => setMegaOpen(false)}
-  >
-    <button
-      className={cn(
-        "flex items-center gap-1 rounded-full px-3.5 py-2 text-sm font-medium transition-all duration-300",
-        scrolled
-          ? "text-blue-900 hover:bg-blue-50 hover:text-blue-700"
-          : "text-blue-900 hover:bg-blue-50 hover:text-blue-700"
-      )}
-      aria-expanded={megaOpen}
-    >
-      Courses
-      <ChevronDown
-        className={cn(
-          "size-4 transition-transform",
-          megaOpen && "rotate-180"
-        )}
-      />
-    </button>
+          {/* Courses mega menu */}
+          <div
+            className="relative"
+            onMouseEnter={() => setMegaOpen(true)}
+            onMouseLeave={() => setMegaOpen(false)}
+          >
+            <button
+              className={cn(
+                "flex items-center gap-1 rounded-full px-3.5 py-2 text-sm font-medium transition-all duration-300",
+                scrolled
+                  ? "text-blue-900 hover:bg-blue-50 hover:text-blue-700"
+                  : "text-blue-900 hover:bg-blue-50 hover:text-blue-700"
+              )}
+              aria-expanded={megaOpen}
+            >
+              Courses
+              <ChevronDown
+                className={cn(
+                  "size-4 transition-transform",
+                  megaOpen && "rotate-180"
+                )}
+              />
+            </button>
 
-    <AnimatePresence>
-      {megaOpen && (
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 10 }}
-          transition={{ duration: 0.2 }}
-          className="absolute left-1/2 top-full w-[min(92vw,880px)] -translate-x-1/2 pt-3"
-        >
-          <div className="bg-white grid grid-cols-3 gap-2 rounded-2xl p-4">
-            {categories.map((cat) => {
-              const meta = categoryMeta[cat];
-              const Icon = meta.icon;
+            <AnimatePresence>
+              {megaOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 10 }}
+                  transition={{ duration: 0.2 }}
+                  className="absolute left-1/2 top-full w-[min(92vw,880px)] -translate-x-1/2 pt-3"
+                >
+                  <div className="bg-white grid grid-cols-3 gap-2 rounded-2xl p-4">
+                    {categories.map((cat) => {
+                      const meta = categoryMeta[cat];
+                      const Icon = meta.icon;
 
-              return (
-                <div key={cat} className="rounded-xl p-2">
-                  <Link
-                    to={`/courses#${cat}`}
-                    className="mb-2 flex items-center gap-2 rounded-lg px-2 py-1.5 text-sm font-bold text-blue-900"
-                  >
-                    <span className="grid size-8 place-items-center rounded-lg bg-gradient-brand text-white">
-                      <Icon className="size-4" />
-                    </span>
+                      return (
+                        <div key={cat} className="rounded-xl p-2">
+                          <Link
+                            to={`/courses#${cat}`}
+                            className="mb-2 flex items-center gap-2 rounded-lg px-2 py-1.5 text-sm font-bold text-blue-900"
+                          >
+                            <span className="grid size-8 place-items-center rounded-lg bg-gradient-brand text-white">
+                              <Icon className="size-4" />
+                            </span>
 
-                    {meta.label}
-                  </Link>
+                            {meta.label}
+                          </Link>
 
-                  <ul className="space-y-0.5">
-                    {coursesByCategory(cat).map((c) => (
-                      <li key={c.slug}>
-                        <Link
-                          to={`/courses/${c.slug}`}
-                          className="block rounded-lg px-2 py-1.5 text-xs text-gray-600 transition-colors hover:bg-blue-50 hover:text-blue-700"
-                        >
-                          {c.title}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              );
-            })}
+                          <ul className="space-y-0.5">
+                            {coursesByCategory(cat).map((c) => (
+                              <li key={c.slug}>
+                                <Link
+                                  to={`/courses/${c.slug}`}
+                                  className="block rounded-lg px-2 py-1.5 text-xs text-gray-600 transition-colors hover:bg-blue-50 hover:text-blue-700"
+                                >
+                                  {c.title}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
-        </motion.div>
-      )}
-    </AnimatePresence>
-  </div>
 
-  {/* <NavItem to="/placements" label="Placements" scrolled={scrolled} /> */}
-  <NavItem to="/gallery" label="Gallery" scrolled={scrolled} />
-  {/* <NavItem to="/blog" label="Blog" scrolled={scrolled} /> */}
-  {/* <NavItem to="/Success_Stories" label="Success Stories" scrolled={scrolled} /> */}
-  <NavItem to="/faqs" label="FAQ" scrolled={scrolled} />
-  <NavItem to="/contact" label="Contact" scrolled={scrolled} />
-</div>
+          {/* Gallery dropdown */}
+          <div
+            className="relative"
+            onMouseEnter={() => setGalleryOpen(true)}
+            onMouseLeave={() => setGalleryOpen(false)}
+          >
+            <button
+              className="flex items-center gap-1 rounded-full px-3.5 py-2 text-sm font-semibold text-blue-900 transition-all duration-300 hover:bg-blue-50 hover:text-blue-700"
+              aria-expanded={galleryOpen}
+            >
+              Gallery
+              <ChevronDown
+                className={cn(
+                  "size-4 transition-transform",
+                  galleryOpen && "rotate-180"
+                )}
+              />
+            </button>
+
+            <AnimatePresence>
+              {galleryOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 10 }}
+                  transition={{ duration: 0.2 }}
+                  className="absolute left-1/2 top-full w-56 -translate-x-1/2 pt-3"
+                >
+                  <div className="rounded-2xl border bg-white p-2 shadow-soft">
+                    {galleryLinks.map((g) => (
+                      <Link
+                        key={g.to}
+                        to={g.to}
+                        className="block rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors hover:bg-blue-50 hover:text-blue-700"
+                      >
+                        {g.title}
+                      </Link>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+
+          {/* <NavItem to="/placements" label="Placements" scrolled={scrolled} /> */}
+          {/* <NavItem to="/blog" label="Blog" scrolled={scrolled} /> */}
+          {/* <NavItem to="/Success_Stories" label="Success Stories" scrolled={scrolled} /> */}
+          <NavItem to="/faqs" label="FAQ" scrolled={scrolled} />
+          <NavItem to="/contact" label="Contact" scrolled={scrolled} />
+        </div>
 
         <div className="flex items-center gap-2">
           {/* <ThemeToggle /> */}
@@ -196,7 +246,6 @@ export function Navbar() {
                                 to={`/courses/${c.slug}`}
                                 onClick={() => setMobileOpen(false)}
                                 className="block rounded-lg px-2 py-1.5 text-sm text-muted-foreground hover:text-accent"
-                              
                               >
                                 {c.title}
                               </Link>
@@ -207,7 +256,27 @@ export function Navbar() {
                     </AccordionItem>
                   </Accordion>
 
-                  {["/placements", "/gallery", "/blog", "/events", "/contact", "/faqs"].map((to) => {
+                  <Accordion type="single" collapsible>
+                    <AccordionItem value="gallery" className="border-none">
+                      <AccordionTrigger className="py-3 text-base font-medium hover:no-underline">
+                        Gallery
+                      </AccordionTrigger>
+                      <AccordionContent>
+                        {galleryLinks.map((g) => (
+                          <Link
+                            key={g.to}
+                            to={g.to}
+                            onClick={() => setMobileOpen(false)}
+                            className="block rounded-lg px-2 py-1.5 text-sm text-muted-foreground hover:text-accent"
+                          >
+                            {g.title}
+                          </Link>
+                        ))}
+                      </AccordionContent>
+                    </AccordionItem>
+                  </Accordion>
+
+                  {["/placements", "/blog", "/events", "/contact", "/faqs"].map((to) => {
                     const label = to.replace("/", "");
                     return (
                       <MobileLink

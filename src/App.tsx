@@ -10,7 +10,6 @@ import About from "@/pages/About";
 import Courses from "@/pages/Courses";
 import CourseDetail from "@/pages/CourseDetail";
 import Placements from "@/pages/Placements";
-import Gallery from "@/pages/Gallery";
 import Blog from "@/pages/Blog";
 // import Events from "@/pages/Events";
 import Faqs from "@/pages/Faqs";
@@ -23,6 +22,8 @@ import Success_Stories from "./pages/Success_Stories";
 import CategoryPage from "./pages/gallery/CategoryPage.jsx";
 import CompanyPage from "./pages/gallery/CompanyPage.jsx";
 import TrainingPage from "./pages/gallery/TrainingPage.jsx";
+
+import TechnologyPage from "./pages/gallery/TechnologyPage.jsx";
 
 import ScrollToTop from "./ScrollToTop.jsx";
 export default function App() {
@@ -37,12 +38,12 @@ export default function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/courses/:slug" element={<CourseDetail />} />
           <Route path="/placements" element={<Placements />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/gallery/:category" element={<CategoryPage />} />
+<Route path="/gallery/:category/:technology" element={<TechnologyPage />} />
+<Route path="/gallery/:category/:technology/:entityId/:trainingId" element={<TrainingPage />} />
           <Route
             path="/gallery/:category"
             element={<CategoryPage />}
-
           />
           <Route
             path="/gallery/:category/:company"
