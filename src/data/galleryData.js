@@ -210,10 +210,15 @@ import e2 from "@/assets/gallery/events/techfest2026/2.png";
 import aiml from "../assets/student_training/aiml1.jpg"
 import dotnet from "../assets/student_training/dotnet.jpg"
 import autocad from "../assets/student_training/autocad.png"
-import database from "../assets/student_training/database.jpg"
-import automation from "../assets/student_training/database.jpg"
+import database from "../assets/student_training/db.png"
+import automation from "../assets/student_training/automation.png"
 import ds from "../assets/student_training/ds.png"
 import da from "../assets/student_training/da.jpg"
+import laravel from "../assets/student_training/laravel.png"
+import mern from "../assets/student_training/mern.jpg"
+import python from "../assets/student_training/python.png"
+import react from "../assets/student_training/react.png"
+import devops from "../assets/student_training/devoops.png"
 
 export const galleryData = {
     "corporate-training": {
@@ -2862,6 +2867,276 @@ export const galleryData = {
                     
                 ]
             },
+               {
+                id: "svnit",
+
+                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
+
+                cover: svnitCover,
+
+                city: "Surat",
+
+                state: "Gujarat",
+
+                type: "Institute of National Importance",
+
+                totalTrainings: 12,
+
+                totalParticipants: 1350,
+
+                trainings: [
+                    {
+                        id: "laravel",
+
+                        title: "PHP Laravel",
+
+                        coverImage: laravel,
+
+                        date: "18 January 2026",
+
+                        year: 2026,
+
+                        duration: "3 Days",
+
+                        location: "SVNIT Campus",
+
+                        trainer: "SSM LEC",
+
+                        participants: 220,
+
+                        technologies: [
+                            "PHP Laravel"
+                        ],
+
+                        description:
+                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
+
+                        images: [
+                            svnit1,
+                            svnit2,
+                            svnit3
+                        ],
+
+                        videos: [],
+
+                        certificates: [],
+
+                        feedback: [
+                            {
+                                name: "Rahul Patel",
+                                designation: "Final Year Student",
+                                comment:
+                                    "Excellent practical workshop with industry-oriented examples."
+                            }
+                        ]
+                    },
+
+                    
+                ]
+            },
+                 {
+                id: "svnit",
+
+                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
+
+                cover: svnitCover,
+
+                city: "Surat",
+
+                state: "Gujarat",
+
+                type: "Institute of National Importance",
+
+                totalTrainings: 12,
+
+                totalParticipants: 1350,
+
+                trainings: [
+                    {
+                        id: "mern",
+
+                        title: "MERN",
+
+                        coverImage: mern,
+
+                        date: "18 January 2026",
+
+                        year: 2026,
+
+                        duration: "3 Days",
+
+                        location: "SVNIT Campus",
+
+                        trainer: "SSM LEC",
+
+                        participants: 220,
+
+                        technologies: [
+                            "MERN"
+                        ],
+
+                        description:
+                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
+
+                        images: [
+                            svnit1,
+                            svnit2,
+                            svnit3
+                        ],
+
+                        videos: [],
+
+                        certificates: [],
+
+                        feedback: [
+                            {
+                                name: "Rahul Patel",
+                                designation: "Final Year Student",
+                                comment:
+                                    "Excellent practical workshop with industry-oriented examples."
+                            }
+                        ]
+                    },
+
+                    
+                ]
+            },
+               {
+                id: "svnit",
+
+                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
+
+                cover: svnitCover,
+
+                city: "Surat",
+
+                state: "Gujarat",
+
+                type: "Institute of National Importance",
+
+                totalTrainings: 12,
+
+                totalParticipants: 1350,
+
+                trainings: [
+                    {
+                        id: "devops",
+
+                        title: "DEV OPS",
+
+                        coverImage: devops,
+
+                        date: "18 January 2026",
+
+                        year: 2026,
+
+                        duration: "3 Days",
+
+                        location: "SVNIT Campus",
+
+                        trainer: "SSM LEC",
+
+                        participants: 220,
+
+                        technologies: [
+                            "DEV OPS"
+                        ],
+
+                        description:
+                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
+
+                        images: [
+                            svnit1,
+                            svnit2,
+                            svnit3
+                        ],
+
+                        videos: [],
+
+                        certificates: [],
+
+                        feedback: [
+                            {
+                                name: "Rahul Patel",
+                                designation: "Final Year Student",
+                                comment:
+                                    "Excellent practical workshop with industry-oriented examples."
+                            }
+                        ]
+                    },
+
+                    
+                ]
+            },
+              {
+                id: "svnit",
+
+                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
+
+                cover: svnitCover,
+
+                city: "Surat",
+
+                state: "Gujarat",
+
+                type: "Institute of National Importance",
+
+                totalTrainings: 12,
+
+                totalParticipants: 1350,
+
+                trainings: [
+                    {
+                        id: "react",
+
+                        title: "ReactJS",
+
+                        coverImage: react,
+
+                        date: "18 January 2026",
+
+                        year: 2026,
+
+                        duration: "3 Days",
+
+                        location: "SVNIT Campus",
+
+                        trainer: "SSM LEC",
+
+                        participants: 220,
+
+                        technologies: [
+                            "ReactJS"
+                        ],
+
+                        description:
+                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
+
+                        images: [
+                            svnit1,
+                            svnit2,
+                            svnit3
+                        ],
+
+                        videos: [],
+
+                        certificates: [],
+
+                        feedback: [
+                            {
+                                name: "Rahul Patel",
+                                designation: "Final Year Student",
+                                comment:
+                                    "Excellent practical workshop with industry-oriented examples."
+                            }
+                        ]
+                    },
+
+                    
+                ]
+            },
+ 
+ 
  
  
  
