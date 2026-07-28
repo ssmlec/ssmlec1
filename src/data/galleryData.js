@@ -230,7 +230,7 @@ export const galleryData = {
     {
       id: "aveva-batch-management 23",
 
-      title: "AVEVA Batch Management 2023",
+      title: "AVEVA Batch Management",
 
       coverImage: avvabm,
 
@@ -247,7 +247,7 @@ export const galleryData = {
       participants: 18,
 
       technologies: [
-        "AVEVA Batch Management 2023"
+        "AVEVA Batch Management"
       ],
 
       description:
@@ -269,7 +269,7 @@ export const galleryData = {
     {
       id: "aveva-system-platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: avevasp,
 
@@ -286,7 +286,7 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
@@ -324,7 +324,7 @@ export const galleryData = {
     {
       id: "aveva-omi",
 
-      title: "AVEVA OMI 2023",
+      title: "AVEVA OMI",
 
       coverImage: avevaomi,
 
@@ -341,7 +341,7 @@ export const galleryData = {
       participants: 24,
 
       technologies: [
-        "AVEVA OMI 2023"
+        "AVEVA OMI"
       ],
 
       description:
@@ -376,15 +376,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "aveva-system-platform-2023",
+      id: "aveva-system-platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: avevasp,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -395,11 +395,11 @@ export const galleryData = {
       participants: 22,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA System Platform 2023.",
+        "Corporate training on AVEVA System Platform.",
 
       images: [
         optima1,
@@ -432,15 +432,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "aveva-system-platform-2023",
+      id: "aveva-system-platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: avevasp,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -451,10 +451,10 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
-      description: "Corporate training on AVEVA System Platform 2023.",
+      description: "Corporate training on AVEVA System Platform.",
 
       images: [tcs1, tcs2, tcs3],
 
@@ -466,7 +466,7 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-mes-2023",
+      id: "aveva-mes",
 
       title: "AVEVA MES",
 
@@ -474,7 +474,7 @@ export const galleryData = {
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -488,7 +488,7 @@ export const galleryData = {
         "AVEVA MES"
       ],
 
-      description: "Corporate training on AVEVA MES 2023.",
+      description: "Corporate training on AVEVA MES.",
 
       images: [tcs1, tcs2, tcs3],
 
@@ -500,15 +500,15 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-model-driven-mes-2023",
+      id: "aveva-model-driven-mes",
 
-      title: "AVEVA Model-Driven MES 2023",
+      title: "AVEVA Model-Driven MES",
 
       coverImage: avevames,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -519,10 +519,10 @@ export const galleryData = {
       participants: 21,
 
       technologies: [
-        "AVEVA Model-Driven MES 2023"
+        "AVEVA Model-Driven MES"
       ],
 
-      description: "Corporate training on AVEVA Model-Driven MES 2023.",
+      description: "Corporate training on AVEVA Model-Driven MES.",
 
       images: [tcs1, tcs2, tcs3],
 
@@ -534,15 +534,15 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-work-tasks-2023",
+      id: "aveva-work-tasks",
 
-      title: "AVEVA Work Tasks 2023",
+      title: "AVEVA Work Tasks",
 
       coverImage: avevaworktask,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -553,10 +553,10 @@ export const galleryData = {
       participants: 22,
 
       technologies: [
-        "AVEVA Work Tasks 2023"
+        "AVEVA Work Tasks"
       ],
 
-      description: "Corporate training on AVEVA Work Tasks 2023.",
+      description: "Corporate training on AVEVA Work Tasks.",
 
       images: [tcs1, tcs2, tcs3],
 
@@ -585,15 +585,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "aveva-system-platform-2023",
+      id: "aveva-system-platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: schneider1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -604,11 +604,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA System Platform 2023.",
+        "Corporate training on AVEVA System Platform.",
 
       images: [
         schneider1,
@@ -624,15 +624,15 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-historian-2023",
+      id: "aveva-historian",
 
-      title: "AVEVA Historian 2023",
+      title: "AVEVA Historian",
 
       coverImage: avevahistorian,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -643,11 +643,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA Historian 2023"
+        "AVEVA Historian"
       ],
 
       description:
-        "Corporate training on AVEVA Historian 2023.",
+        "Corporate training on AVEVA Historian.",
 
       images: [
         schneider1,
@@ -663,15 +663,15 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-gisize-2023",
+      id: "aveva-gisize",
 
-      title: "AVEVA GISIZE 2023",
+      title: "AVEVA GISIZE",
 
       coverImage: avevarfo,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -682,11 +682,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA GISIZE 2023"
+        "AVEVA GISIZE"
       ],
 
       description:
-        "Corporate training on AVEVA GISIZE 2023.",
+        "Corporate training on AVEVA GISIZE.",
 
       images: [
         schneider1,
@@ -702,15 +702,15 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-reports-for-operation-2023",
+      id: "aveva-reports-for-operation",
 
-      title: "AVEVA Reports for Operation 2023",
+      title: "AVEVA Reports for Operation",
 
       coverImage: avevarfo,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -721,11 +721,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA Reports for Operation 2023"
+        "AVEVA Reports for Operation"
       ],
 
       description:
-        "Corporate training on AVEVA Reports for Operation 2023.",
+        "Corporate training on AVEVA Reports for Operation.",
 
       images: [
         schneider1,
@@ -758,15 +758,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "aveva-system-platform-2023",
+      id: "aveva-system-platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: ltimindtree1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -777,11 +777,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA System Platform 2023.",
+        "Corporate training on AVEVA System Platform.",
 
       images: [
         ltimindtree1,
@@ -797,7 +797,7 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-mes-2023",
+      id: "aveva-mes",
 
       title: "AVEVA MES",
 
@@ -805,7 +805,7 @@ export const galleryData = {
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -820,7 +820,7 @@ export const galleryData = {
       ],
 
       description:
-        "Corporate training on AVEVA MES 2023.",
+        "Corporate training on AVEVA MES.",
 
       images: [
         ltimindtree1,
@@ -836,15 +836,15 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-model-driven-mes-2023",
+      id: "aveva-model-driven-mes",
 
-      title: "AVEVA Model-Driven MES 2023",
+      title: "AVEVA Model-Driven MES",
 
       coverImage: ltimindtree3,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -855,11 +855,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA Model-Driven MES 2023"
+        "AVEVA Model-Driven MES"
       ],
 
       description:
-        "Corporate training on AVEVA Model-Driven MES 2023.",
+        "Corporate training on AVEVA Model-Driven MES.",
 
       images: [
         ltimindtree1,
@@ -875,15 +875,15 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-work-tasks-2023",
+      id: "aveva-work-tasks",
 
-      title: "AVEVA Work Tasks 2023",
+      title: "AVEVA Work Tasks",
 
       coverImage: ltimindtree1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -894,11 +894,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA Work Tasks 2023"
+        "AVEVA Work Tasks"
       ],
 
       description:
-        "Corporate training on AVEVA Work Tasks 2023.",
+        "Corporate training on AVEVA Work Tasks.",
 
       images: [
         ltimindtree1,
@@ -931,15 +931,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "aveva-intouch-hmi-2023",
+      id: "aveva-intouch-hmi",
 
-      title: "AVEVA InTouch HMI 2023",
+      title: "AVEVA InTouch HMI",
 
       coverImage: avevaintouch,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -950,11 +950,11 @@ export const galleryData = {
       participants: 25,
 
       technologies: [
-        "AVEVA InTouch HMI 2023"
+        "AVEVA InTouch HMI"
       ],
 
       description:
-        "Corporate training on AVEVA InTouch HMI 2023.",
+        "Corporate training on AVEVA InTouch HMI.",
 
       images: [
         reliance1,
@@ -987,15 +987,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "aveva-intouch-hmi-2023",
+      id: "aveva-intouch-hmi",
 
-      title: "AVEVA InTouch HMI 2023",
+      title: "AVEVA InTouch HMI",
 
       coverImage: safetronics1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1006,11 +1006,11 @@ export const galleryData = {
       participants: 25,
 
       technologies: [
-        "AVEVA InTouch HMI 2023"
+        "AVEVA InTouch HMI"
       ],
 
       description:
-        "Corporate training on AVEVA InTouch HMI 2023.",
+        "Corporate training on AVEVA InTouch HMI.",
 
       images: [
         safetronics1,
@@ -1043,15 +1043,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA System Platform 2023",
+      id: "AVEVA System Platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: aztec1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1062,12 +1062,12 @@ export const galleryData = {
       participants: 22,
 
       technologies: [
-        "AVEVA System Platform 2023",
-        "AVEVA Batch Management 2023"
+        "AVEVA System Platform",
+        "AVEVA Batch Management"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         aztec1,
@@ -1082,15 +1082,15 @@ export const galleryData = {
       feedback: []
     },
     {
-      id: "AVEVA System Platform 2023",
+      id: "AVEVA System Platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: aztec1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1101,11 +1101,11 @@ export const galleryData = {
       participants: 22,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         aztec1,
@@ -1138,15 +1138,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "aveva-batch-management-2023",
+      id: "aveva-batch-management",
 
-      title: "AVEVA Batch Management 2023",
+      title: "AVEVA Batch Management",
 
       coverImage: mbcontrol1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1157,11 +1157,11 @@ export const galleryData = {
       participants: 22,
 
       technologies: [
-        "AVEVA Batch Management 2023"
+        "AVEVA Batch Management"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         mbcontrol1,
@@ -1194,15 +1194,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA System Platform 2023",
+      id: "AVEVA System Platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: bridgestone1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1213,11 +1213,11 @@ export const galleryData = {
       participants: 24,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA InTouch HMI 2023.",
+        "Corporate training on AVEVA InTouch HMI.",
 
       images: [
         bridgestone1,
@@ -1251,15 +1251,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA InTouch HMI 2023",
+      id: "AVEVA InTouch HMI",
 
-      title: "AVEVA InTouch HMI 2023",
+      title: "AVEVA InTouch HMI",
 
       coverImage: sail1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1270,11 +1270,11 @@ export const galleryData = {
       participants: 25,
 
       technologies: [
-        "AVEVA InTouch HMI 2023"
+        "AVEVA InTouch HMI"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         sail1,
@@ -1307,15 +1307,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA System Platform 2023",
+      id: "AVEVA System Platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: avevames,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1326,12 +1326,12 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA System Platform 2023",
+        "AVEVA System Platform",
         "AVEVA MES"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         tetrapak1,
@@ -1364,15 +1364,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA System Platform 2023",
+      id: "AVEVA System Platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: adAutomatos1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1383,11 +1383,11 @@ export const galleryData = {
       participants: 18,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         adAutomatos1,
@@ -1421,15 +1421,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA InTouch HMI 2023",
+      id: "AVEVA InTouch HMI",
 
-      title: "AVEVA InTouch HMI 2023",
+      title: "AVEVA InTouch HMI",
 
       coverImage: veolia1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1440,11 +1440,11 @@ export const galleryData = {
       participants: 24,
 
       technologies: [
-        "AVEVA InTouch HMI 2023"
+        "AVEVA InTouch HMI"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         veolia1,
@@ -1477,15 +1477,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA Edge HMI 2023",
+      id: "AVEVA Edge HMI",
 
-      title: "AVEVA Edge HMI 2023",
+      title: "AVEVA Edge HMI",
 
       coverImage: avevaedge,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1496,11 +1496,11 @@ export const galleryData = {
       participants: 22,
 
       technologies: [
-        "AVEVA Edge HMI 2023"
+        "AVEVA Edge HMI"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         kribhco1,
@@ -1533,15 +1533,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA System Platform 2023",
+      id: "AVEVA System Platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: mgl1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1552,11 +1552,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         mgl1,
@@ -1589,15 +1589,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA System Platform 2023",
+      id: "AVEVA System Platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: jiobp1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1608,11 +1608,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         jiobp1,
@@ -1646,15 +1646,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA System Platform 2023",
+      id: "AVEVA System Platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: wave1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1665,12 +1665,12 @@ export const galleryData = {
       participants: 18,
 
       technologies: [
-        "AVEVA System Platform 2023",
-        "AVEVA Work Tasks 2023"
+        "AVEVA System Platform",
+        "AVEVA Work Tasks"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         wave1,
@@ -1711,7 +1711,7 @@ export const galleryData = {
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1722,11 +1722,11 @@ export const galleryData = {
       participants: 22,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         syntegon1,
@@ -1759,15 +1759,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "aveva-batch-management-2023",
+      id: "aveva-batch-management",
 
-      title: "AVEVA Batch Management 2023",
+      title: "AVEVA Batch Management",
 
       coverImage: colgate1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1778,11 +1778,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA Batch Management 2023"
+        "AVEVA Batch Management"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         colgate1,
@@ -1815,15 +1815,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA System Platform 2023",
+      id: "AVEVA System Platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: fox1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1834,11 +1834,11 @@ export const galleryData = {
       participants: 18,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         fox1,
@@ -1872,15 +1872,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA InTouch HMI 2023",
+      id: "AVEVA InTouch HMI",
 
-      title: "AVEVA InTouch HMI 2023",
+      title: "AVEVA InTouch HMI",
 
       coverImage: sage1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1891,13 +1891,13 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA InTouch HMI 2023",
-        "AVEVA System Platform 2023"
+        "AVEVA InTouch HMI",
+        "AVEVA System Platform"
 
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         sage1,
@@ -1930,15 +1930,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA InTouch HMI 2023",
+      id: "AVEVA InTouch HMI",
 
-      title: "AVEVA InTouch HMI 2023",
+      title: "AVEVA InTouch HMI",
 
       coverImage: rockwell1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -1949,12 +1949,12 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA InTouch HMI 2023",
-        "AVEVA OMI 2023"
+        "AVEVA InTouch HMI",
+        "AVEVA OMI"
       ],
 
       description:
-        "Corporate training on FactoryTalk View SE 2023.",
+        "Corporate training on FactoryTalk View SE.",
 
       images: [
         rockwell1,
@@ -1988,15 +1988,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "aveva-system-platform-2023",
+      id: "aveva-system-platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: accenture1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -2007,11 +2007,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA System Platform 2023.",
+        "Corporate training on AVEVA System Platform.",
 
       images: [
         accenture1,
@@ -2027,7 +2027,7 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-mes-2023",
+      id: "aveva-mes",
 
       title: "AVEVA MES",
 
@@ -2035,7 +2035,7 @@ export const galleryData = {
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -2050,7 +2050,7 @@ export const galleryData = {
       ],
 
       description:
-        "Corporate training on AVEVA MES 2023.",
+        "Corporate training on AVEVA MES.",
 
       images: [
         accenture1,
@@ -2066,15 +2066,15 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-model-driven-mes-2023",
+      id: "aveva-model-driven-mes",
 
-      title: "AVEVA Model-Driven MES 2023",
+      title: "AVEVA Model-Driven MES",
 
       coverImage: accenture3,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -2085,11 +2085,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA Model-Driven MES 2023"
+        "AVEVA Model-Driven MES"
       ],
 
       description:
-        "Corporate training on AVEVA Model-Driven MES 2023.",
+        "Corporate training on AVEVA Model-Driven MES.",
 
       images: [
         accenture1,
@@ -2105,15 +2105,15 @@ export const galleryData = {
     },
 
     {
-      id: "AVEVA Work Tasks 2023",
+      id: "AVEVA Work Tasks",
 
-      title: "AVEVA Work Tasks 2023",
+      title: "AVEVA Work Tasks",
 
       coverImage: accenture1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -2124,11 +2124,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-"AVEVA Work Tasks 2023"
+"AVEVA Work Tasks"
       ],
 
       description:
-        "Corporate training on AVEVA Work Tasks 2023.",
+        "Corporate training on AVEVA Work Tasks.",
 
       images: [
         accenture1,
@@ -2162,15 +2162,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "aveva-system-platform-2023",
+      id: "aveva-system-platform",
 
-      title: "AVEVA System Platform 2023",
+      title: "AVEVA System Platform",
 
       coverImage: infosys1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -2181,11 +2181,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA System Platform 2023"
+        "AVEVA System Platform"
       ],
 
       description:
-        "Corporate training on AVEVA System Platform 2023.",
+        "Corporate training on AVEVA System Platform.",
 
       images: [
         infosys1,
@@ -2201,7 +2201,7 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-mes-2023",
+      id: "aveva-mes",
 
       title: "AVEVA MES",
 
@@ -2209,7 +2209,7 @@ export const galleryData = {
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -2224,7 +2224,7 @@ export const galleryData = {
       ],
 
       description:
-        "Corporate training on AVEVA MES 2023.",
+        "Corporate training on AVEVA MES.",
 
       images: [
         infosys1,
@@ -2240,15 +2240,15 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-model-driven-mes-2023",
+      id: "aveva-model-driven-mes",
 
-      title: "AVEVA Model-Driven MES 2023",
+      title: "AVEVA Model-Driven MES",
 
       coverImage: infosys3,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -2259,11 +2259,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA Model-Driven MES 2023"
+        "AVEVA Model-Driven MES"
       ],
 
       description:
-        "Corporate training on AVEVA Model-Driven MES 2023.",
+        "Corporate training on AVEVA Model-Driven MES.",
 
       images: [
         infosys1,
@@ -2279,15 +2279,15 @@ export const galleryData = {
     },
 
     {
-      id: "aveva-work-tasks-2023",
+      id: "aveva-work-tasks",
 
-      title: "AVEVA Work Tasks 2023",
+      title: "AVEVA Work Tasks",
 
       coverImage: infosys1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -2298,11 +2298,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA Work Tasks 2023"
+        "AVEVA Work Tasks"
       ],
 
       description:
-        "Corporate training on AVEVA Work Tasks 2023.",
+        "Corporate training on AVEVA Work Tasks.",
 
       images: [
         infosys1,
@@ -2336,15 +2336,15 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "AVEVA InTouch HMI 2023",
+      id: "AVEVA InTouch HMI",
 
-      title: "AVEVA InTouch HMI 2023",
+      title: "AVEVA InTouch HMI",
 
       coverImage: gail1,
 
       date: "",
 
-      year: 2023,
+      year:0,
 
       duration: "",
 
@@ -2355,11 +2355,11 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA InTouch HMI 2023"
+        "AVEVA InTouch HMI"
       ],
 
       description:
-        "Corporate training on AVEVA Batch Management 2023.",
+        "Corporate training on AVEVA Batch Management.",
 
       images: [
         gail1,
