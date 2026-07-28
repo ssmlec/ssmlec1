@@ -1,5 +1,29 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+
+  "redirects": [
+    {
+      "source": "/service-page/:path*",
+      "destination": "/courses",
+      "permanent": true
+    },
+    {
+      "source": "/book-online",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/plans-pricing",
+      "destination": "/courses",
+      "permanent": true
+    },
+    {
+      "source": "/team-list",
+      "destination": "/about",
+      "permanent": true
+    }
+  ],
+
   "rewrites": [
     {
       "source": "/(.*)",
