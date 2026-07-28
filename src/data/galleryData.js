@@ -8,7 +8,7 @@ import r1 from "@/assets/gallery/corporate/reliance/1.png";
 import r2 from "@/assets/gallery/corporate/reliance/2.png";
 import r3 from "@/assets/gallery/corporate/reliance/3.png";
 
-import morimatsuCover from "../assets/maquee _logos/morimatsu.jpg";
+import morimatsuCover from "../assets/maquee _logos/morimatsu.png";
 import mor1 from "@/assets/gallery/corporate/reliance/1.png";
 import mor2 from "@/assets/gallery/corporate/reliance/1.png";
 import mor3 from "@/assets/gallery/corporate/reliance/1.png";
@@ -167,6 +167,7 @@ import avevaintouch from "../assets/aveva/avevaintouch.png"
 import avevames from "../assets/aveva/avevames.png"
 import avevaomi from "../assets/aveva/avevaomi.png"
 import avevasp from "../assets/aveva/avevasp.png"
+import avevagsize from "../assets/aveva/avevagsize.png"
 
 // ===== Student Images =====
 import svnitCover from "@/assets/gallery/students/svnit/cover.png";
@@ -205,6 +206,14 @@ import ganpat3  from "@/assets/gallery/students/svnit/2.png";
 import eventCover from "@/assets/gallery/events/techfest2026/cover.png";
 import e1 from "@/assets/gallery/events/techfest2026/1.png";
 import e2 from "@/assets/gallery/events/techfest2026/2.png";
+
+import aiml from "../assets/student_training/aiml1.jpg"
+import dotnet from "../assets/student_training/dotnet.jpg"
+import autocad from "../assets/student_training/autocad.png"
+import database from "../assets/student_training/database.jpg"
+import automation from "../assets/student_training/database.jpg"
+import ds from "../assets/student_training/ds.png"
+import da from "../assets/student_training/da.jpg"
 
 export const galleryData = {
     "corporate-training": {
@@ -667,7 +676,7 @@ export const galleryData = {
 
       title: "AVEVA GISIZE",
 
-      coverImage: avevarfo,
+      coverImage: avevagsize,
 
       date: "",
 
@@ -1063,7 +1072,6 @@ export const galleryData = {
 
       technologies: [
         "AVEVA System Platform",
-        "AVEVA Batch Management"
       ],
 
       description:
@@ -1082,9 +1090,9 @@ export const galleryData = {
       feedback: []
     },
     {
-      id: "AVEVA System Platform",
+      id: "AVEVA Batch Management",
 
-      title: "AVEVA System Platform",
+      title: "AVEVA Batch Management",
 
       coverImage: aztec1,
 
@@ -1101,7 +1109,7 @@ export const galleryData = {
       participants: 22,
 
       technologies: [
-        "AVEVA System Platform"
+        "AVEVA Batch Management"
       ],
 
       description:
@@ -1138,11 +1146,11 @@ export const galleryData = {
 
   trainings: [
     {
-      id: "aveva-batch-management",
+      id: "AVEVA Edge HMI",
 
-      title: "AVEVA Batch Management",
+      title: "AVEVA Edge HMI",
 
-      coverImage: mbcontrol1,
+      coverImage: avevaedge,
 
       date: "",
 
@@ -1157,7 +1165,7 @@ export const galleryData = {
       participants: 22,
 
       technologies: [
-        "AVEVA Batch Management"
+        "AVEVA Edge HMI"
       ],
 
       description:
@@ -2181,7 +2189,7 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA System Platform"
+        // "AVEVA System Platform"
       ],
 
       description:
@@ -2298,7 +2306,7 @@ export const galleryData = {
       participants: 20,
 
       technologies: [
-        "AVEVA Work Tasks"
+        // "AVEVA Work Tasks"
       ],
 
       description:
@@ -2401,11 +2409,11 @@ export const galleryData = {
 
                 trainings: [
                     {
-                        id: "python-ai",
+                        id: "AI & ML",
 
-                        title: "Python Programming & Artificial Intelligence",
+                        title: "AI & ML",
 
-                        coverImage: svnit1,
+                        coverImage: aiml,
 
                         date: "18 January 2026",
 
@@ -2420,10 +2428,7 @@ export const galleryData = {
                         participants: 220,
 
                         technologies: [
-                            "Python",
-                            "NumPy",
-                            "Pandas",
-                            "Machine Learning"
+                            "AI & ML"
                         ],
 
                         description:
@@ -2449,34 +2454,53 @@ export const galleryData = {
                         ]
                     },
 
+                    
+                ]
+            },
+
+            {
+                id: "svnit",
+
+                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
+
+                cover: svnitCover,
+
+                city: "Surat",
+
+                state: "Gujarat",
+
+                type: "Institute of National Importance",
+
+                totalTrainings: 12,
+
+                totalParticipants: 1350,
+
+                trainings: [
                     {
-                        id: "power-bi",
+                        id: "Database",
 
-                        title: "Power BI & Business Analytics",
+                        title: "Database",
 
-                        coverImage: svnit2,
+                        coverImage: database,
 
-                        date: "22 August 2026",
+                        date: "18 January 2026",
 
                         year: 2026,
 
-                        duration: "2 Days",
+                        duration: "3 Days",
 
                         location: "SVNIT Campus",
 
                         trainer: "SSM LEC",
 
-                        participants: 180,
+                        participants: 220,
 
                         technologies: [
-                            "Power BI",
-                            "Power Query",
-                            "DAX",
-                            "Dashboard Design"
+                            "Database"
                         ],
 
                         description:
-                            "Interactive workshop on creating professional dashboards using Power BI and real business datasets.",
+                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
 
                         images: [
                             svnit1,
@@ -2488,816 +2512,361 @@ export const galleryData = {
 
                         certificates: [],
 
-                        feedback: []
+                        feedback: [
+                            {
+                                name: "Rahul Patel",
+                                designation: "Final Year Student",
+                                comment:
+                                    "Excellent practical workshop with industry-oriented examples."
+                            }
+                        ]
                     },
 
-                    {
-                        id: "mern-stack",
-
-                        title: "MERN Stack Development",
-
-                        coverImage: svnit3,
-
-                        date: "10 November 2026",
-
-                        year: 2026,
-
-                        duration: "4 Days",
-
-                        location: "SVNIT Campus",
-
-                        trainer: "SSM LEC",
-
-                        participants: 160,
-
-                        technologies: [
-                            "MongoDB",
-                            "Express.js",
-                            "React",
-                            "Node.js"
-                        ],
-
-                        description:
-                            "Complete Full Stack Development workshop with live project development using the MERN Stack.",
-
-                        images: [
-                            svnit1,
-                            svnit2,
-                            svnit3
-                        ],
-
-                        videos: [],
-
-                        certificates: [],
-
-                        feedback: []
-                    }
+                    
                 ]
             },
             {
-  id: "pdeu",
+                id: "svnit",
 
-  name: "Pandit Deendayal Energy University (PDEU)",
+                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
 
-  cover: pdeuCover,
+                cover: svnitCover,
 
-  city: "Gandhinagar",
+                city: "Surat",
 
-  state: "Gujarat",
+                state: "Gujarat",
 
-  type: "Private University",
+                type: "Institute of National Importance",
 
-  totalTrainings: 10,
+                totalTrainings: 12,
 
-  totalParticipants: 1180,
+                totalParticipants: 1350,
 
-  trainings: [
-    {
-      id: "artificial-intelligence",
+                trainings: [
+                    {
+                        id: "dotnet",
 
-      title: "Artificial Intelligence & Machine Learning",
+                        title: "Asp DotNet Core",
 
-      coverImage: pdeu1,
+                        coverImage: dotnet,
 
-      date: "12 February 2026",
+                        date: "18 January 2026",
 
-      year: 2026,
+                        year: 2026,
 
-      duration: "3 Days",
+                        duration: "3 Days",
 
-      location: "PDEU Campus",
+                        location: "SVNIT Campus",
 
-      trainer: "SSM LEC",
+                        trainer: "SSM LEC",
 
-      participants: 210,
+                        participants: 220,
 
-      technologies: [
-        "Python",
-        "Machine Learning",
-        "Deep Learning",
-        "TensorFlow"
-      ],
+                        technologies: [
+                            "Asp DotNet Core"
+                        ],
 
-      description:
-        "Comprehensive AI & Machine Learning workshop covering supervised learning, deep learning fundamentals and real-world industrial applications.",
+                        description:
+                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
 
-      images: [
-        pdeu1,
-        pdeu2,
-        pdeu3
-      ],
+                        images: [
+                            svnit1,
+                            svnit2,
+                            svnit3
+                        ],
 
-      videos: [],
+                        videos: [],
 
-      certificates: [],
+                        certificates: [],
 
-      feedback: [
-        {
-          name: "Harsh Patel",
-          designation: "Computer Engineering Student",
-          comment:
-            "One of the best AI workshops with practical implementation."
-        }
-      ]
-    },
+                        feedback: [
+                            {
+                                name: "Rahul Patel",
+                                designation: "Final Year Student",
+                                comment:
+                                    "Excellent practical workshop with industry-oriented examples."
+                            }
+                        ]
+                    },
 
-    {
-      id: "data-science",
+                    
+                ]
+            },
 
-      title: "Data Science using Python",
+             {
+                id: "svnit",
 
-      coverImage: pdeu2,
+                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
 
-      date: "20 July 2026",
+                cover: svnitCover,
 
-      year: 2026,
+                city: "Surat",
 
-      duration: "2 Days",
+                state: "Gujarat",
 
-      location: "PDEU Campus",
+                type: "Institute of National Importance",
 
-      trainer: "SSM LEC",
+                totalTrainings: 12,
 
-      participants: 175,
+                totalParticipants: 1350,
 
-      technologies: [
-        "Python",
-        "Pandas",
-        "NumPy",
-        "Matplotlib"
-      ],
+                trainings: [
+                    {
+                        id: "autocad",
 
-      description:
-        "Hands-on Data Science workshop focusing on data cleaning, visualization and exploratory data analysis.",
+                        title: "AutoCad",
 
-      images: [
-        pdeu1,
-        pdeu2,
-        pdeu3
-      ],
+                        coverImage: autocad,
 
-      videos: [],
+                        date: "18 January 2026",
 
-      certificates: [],
+                        year: 2026,
 
-      feedback: []
-    },
+                        duration: "3 Days",
 
-    {
-      id: "power-bi",
+                        location: "SVNIT Campus",
 
-      title: "Power BI & Business Intelligence",
+                        trainer: "SSM LEC",
 
-      coverImage: pdeu3,
+                        participants: 220,
 
-      date: "18 October 2026",
+                        technologies: [
+                            "AutoCad"
+                        ],
 
-      year: 2026,
+                        description:
+                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
 
-      duration: "2 Days",
+                        images: [
+                            svnit1,
+                            svnit2,
+                            svnit3
+                        ],
 
-      location: "PDEU Campus",
+                        videos: [],
 
-      trainer: "SSM LEC",
+                        certificates: [],
 
-      participants: 190,
+                        feedback: [
+                            {
+                                name: "Rahul Patel",
+                                designation: "Final Year Student",
+                                comment:
+                                    "Excellent practical workshop with industry-oriented examples."
+                            }
+                        ]
+                    },
 
-      technologies: [
-        "Power BI",
-        "Power Query",
-        "DAX",
-        "Dashboard Development"
-      ],
+                    
+                ]
+            },
 
-      description:
-        "Professional Power BI training covering dashboard creation, DAX functions and business reporting.",
+             {
+                id: "svnit",
 
-      images: [
-        pdeu1,
-        pdeu2,
-        pdeu3
-      ],
+                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
 
-      videos: [],
+                cover: svnitCover,
 
-      certificates: [],
+                city: "Surat",
 
-      feedback: []
-    }
-  ]
-},
-{
-  id: "nirma",
+                state: "Gujarat",
 
-  name: "Nirma University",
+                type: "Institute of National Importance",
 
-  cover: nirmaCover,
+                totalTrainings: 12,
 
-  city: "Ahmedabad",
+                totalParticipants: 1350,
 
-  state: "Gujarat",
+                trainings: [
+                    {
+                        id: "automation",
 
-  type: "Private University",
+                        title: "Automation ( PLC & SCADA )",
 
-  totalTrainings: 11,
+                        coverImage: automation,
 
-  totalParticipants: 1260,
+                        date: "18 January 2026",
 
-  trainings: [
-    {
-      id: "mern-stack",
+                        year: 2026,
 
-      title: "MERN Stack Development",
+                        duration: "3 Days",
 
-      coverImage: nirma1,
+                        location: "SVNIT Campus",
 
-      date: "18 January 2026",
+                        trainer: "SSM LEC",
 
-      year: 2026,
+                        participants: 220,
 
-      duration: "4 Days",
+                        technologies: [
+                            "Automation ( PLC & SCADA )"
+                        ],
 
-      location: "Nirma University",
+                        description:
+                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
 
-      trainer: "SSM LEC",
+                        images: [
+                            svnit1,
+                            svnit2,
+                            svnit3
+                        ],
 
-      participants: 210,
+                        videos: [],
 
-      technologies: [
-        "MongoDB",
-        "Express.js",
-        "React",
-        "Node.js"
-      ],
+                        certificates: [],
 
-      description:
-        "Intensive Full Stack Development workshop covering frontend, backend APIs, database integration and deployment using the MERN Stack.",
+                        feedback: [
+                            {
+                                name: "Rahul Patel",
+                                designation: "Final Year Student",
+                                comment:
+                                    "Excellent practical workshop with industry-oriented examples."
+                            }
+                        ]
+                    },
 
-      images: [
-        nirma1,
-        nirma2,
-        nirma3
-      ],
+                    
+                ]
+            },
+             {
+                id: "svnit",
 
-      videos: [],
+                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
 
-      certificates: [],
+                cover: svnitCover,
 
-      feedback: [
-        {
-          name: "Yash Shah",
-          designation: "Computer Engineering Student",
-          comment:
-            "Excellent industry-oriented workshop with hands-on project development."
-        }
-      ]
-    },
+                city: "Surat",
 
-    {
-      id: "gen-ai",
+                state: "Gujarat",
 
-      title: "Generative AI & Prompt Engineering",
+                type: "Institute of National Importance",
 
-      coverImage: nirma2,
+                totalTrainings: 12,
 
-      date: "22 August 2026",
+                totalParticipants: 1350,
 
-      year: 2026,
+                trainings: [
+                    {
+                        id: "ds",
 
-      duration: "2 Days",
+                        title: "Data Science",
 
-      location: "Nirma University",
+                        coverImage: ds,
 
-      trainer: "SSM LEC",
+                        date: "18 January 2026",
 
-      participants: 240,
+                        year: 2026,
 
-      technologies: [
-        "ChatGPT",
-        "Gemini",
-        "Microsoft Copilot",
-        "Prompt Engineering"
-      ],
+                        duration: "3 Days",
 
-      description:
-        "Practical workshop on Generative AI tools, prompt engineering techniques and AI productivity for students.",
+                        location: "SVNIT Campus",
 
-      images: [
-        nirma1,
-        nirma2,
-        nirma3
-      ],
+                        trainer: "SSM LEC",
 
-      videos: [],
+                        participants: 220,
 
-      certificates: [],
+                        technologies: [
+                            "Data Science"
+                        ],
 
-      feedback: []
-    },
+                        description:
+                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
 
-    {
-      id: "power-bi",
+                        images: [
+                            svnit1,
+                            svnit2,
+                            svnit3
+                        ],
 
-      title: "Power BI & Business Analytics",
+                        videos: [],
 
-      coverImage: nirma3,
+                        certificates: [],
 
-      date: "10 November 2026",
+                        feedback: [
+                            {
+                                name: "Rahul Patel",
+                                designation: "Final Year Student",
+                                comment:
+                                    "Excellent practical workshop with industry-oriented examples."
+                            }
+                        ]
+                    },
 
-      year: 2026,
+                    
+                ]
+            },
+             {
+                id: "svnit",
 
-      duration: "2 Days",
+                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
 
-      location: "Nirma University",
+                cover: svnitCover,
 
-      trainer: "SSM LEC",
+                city: "Surat",
 
-      participants: 185,
+                state: "Gujarat",
 
-      technologies: [
-        "Power BI",
-        "Power Query",
-        "DAX",
-        "Data Visualization"
-      ],
+                type: "Institute of National Importance",
 
-      description:
-        "Business Intelligence workshop covering dashboard creation, DAX calculations, Power Query and interactive reporting.",
+                totalTrainings: 12,
 
-      images: [
-        nirma1,
-        nirma2,
-        nirma3
-      ],
+                totalParticipants: 1350,
 
-      videos: [],
+                trainings: [
+                    {
+                        id: "da",
 
-      certificates: [],
+                        title: "Data Analytics",
 
-      feedback: []
-    }
-  ]
-},
-{
-  id: "charusat",
+                        coverImage: da,
 
-  name: "CHARUSAT University",
+                        date: "18 January 2026",
 
-  cover: charusatCover,
+                        year: 2026,
 
-  city: "Anand",
+                        duration: "3 Days",
 
-  state: "Gujarat",
+                        location: "SVNIT Campus",
 
-  type: "Private University",
+                        trainer: "SSM LEC",
 
-  totalTrainings: 9,
+                        participants: 220,
 
-  totalParticipants: 980,
+                        technologies: [
+                            "Data Analytics"
+                        ],
 
-  trainings: [
-    {
-      id: "python-data-science",
+                        description:
+                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
 
-      title: "Python & Data Science Bootcamp",
+                        images: [
+                            svnit1,
+                            svnit2,
+                            svnit3
+                        ],
 
-      coverImage: charusat1,
+                        videos: [],
 
-      date: "16 February 2026",
+                        certificates: [],
 
-      year: 2026,
+                        feedback: [
+                            {
+                                name: "Rahul Patel",
+                                designation: "Final Year Student",
+                                comment:
+                                    "Excellent practical workshop with industry-oriented examples."
+                            }
+                        ]
+                    },
 
-      duration: "3 Days",
+                    
+                ]
+            },
+ 
+ 
+ 
 
-      location: "CHARUSAT Campus",
-
-      trainer: "SSM LEC",
-
-      participants: 180,
-
-      technologies: [
-        "Python",
-        "NumPy",
-        "Pandas",
-        "Matplotlib",
-        "Scikit-Learn"
-      ],
-
-      description:
-        "Hands-on Python and Data Science workshop covering data preprocessing, visualization and introductory Machine Learning using real datasets.",
-
-      images: [
-        charusat1,
-        charusat2,
-        charusat3
-      ],
-
-      videos: [],
-
-      certificates: [],
-
-      feedback: [
-        {
-          name: "Meet Patel",
-          designation: "B.Tech Student",
-          comment:
-            "Excellent practical sessions with industry-focused projects."
-        }
-      ]
-    },
-
-    {
-      id: "power-bi-analytics",
-
-      title: "Power BI & Data Analytics",
-
-      coverImage: charusat2,
-
-      date: "20 July 2026",
-
-      year: 2026,
-
-      duration: "2 Days",
-
-      location: "CHARUSAT Campus",
-
-      trainer: "SSM LEC",
-
-      participants: 160,
-
-      technologies: [
-        "Power BI",
-        "Power Query",
-        "DAX",
-        "Dashboard Design"
-      ],
-
-      description:
-        "Workshop on Business Intelligence, interactive dashboards, data modeling and KPI reporting using Microsoft Power BI.",
-
-      images: [
-        charusat1,
-        charusat2,
-        charusat3
-      ],
-
-      videos: [],
-
-      certificates: [],
-
-      feedback: []
-    },
-
-    {
-      id: "gen-ai",
-
-      title: "Generative AI & Prompt Engineering",
-
-      coverImage: charusat3,
-
-      date: "11 November 2026",
-
-      year: 2026,
-
-      duration: "2 Days",
-
-      location: "CHARUSAT Campus",
-
-      trainer: "SSM LEC",
-
-      participants: 220,
-
-      technologies: [
-        "ChatGPT",
-        "Gemini",
-        "Microsoft Copilot",
-        "Prompt Engineering"
-      ],
-
-      description:
-        "Interactive workshop introducing students to Generative AI tools, prompt engineering and AI-powered productivity for academics and industry.",
-
-      images: [
-        charusat1,
-        charusat2,
-        charusat3
-      ],
-
-      videos: [],
-
-      certificates: [],
-
-      feedback: []
-    }
-  ]
-},
-{
-  id: "ddu",
-
-  name: "Dharmsinh Desai University (DDU)",
-
-  cover: dduCover,
-
-  city: "Nadiad",
-
-  state: "Gujarat",
-
-  type: "State University",
-
-  totalTrainings: 10,
-
-  totalParticipants: 1120,
-
-  trainings: [
-    {
-      id: "data-science",
-
-      title: "Data Science with Python",
-
-      coverImage: ddu1,
-
-      date: "12 February 2026",
-
-      year: 2026,
-
-      duration: "3 Days",
-
-      location: "DDU Campus",
-
-      trainer: "SSM LEC",
-
-      participants: 195,
-
-      technologies: [
-        "Python",
-        "Pandas",
-        "NumPy",
-        "Matplotlib",
-        "Scikit-Learn"
-      ],
-
-      description:
-        "Comprehensive Data Science workshop covering Python programming, data preprocessing, visualization and introductory Machine Learning.",
-
-      images: [
-        ddu1,
-        ddu2,
-        ddu3
-      ],
-
-      videos: [],
-
-      certificates: [],
-
-      feedback: [
-        {
-          name: "Priyansh Patel",
-          designation: "Computer Engineering Student",
-          comment:
-            "Excellent hands-on sessions with real industrial datasets."
-        }
-      ]
-    },
-
-    {
-      id: "power-bi",
-
-      title: "Power BI & Business Intelligence",
-
-      coverImage: ddu2,
-
-      date: "18 August 2026",
-
-      year: 2026,
-
-      duration: "2 Days",
-
-      location: "DDU Campus",
-
-      trainer: "SSM LEC",
-
-      participants: 170,
-
-      technologies: [
-        "Power BI",
-        "Power Query",
-        "DAX",
-        "Dashboard Design"
-      ],
-
-      description:
-        "Professional workshop on Business Intelligence, interactive dashboards and business reporting using Microsoft Power BI.",
-
-      images: [
-        ddu1,
-        ddu2,
-        ddu3
-      ],
-
-      videos: [],
-
-      certificates: [],
-
-      feedback: []
-    },
-
-    {
-      id: "industrial-ai",
-
-      title: "Industrial AI & Computer Vision",
-
-      coverImage: ddu3,
-
-      date: "10 November 2026",
-
-      year: 2026,
-
-      duration: "3 Days",
-
-      location: "DDU Campus",
-
-      trainer: "SSM LEC",
-
-      participants: 155,
-
-      technologies: [
-        "Artificial Intelligence",
-        "Computer Vision",
-        "OpenCV",
-        "Deep Learning"
-      ],
-
-      description:
-        "Advanced workshop introducing Artificial Intelligence, Computer Vision and Deep Learning applications in manufacturing and automation industries.",
-
-      images: [
-        ddu1,
-        ddu2,
-        ddu3
-      ],
-
-      videos: [],
-
-      certificates: [],
-
-      feedback: []
-    }
-  ]
-},
-{
-  id: "ganpat",
-
-  name: "Ganpat University",
-
-  cover: ganpatCover,
-
-  city: "Mehsana",
-
-  state: "Gujarat",
-
-  type: "Private University",
-
-  totalTrainings: 11,
-
-  totalParticipants: 1240,
-
-  trainings: [
-    {
-      id: "industrial-ai",
-
-      title: "Industrial AI & Machine Learning",
-
-      coverImage: ganpat1,
-
-      date: "15 January 2026",
-
-      year: 2026,
-
-      duration: "3 Days",
-
-      location: "Ganpat University",
-
-      trainer: "SSM LEC",
-
-      participants: 210,
-
-      technologies: [
-        "Python",
-        "Machine Learning",
-        "Deep Learning",
-        "Computer Vision"
-      ],
-
-      description:
-        "Industry-oriented Artificial Intelligence and Machine Learning workshop with practical projects, computer vision and predictive analytics.",
-
-      images: [
-        ganpat1,
-        ganpat2,
-        ganpat3
-      ],
-
-      videos: [],
-
-      certificates: [],
-
-      feedback: [
-        {
-          name: "Jay Patel",
-          designation: "B.Tech Student",
-          comment:
-            "Very informative workshop with excellent practical implementation."
-        }
-      ]
-    },
-
-    {
-      id: "power-bi",
-
-      title: "Power BI & Business Analytics",
-
-      coverImage: ganpat2,
-
-      date: "22 July 2026",
-
-      year: 2026,
-
-      duration: "2 Days",
-
-      location: "Ganpat University",
-
-      trainer: "SSM LEC",
-
-      participants: 175,
-
-      technologies: [
-        "Power BI",
-        "Power Query",
-        "DAX",
-        "Business Intelligence"
-      ],
-
-      description:
-        "Hands-on Business Intelligence workshop covering dashboard creation, KPI reporting and DAX functions using Microsoft Power BI.",
-
-      images: [
-        ganpat1,
-        ganpat2,
-        ganpat3
-      ],
-
-      videos: [],
-
-      certificates: [],
-
-      feedback: []
-    },
-
-    {
-      id: "mern-stack",
-
-      title: "Full Stack MERN Development",
-
-      coverImage: ganpat3,
-
-      date: "18 November 2026",
-
-      year: 2026,
-
-      duration: "4 Days",
-
-      location: "Ganpat University",
-
-      trainer: "SSM LEC",
-
-      participants: 190,
-
-      technologies: [
-        "MongoDB",
-        "Express.js",
-        "React",
-        "Node.js"
-      ],
-
-      description:
-        "Complete Full Stack Development program with React, Node.js, MongoDB and REST API development through live projects.",
-
-      images: [
-        ganpat1,
-        ganpat2,
-        ganpat3
-      ],
-
-      videos: [],
-
-      certificates: [],
-
-      feedback: []
-    }
-  ]
-},
-
-        ],
+   ],
     },
 };
 

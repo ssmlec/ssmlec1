@@ -24,10 +24,10 @@ export default function TechnologyPage() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-12 text-center">
           <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">{techName}</h1>
-          <p className="mt-2 text-gray-500">
+          {/* <p className="mt-2 text-gray-500">
             {trainings.length} {entityLabel}
             {trainings.length === 1 ? "" : "s"} {isStudents ? "have" : "has"} trained on {techName}
-          </p>
+          </p> */}
         </div>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -49,7 +49,7 @@ export default function TechnologyPage() {
                 <div className="my-4 border-t"></div>
 
                 <h3 className="text-center text-lg font-bold text-gray-800">{t.entityName}</h3>
-                <p className="mt-1 text-center text-sm text-gray-500">{t.trainingTitle}</p>
+                {/* <p className="mt-1 text-center text-sm text-gray-500">{t.trainingTitle}</p> */}
 
                 {/* <div className="mt-4 flex items-center justify-center gap-2 text-sm text-gray-600">
                   <span>📅 {t.date}</span>
