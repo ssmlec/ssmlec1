@@ -51,18 +51,18 @@ export default function TechnologyPage() {
                 <h3 className="text-center text-lg font-bold text-gray-800">{t.entityName}</h3>
                 <p className="mt-1 text-center text-sm text-gray-500">{t.trainingTitle}</p>
 
-                <div className="mt-4 flex items-center justify-center gap-2 text-sm text-gray-600">
+                {/* <div className="mt-4 flex items-center justify-center gap-2 text-sm text-gray-600">
                   <span>📅 {t.date}</span>
                 </div>
                 {t.location && (
                   <p className="mt-1 text-center text-xs text-gray-400">{t.location}</p>
-                )}
+                )} */}
 
-                <div className="mt-6 flex justify-center">
+                {/* <div className="mt-6 flex justify-center">
                   <span className="rounded-full bg-blue-600 px-5 py-2 text-sm font-semibold text-white transition-all duration-300 group-hover:bg-blue-700">
                     View Gallery →
                   </span>
-                </div>
+                </div> */}
 
                 <div className="absolute inset-0 rounded-3xl border-2 border-blue-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
               </div>

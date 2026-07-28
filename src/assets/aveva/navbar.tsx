@@ -38,17 +38,20 @@ const categories = Object.keys(categoryMeta) as CourseCategory[];
 // Training menu: Corporate + Students training only
 const trainingLinks = [
   { title: "Corporate Training", to: "/gallery/corporate-training" },
-  { title: "Students Training", to: "/gallery/students-training" }, 
+  { title: "Students Training", to: "/gallery/students-training" },
 ];
 
-// Gallery and Events are now standalone top-level links
-const GALLERY_LINK = "/gallery";
-const EVENTS_LINK = "/gallery/events";
+// Gallery menu: general gallery + events
+const galleryLinks = [
+  { title: "Gallery", to: "/gallery" },
+  { title: "Events", to: "/gallery/events" },
+];
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
   const [trainingOpen, setTrainingOpen] = useState(false);
+  const [galleryOpen, setGalleryOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
@@ -191,11 +194,49 @@ export function Navbar() {
             </AnimatePresence>
           </div>
 
-          {/* Gallery - standalone link */}
-          {/* <NavItem to={GALLERY_LINK} label="Gallery" scrolled={scrolled} /> */}
+          {/* Gallery dropdown (Gallery + Events) */}
+          <div
+            className="relative"
+            onMouseEnter={() => setGalleryOpen(true)}
+            onMouseLeave={() => setGalleryOpen(false)}
+          >
+            <button
+              className="flex items-center gap-1 rounded-full px-3.5 py-2 text-sm font-semibold text-blue-900 transition-all duration-300 hover:bg-blue-50 hover:text-blue-700"
+              aria-expanded={galleryOpen}
+            >
+              Gallery
+              <ChevronDown
+                className={cn(
+                  "size-4 transition-transform",
+                  galleryOpen && "rotate-180"
+                )}
+              />
+            </button>
 
-          {/* Events - standalone link */}
-          {/* <NavItem to={EVENTS_LINK} label="Events" scrolled={scrolled} /> */}
+            <AnimatePresence>
+              {galleryOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 10 }}
+                  transition={{ duration: 0.2 }}
+                  className="absolute left-1/2 top-full w-56 -translate-x-1/2 pt-3"
+                >
+                  <div className="rounded-2xl border bg-white p-2 shadow-soft">
+                    {galleryLinks.map((g) => (
+                      <Link
+                        key={g.to}
+                        to={g.to}
+                        className="block rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors hover:bg-blue-50 hover:text-blue-700"
+                      >
+                        {g.title}
+                      </Link>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
 
           {/* <NavItem to="/placements" label="Placements" scrolled={scrolled} /> */}
           {/* <NavItem to="/blog" label="Blog" scrolled={scrolled} /> */}
@@ -286,8 +327,25 @@ export function Navbar() {
                     </AccordionItem>
                   </Accordion>
 
-                  <MobileLink to={GALLERY_LINK} label="Gallery" onClick={() => setMobileOpen(false)} />
-                  <MobileLink to={EVENTS_LINK} label="Events" onClick={() => setMobileOpen(false)} />
+                  <Accordion type="single" collapsible>
+                    <AccordionItem value="gallery" className="border-none">
+                      <AccordionTrigger className="py-3 text-base font-medium hover:no-underline">
+                        Gallery
+                      </AccordionTrigger>
+                      <AccordionContent>
+                        {galleryLinks.map((g) => (
+                          <Link
+                            key={g.to}
+                            to={g.to}
+                            onClick={() => setMobileOpen(false)}
+                            className="block rounded-lg px-2 py-1.5 text-sm text-muted-foreground hover:text-accent"
+                          >
+                            {g.title}
+                          </Link>
+                        ))}
+                      </AccordionContent>
+                    </AccordionItem>
+                  </Accordion>
 
                   {["/placements", "/blog", "/contact", "/faqs"].map((to) => {
                     const label = to.replace("/", "");

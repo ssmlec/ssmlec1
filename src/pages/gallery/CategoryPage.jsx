@@ -35,22 +35,22 @@ export default function CategoryPage() {
                   <img
                     src={tech.image}
                     alt={tech.name}
-                    className="max-h-24 max-w-full object-contain transition-transform duration-300 group-hover:scale-110"
+                    className="max-h-24 rounded max-w-full object-contain transition-transform duration-300 group-hover:scale-110"
                   />
                 </div>
 
                 <div className="my-6 border-t"></div>
 
                 <h3 className="text-center text-xl font-bold text-gray-800">{tech.name}</h3>
-                <p className="mt-2 text-center text-gray-500">
+                {/* <p className="mt-2 text-center text-gray-500">
                   {tech.count} {tech.count === 1 ? "Training" : "Trainings"}
-                </p>
-
+                </p> */}
+{/* 
                 <div className="mt-8 flex justify-center">
                   <span className="rounded-full bg-blue-600 px-6 py-2 text-sm font-semibold text-white transition-all duration-300 group-hover:bg-blue-700">
                     View Trainings →
                   </span>
-                </div>
+                </div> */}
 
                 <div className="absolute inset-0 rounded-3xl border-2 border-blue-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
               </div>

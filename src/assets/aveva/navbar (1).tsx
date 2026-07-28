@@ -38,7 +38,7 @@ const categories = Object.keys(categoryMeta) as CourseCategory[];
 // Training menu: Corporate + Students training only
 const trainingLinks = [
   { title: "Corporate Training", to: "/gallery/corporate-training" },
-  { title: "Students Training", to: "/gallery/students-training" }, 
+  { title: "Students Training", to: "/gallery/students-training" },
 ];
 
 // Gallery and Events are now standalone top-level links
@@ -192,10 +192,10 @@ export function Navbar() {
           </div>
 
           {/* Gallery - standalone link */}
-          {/* <NavItem to={GALLERY_LINK} label="Gallery" scrolled={scrolled} /> */}
+          <NavItem to={GALLERY_LINK} label="Gallery" scrolled={scrolled} />
 
           {/* Events - standalone link */}
-          {/* <NavItem to={EVENTS_LINK} label="Events" scrolled={scrolled} /> */}
+          <NavItem to={EVENTS_LINK} label="Events" scrolled={scrolled} />
 
           {/* <NavItem to="/placements" label="Placements" scrolled={scrolled} /> */}
           {/* <NavItem to="/blog" label="Blog" scrolled={scrolled} /> */}
