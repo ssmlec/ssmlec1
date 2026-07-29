@@ -32,11 +32,11 @@ export default function TechnologyPage() {
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {trainings.map((t) => (
-            <Link
-              key={`${t.entityId}-${t.trainingId}`}
-              to={`/gallery/${category}/${technology}/${t.entityId}/${t.trainingId}`}
-              className="group"
-            >
+            // <Link
+            //   key={`${t.entityId}-${t.trainingId}`}
+            //   to={`/gallery/${category}/${technology}/${t.entityId}/${t.trainingId}`}
+            //   className="group"
+            // >
               <div className="relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
                 <div className="flex h-24 items-center justify-center">
                   <img
@@ -66,7 +66,7 @@ export default function TechnologyPage() {
 
                 <div className="absolute inset-0 rounded-3xl border-2 border-blue-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
               </div>
-            </Link>
+            // </Link>
           ))}
         </div>
       </div>

@@ -38,7 +38,7 @@ const categories = Object.keys(categoryMeta) as CourseCategory[];
 // Training menu: Corporate + Students training only
 const trainingLinks = [
   { title: "Corporate Training", to: "/gallery/corporate-training" },
-  { title: "Students Training", to: "/gallery/students-training" }, 
+  { title: "Campus Skill Development", to: "/gallery/students-training" }, 
 ];
 
 // Gallery and Events are now standalone top-level links
