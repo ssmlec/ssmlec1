@@ -116,11 +116,11 @@ function Hero() {
             AVEVA Authorized Training Partner
           </span>
           <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
-            Craft your inner{" "}
+            Transforming Learners into{" "}
             <span className="bg-gradient-to-r from-accent to-[oklch(0.72_0.18_35)] bg-clip-text text-transparent">
-              technocrat
+              Future-Ready
             </span>{" "}
-            & shape your future
+            Technocrats
           </h1>
           <p className="mt-6 max-w-xl text-lg text-white/75">
             An industry-centered Learning Excellence Centre for Automation, AI and Industry 4.0.

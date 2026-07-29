@@ -23,6 +23,7 @@ import TechnologyPage from "./pages/gallery/TechnologyPage.jsx";
 import TrainingPage from "./pages/gallery/TrainingPage.jsx";
 
 import ScrollToTop from "./ScrollToTop.jsx";
+import GalleryCategory from "./pages/GalleryCategory.js";
 
 export default function App() {
   return (
@@ -40,10 +41,11 @@ export default function App() {
         <Route path="/courses/:slug" element={<CourseDetail />} />
         <Route path="/placements" element={<Placements />} />
 
-        <Route path="/gallery/:category" element={<CategoryPage />} />
-        <Route path="/gallery/:category/:technology" element={<TechnologyPage />} />
+        <Route path="/training/:category" element={<CategoryPage />} />
+        <Route path="/gallery" element={<GalleryCategory />} />
+        <Route path="/training/:category/:technology" element={<TechnologyPage />} />
         <Route
-          path="/gallery/:category/:technology/:entityId/:trainingId"
+          path="/training/:category/:technology/:entityId/:trainingId"
           element={<TrainingPage />}
         />
 

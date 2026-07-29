@@ -27,7 +27,7 @@ export default function CategoryPage() {
           {technologies.map((tech) => (
             <Link
               key={tech.name}
-              to={`/gallery/${category}/${techToSlug(tech.name)}`}
+              to={`/training/${category}/${techToSlug(tech.name)}`}
               className="group"
             >
               <div className="relative overflow-hidden rounded-3xl border border-gray-200 bg-white p-8 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">

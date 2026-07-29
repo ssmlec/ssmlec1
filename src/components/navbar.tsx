@@ -28,6 +28,7 @@ const navLinks = [
   { to: "/about", label: "About" },
   { to: "/placements", label: "Placements" },
   { to: "/gallery", label: "Gallery" },
+  { to: "/training", label: "Training" },
   { to: "/blog", label: "Blog" },
   { to: "/Success_Stories", label: "Success_Stories" },
   { to: "/contact", label: "Contact" },
@@ -37,13 +38,15 @@ const categories = Object.keys(categoryMeta) as CourseCategory[];
 
 // Training menu: Corporate + Students training only
 const trainingLinks = [
-  { title: "Corporate Training", to: "/gallery/corporate-training" },
-  { title: "Campus Skill Development", to: "/gallery/students-training" }, 
+  { title: "Corporate Training", to: "/training/corporate-training" },
+  { title: "Campus Skill Development", to: "/training/students-training" }, 
 ];
 
 // Gallery and Events are now standalone top-level links
 const GALLERY_LINK = "/gallery";
 const EVENTS_LINK = "/gallery/events";
+const TRAINING_LINK = "/training";
+
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -192,7 +195,7 @@ export function Navbar() {
           </div>
 
           {/* Gallery - standalone link */}
-          {/* <NavItem to={GALLERY_LINK} label="Gallery" scrolled={scrolled} /> */}
+          <NavItem to={GALLERY_LINK} label="Gallery" scrolled={scrolled} />
 
           {/* Events - standalone link */}
           {/* <NavItem to={EVENTS_LINK} label="Events" scrolled={scrolled} /> */}
