@@ -1,6 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import e1 from "../../assets/about-page.jpeg"
+
+import devops from "../../assets/student_training/devoops.png"
+import aiml from "../../assets/student_training/aiml1.jpg"
+import laravel from "../../assets/student_training/laravel.png"
+import automation from "../../assets/student_training/automation.png"
+import autocad from "../../assets/student_training/autocad.jpg"
+
 import {
   CalendarDays,
   MapPin,
@@ -24,53 +32,85 @@ import { EnquiryDialog } from "@/components/enquiry-dialog";
 const events = [
   {
     id: "ev-01",
-    title: "Annual Awards Night",
-    date: "2026-09-12T18:00:00",
-    location: "SSM Campus Auditorium",
-    category: "Celebration",
+    title: "Industrial Visit",
+    date: "2026-08-05T10:00:00",
+    location: "Luxuxria Business Hub",
+    category: "Visit",
     description:
-      "An evening celebrating this year's top performers, placements, and instructors, with awards, dinner, and guest speakers.",
-    image: "https://picsum.photos/seed/evt01/900/600",
+      "Industrial Visit offers students practical exposure to real-world industries, manufacturing processes, modern technologies, and workplace practices.",
+    image: e1,
   },
   {
     id: "ev-02",
-    title: "Open House Day",
-    date: "2026-08-22T10:00:00",
-    location: "Main Campus",
-    category: "Admissions",
+    title: "Devops Workshop",
+    date: "2026-08-08T09:00:00",
+    location: "P P Savani University Kosamba",
+    category: "Campus Skill Development",
     description:
-      "Tour the campus, meet faculty, sit in on a live demo class, and get your questions answered before enrolling.",
-    image: "https://picsum.photos/seed/evt02/900/600",
+      "Campus Skill Development Program on Devops",
+    image: devops,
+  },
+  
+  {
+    id: "ev-06",
+    title: "AI & ML Workshop",
+    date: "2026-08-10T09:00:00",
+    location: "P P Savani University Kosamba",
+    category: "Campus Skill Development",
+    description:
+      "Campus Skill Development Program on Devops",
+    image: aiml,
   },
   {
-    id: "ev-03",
-    title: "Guest Speaker Series: Career in Tech",
-    date: "2026-08-05T15:00:00",
-    location: "Seminar Hall 2",
-    category: "Workshop",
+    id: "ev-07",
+    title: "PHP Laravel Workshop",
+    date: "2026-08-13T09:00:00",
+    location: "P P Savani University Kosamba",
+    category: "Campus Skill Development",
     description:
-      "Industry professionals share what it really takes to land and grow a career in tech, with a live Q&A afterward.",
-    image: "https://picsum.photos/seed/evt03/900/600",
+      "Campus Skill Development Program on Devops",
+    image: laravel,
   },
   {
     id: "ev-04",
-    title: "Alumni Meetup",
-    date: "2026-06-14T17:00:00",
-    location: "Rooftop Lounge, Campus B",
-    category: "Networking",
+    title: "AutoCad 2D & 3D",
+    date: "2026-02-29T09:30:00",
+    location: "Gandhi College Surat",
+    category: "Campus Skill Development",
     description:
-      "Past graduates reconnect, share their journeys since leaving, and mentor current students over food and drinks.",
-    image: "https://picsum.photos/seed/evt04/900/600",
+      "Building future CAD designers.",
+    image:autocad,
   },
   {
     id: "ev-05",
-    title: "Corporate Partners Summit",
-    date: "2026-04-02T09:30:00",
-    location: "Conference Center",
-    category: "Corporate",
+    title: "AutoCad 2D & 3D",
+    date: "2026-06-29T09:30:00",
+    location: "R. N. G. Patel Institute of Technology Bardoli",
+    category: "Campus Skill Development",
     description:
-      "Hiring partners and training leads align on upcoming corporate training programs and placement pipelines.",
-    image: "https://picsum.photos/seed/evt05/900/600",
+      "Building future CAD designers.",
+    image: autocad,
+  },
+  {
+    id: "ev-08",
+    title: "Automation ( PLC & SCADA )",
+    date: "2026-07-06T09:30:00",
+    location: "R. N. G. Patel Institute of Technology Bardoli",
+    category: "Campus Skill Development",
+    description:
+      "Campus Skill Development Program on Industrial Automation.",
+    image: automation,
+  },
+
+  {
+    id: "ev-09",
+    title: "Automation ( PLC & SCADA )",
+    date: "2026-05-06T09:30:00",
+    location: "N. G. Patel Polytechnic  Bardoli",
+    category: "Campus Skill Development",
+    description:
+      "Campus Skill Development Program on Industrial Automation.",
+    image: automation,
   },
 ];
 

@@ -2480,7 +2480,7 @@ export const galleryData = {
              {
                 id: "rngpit",
 
-                name: "R. N. G. Patel Institute of Technology Bardoli Surat",
+                name: "R. N. G. Patel Institute of Technology Bardoli",
 
                 cover: rngpit,
 
@@ -2615,7 +2615,7 @@ export const galleryData = {
              {
                 id: "rngpit",
 
-                name: "R. N. G. Patel Institute of Technology Bardoli Surat",
+                name: "R. N. G. Patel Institute of Technology Bardoli",
 
                 cover: rngpit,
 
