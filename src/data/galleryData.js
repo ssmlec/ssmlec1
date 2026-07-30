@@ -2751,7 +2751,7 @@ export const galleryData = {
                {
                 id: "ppsavani",
 
-                name: "PP Savani University Kosamba, Surat Kosamba, Surat",
+                name: "PP Savani University Kosamba Kosamba, Surat",
 
                 cover: ppsavani,
 
