@@ -19,7 +19,7 @@ import { cn } from "@/lib/utils";
  * `span` controls the masonry rhythm — "tall" images get more vertical room.
  * ---------------------------------------------------------------------------
  */
-type GalleryCategory = "corporate-training" | "students-training" | "events";
+type GalleryCategory = "corporate-training" | "students-training" | "events" | "placement-drive";
 
 interface GalleryImage {
   id: string;
@@ -32,25 +32,26 @@ interface GalleryImage {
 const categoryMeta: Record< GalleryCategory,{ label: string; icon: typeof Building2 }> = {
   "corporate-training": { label: "Corporate Training", icon: Building2 },
   "students-training": { label: "Students Training", icon: GraduationCap },
-  events: { label: "Events", icon: CalendarDays },
+  "events": { label: "Events", icon: CalendarDays },
+  "placement-drive": { label: "Placement Drive", icon: CalendarDays },
 };
 
 // Placeholder images — swap `src` for real photography before shipping.
 const galleryImages: GalleryImage[] = [
-  { id: "ct-01", src: "https://picsum.photos/seed/corp01/800/1000", title: "Leadership Workshop", category: "corporate-training", span: "tall" },
-  { id: "ct-02", src: "https://picsum.photos/seed/corp02/800/600", title: "Team Strategy Session", category: "corporate-training", span: "short" },
-  { id: "ct-03", src: "https://picsum.photos/seed/corp03/800/900", title: "On-site Corporate Training", category: "corporate-training", span: "medium" },
-  { id: "ct-04", src: "https://picsum.photos/seed/corp04/800/700", title: "Skills Certification Day", category: "corporate-training", span: "medium" },
-  { id: "ct-05", src: "https://picsum.photos/seed/corp05/800/1000", title: "Executive Coaching", category: "corporate-training", span: "tall" },
-  { id: "st-01", src: "https://picsum.photos/seed/stud01/800/1000", title: "Classroom Session", category: "students-training", span: "tall" },
-  { id: "st-02", src: "https://picsum.photos/seed/stud02/800/600", title: "Hands-on Lab", category: "students-training", span: "short" },
-  { id: "st-03", src: "https://picsum.photos/seed/stud03/800/900", title: "Group Project Work", category: "students-training", span: "medium" },
-  { id: "st-04", src: "https://picsum.photos/seed/stud04/800/700", title: "Mock Interview Practice", category: "students-training", span: "medium" },
-  { id: "st-05", src: "https://picsum.photos/seed/stud05/800/600", title: "Graduation Prep", category: "students-training", span: "short" },
-  { id: "ev-01", src: "https://picsum.photos/seed/evt01/800/1000", title: "Annual Awards Night", category: "events", span: "tall" },
-  { id: "ev-02", src: "https://picsum.photos/seed/evt02/800/700", title: "Open House Day", category: "events", span: "medium" },
-  { id: "ev-03", src: "https://picsum.photos/seed/evt03/800/600", title: "Guest Speaker Series", category: "events", span: "short" },
-  { id: "ev-04", src: "https://picsum.photos/seed/evt04/800/900", title: "Alumni Meetup", category: "events", span: "medium" },
+  { id: "ct-01", src: "https://static.wixstatic.com/media/cdb4cb_2161f5ad1be3418493d8000cfced146b~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Reliance Training at SSM LEC", category: "corporate-training", span: "tall" },
+  { id: "ct-02", src: "https://static.wixstatic.com/media/cdb4cb_e88f805236f64f28be4c1e83e6cd08ad~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "OMI Training at Schneider Electric, Navi Mumbai", category: "corporate-training", span: "short" },
+  { id: "ct-03", src: "https://static.wixstatic.com/media/cdb4cb_b4cdd0fba5ab4cac800b182958cd5a53~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "Placement Drive at VNSGU", category: "placement-drive", span: "medium" },
+  { id: "ct-04", src: "https://static.wixstatic.com/media/cdb4cb_50ce27873d6f40c69c2f0deb06892d56~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Placement Drive at P P Savani University", category: "placement-drive", span: "medium" },
+  // { id: "ct-05", src: "https://picsum.photos/seed/corp05/800/1000", title: "Executive Coaching", category: "placement-drive", span: "tall" },
+  { id: "st-01", src: "https://static.wixstatic.com/media/cdb4cb_88df014a6eee4872adb2929a22afdaf9~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Workshop on Coding Skills and Programming Logic at P P Savani University", category: "students-training", span: "tall" },
+  { id: "st-02", src: "https://static.wixstatic.com/media/cdb4cb_29406d7b8fa4474aba048803caa7cdc6~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Workshop on AutoCAD: Hands on Workshop at GEC, Surat", category: "students-training", span: "short" },
+  { id: "st-03", src: "https://static.wixstatic.com/media/cdb4cb_8bc3386a64bc49e18206b56683066498~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "Configuration of Hadoop and Execution of MapReduce Programming at R. N. G Patel", category: "students-training", span: "medium" },
+  { id: "st-04", src: "https://www.ssmlec.com/assets/about-page-4XwIqAgf.jpeg", title: "Expert Lecture", category: "students-training", span: "medium" },
+  { id: "st-05", src: "https://static.wixstatic.com/media/cdb4cb_1958537dcded4c19b55bc0eddcbbd76b~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "3 Months in campus final year project training on PHP at Bilimora ITI", category: "students-training", span: "short" },
+  { id: "ev-01", src: "https://static.wixstatic.com/media/cdb4cb_39b18f3dee184913900ebc820ce49360~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Valedictory Ceremony of SSM LEC - Batch 2024-25", category: "events", span: "tall" },
+  { id: "ev-02", src: "https://static.wixstatic.com/media/cdb4cb_8fbe365100cf437ea9a5330752e27faa~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "MOU signed with NG Patel Polytechnic, Bardoli", category: "events", span: "medium" },
+  { id: "ev-03", src: "https://static.wixstatic.com/media/cdb4cb_a933d49adb454a528e18b343c53620af~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "GInvited at PP Savani University to attend inauguration of Career & Professional Development Centre as a Guest.", category: "events", span: "short" },
+  { id: "ev-04", src: "https://static.wixstatic.com/media/cdb4cb_62833875558944168211a77189562768~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "MOU signed with Kaushalya The skill University", category: "events", span: "medium" },
 ];
 
 const spanClass: Record<GalleryImage["span"], string> = {
