@@ -29,6 +29,7 @@ const navLinks = [
   { to: "/placements", label: "Placements" },
   { to: "/gallery", label: "Gallery" },
   { to: "/training", label: "Training" },
+  { to: "/events", label: "Events" },
   { to: "/blog", label: "Blog" },
   { to: "/Success_Stories", label: "Success_Stories" },
   { to: "/contact", label: "Contact" },
@@ -44,7 +45,7 @@ const trainingLinks = [
 
 // Gallery and Events are now standalone top-level links
 const GALLERY_LINK = "/gallery";
-const EVENTS_LINK = "/gallery/events";
+const EVENTS_LINK = "/events";
 const TRAINING_LINK = "/training";
 
 
@@ -198,7 +199,7 @@ export function Navbar() {
           <NavItem to={GALLERY_LINK} label="Gallery" scrolled={scrolled} />
 
           {/* Events - standalone link */}
-          {/* <NavItem to={EVENTS_LINK} label="Events" scrolled={scrolled} /> */}
+          <NavItem to={EVENTS_LINK} label="Events" scrolled={scrolled} />
 
           {/* <NavItem to="/placements" label="Placements" scrolled={scrolled} /> */}
           {/* <NavItem to="/blog" label="Blog" scrolled={scrolled} /> */}

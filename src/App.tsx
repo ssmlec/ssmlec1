@@ -16,14 +16,19 @@ import Contact from "@/pages/Contact";
 import Privacy from "@/pages/Privacy";
 import Terms from "@/pages/Terms";
 import NotFound from "@/pages/NotFound";
-import Success_Stories from "./pages/Success_Stories";
+import Success_Stories from "./pages/Success_Stories.tsx";
 
-import CategoryPage from "./pages/gallery/CategoryPage.jsx";
-import TechnologyPage from "./pages/gallery/TechnologyPage.jsx";
-import TrainingPage from "./pages/gallery/TrainingPage.jsx";
+import CategoryPage from "./pages/training/CategoryPage.jsx";
+import TechnologyPage from "./pages/training/TechnologyPage.jsx";
+import TrainingPage from "./pages/training/TrainingPage.jsx";
 
 import ScrollToTop from "./ScrollToTop.jsx";
 import GalleryCategory from "./pages/GalleryCategory.js";
+
+import Gallery from "./pages/gallery/Gallery.js";
+import EventsPage from "./pages/gallery/Events.jsx"
+
+
 
 export default function App() {
   return (
@@ -41,8 +46,10 @@ export default function App() {
         <Route path="/courses/:slug" element={<CourseDetail />} />
         <Route path="/placements" element={<Placements />} />
 
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/events" element={<EventsPage/>} />
         <Route path="/training/:category" element={<CategoryPage />} />
-        <Route path="/gallery" element={<GalleryCategory />} />
+        {/* <Route path="/gallery" element={<GalleryCategory />} /> */}
         <Route path="/training/:category/:technology" element={<TechnologyPage />} />
         <Route
           path="/training/:category/:technology/:entityId/:trainingId"

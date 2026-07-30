@@ -225,6 +225,7 @@ import ppsavani from "../assets/student_training/ppsavani.jpg"
 import rngpit from "../assets/student_training/rngpit.jpg"
 import gandhicollege from "../assets/student_training/gandhicollege.jpg"
 import sarvajanik from "../assets/student_training/sarvajanik.jpg"
+import ngpatel from "../assets/student_training/ngpatel.jpg"
 // import devops from "../assets/student_training/devoops.png"
 
 
@@ -2408,7 +2409,7 @@ export const galleryData = {
             {
                 id: "ppsavani",
 
-                name: "PP Savani University",
+                name: "PP Savani University Kosamba, Surat",
 
                 cover: ppsavani,
 
@@ -2472,346 +2473,14 @@ export const galleryData = {
                     
                 ]
             },
- {
-                id: "sarvajanik",
-
-                name: "Sarvajanik College of Engineering & Technology",
-
-                cover: sarvajanik,
-
-                city: "Surat",
-
-                state: "Gujarat",
-
-                type: "Institute of National Importance",
-
-                totalTrainings: 12,
-
-                totalParticipants: 1350,
-
-                trainings: [
-                    {
-                        id: "AI & ML",
-
-                        title: "AI & ML",
-
-                        coverImage: aiml,
-
-                        date: "18 January 2026",
-
-                        year: 2026,
-
-                        duration: "3 Days",
-
-                        location: "SVNIT Campus",
-
-                        trainer: "SSM LEC",
-
-                        participants: 220,
-
-                        technologies: [
-                            "AI & ML"
-                        ],
-
-                        description:
-                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
-
-                        images: [
-                            svnit1,
-                            svnit2,
-                            svnit3
-                        ],
-
-                        videos: [],
-
-                        certificates: [],
-
-                        feedback: [
-                            {
-                                name: "Rahul Patel",
-                                designation: "Final Year Student",
-                                comment:
-                                    "Excellent practical workshop with industry-oriented examples."
-                            }
-                        ]
-                    },
-
-                    
-                ]
-            },
-            {
-                id: "sarvajanik",
-
-                name: "Sarvajanik College of Engineering & Technology",
-
-                cover: sarvajanik,
-
-                city: "Surat",
-
-                state: "Gujarat",
-
-                type: "Institute of National Importance",
-
-                totalTrainings: 12,
-
-                totalParticipants: 1350,
-
-                trainings: [
-                    {
-                        id: "dotnet",
-
-                        title: "Asp DotNet Core",
-
-                        coverImage: dotnet,
-
-                        date: "18 January 2026",
-
-                        year: 2026,
-
-                        duration: "3 Days",
-
-                        location: "SVNIT Campus",
-
-                        trainer: "SSM LEC",
-
-                        participants: 220,
-
-                        technologies: [
-                            "Asp DotNet Core"
-                        ],
-
-                        description:
-                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
-
-                        images: [
-                            svnit1,
-                            svnit2,
-                            svnit3
-                        ],
-
-                        videos: [],
-
-                        certificates: [],
-
-                        feedback: [
-                            {
-                                name: "Rahul Patel",
-                                designation: "Final Year Student",
-                                comment:
-                                    "Excellent practical workshop with industry-oriented examples."
-                            }
-                        ]
-                    },
-
-                    
-                ]
-            },
-            {
-                id: "svnit",
-
-                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
-
-                cover: svnitCover,
-
-                city: "Surat",
-
-                state: "Gujarat",
-
-                type: "Institute of National Importance",
-
-                totalTrainings: 12,
-
-                totalParticipants: 1350,
-
-                trainings: [
-                    {
-                        id: "Database",
-
-                        title: "Database",
-
-                        coverImage: database,
-
-                        date: "18 January 2026",
-
-                        year: 2026,
-
-                        duration: "3 Days",
-
-                        location: "SVNIT Campus",
-
-                        trainer: "SSM LEC",
-
-                        participants: 220,
-
-                        technologies: [
-                            "Database"
-                        ],
-
-                        description:
-                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
-
-                        images: [
-                            svnit1,
-                            svnit2,
-                            svnit3
-                        ],
-
-                        videos: [],
-
-                        certificates: [],
-
-                        feedback: [
-                            {
-                                name: "Rahul Patel",
-                                designation: "Final Year Student",
-                                comment:
-                                    "Excellent practical workshop with industry-oriented examples."
-                            }
-                        ]
-                    },
-
-                    
-                ]
-            },
-            {
-                id: "svnit",
-
-                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
-
-                cover: svnitCover,
-
-                city: "Surat",
-
-                state: "Gujarat",
-
-                type: "Institute of National Importance",
-
-                totalTrainings: 12,
-
-                totalParticipants: 1350,
-
-                trainings: [
-                    {
-                        id: "dotnet",
-
-                        title: "Asp DotNet Core",
-
-                        coverImage: dotnet,
-
-                        date: "18 January 2026",
-
-                        year: 2026,
-
-                        duration: "3 Days",
-
-                        location: "SVNIT Campus",
-
-                        trainer: "SSM LEC",
-
-                        participants: 220,
-
-                        technologies: [
-                            "Asp DotNet Core"
-                        ],
-
-                        description:
-                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
-
-                        images: [
-                            svnit1,
-                            svnit2,
-                            svnit3
-                        ],
-
-                        videos: [],
-
-                        certificates: [],
-
-                        feedback: [
-                            {
-                                name: "Rahul Patel",
-                                designation: "Final Year Student",
-                                comment:
-                                    "Excellent practical workshop with industry-oriented examples."
-                            }
-                        ]
-                    },
-
-                    
-                ]
-            },
-              {
-                id: "svnit",
-
-                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
-
-                cover: svnitCover,
-
-                city: "Surat",
-
-                state: "Gujarat",
-
-                type: "Institute of National Importance",
-
-                totalTrainings: 12,
-
-                totalParticipants: 1350,
-
-                trainings: [
-                    {
-                        id: "aiml",
-
-                        title: "AI & ML",
-
-                        coverImage: aiml,
-
-                        date: "18 January 2026",
-
-                        year: 2026,
-
-                        duration: "3 Days",
-
-                        location: "SVNIT Campus",
-
-                        trainer: "SSM LEC",
-
-                        participants: 220,
-
-                        technologies: [
-                            "AI & ML",
-                        ],
-
-                        description:
-                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
-
-                        images: [
-                            svnit1,
-                            svnit2,
-                            svnit3
-                        ],
-
-                        videos: [],
-
-                        certificates: [],
-
-                        feedback: [
-                            {
-                                name: "Rahul Patel",
-                                designation: "Final Year Student",
-                                comment:
-                                    "Excellent practical workshop with industry-oriented examples."
-                            }
-                        ]
-                    },
-
-                    
-                ]
-            },
+          
+        
+   
 
              {
                 id: "rngpit",
 
-                name: "R. N. G. Patel Institute of Technology",
+                name: "R. N. G. Patel Institute of Technology Bardoli Surat",
 
                 cover: rngpit,
 
@@ -2878,7 +2547,7 @@ export const galleryData = {
               {
                 id: "gandhicollege",
 
-                name: "Dr.S.&S.S.Gandhi College Of Engineering & Technology",
+                name: "Dr.S.&S.S.Gandhi College Of Engineering & Technology Surat",
 
                 cover: gandhicollege,
 
@@ -2946,7 +2615,7 @@ export const galleryData = {
              {
                 id: "rngpit",
 
-                name: "R. N. G. Patel Institute of Technology",
+                name: "R. N. G. Patel Institute of Technology Bardoli Surat",
 
                 cover: rngpit,
 
@@ -3011,11 +2680,11 @@ export const galleryData = {
                 ]
             },
              {
-                id: "svnit",
+                id: "ngpatel",
 
-                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
+                name: "N. G. Patel Polytechnic Bardoli",
 
-                cover: svnitCover,
+                cover: ngpatel,
 
                 city: "Surat",
 
@@ -3029,11 +2698,11 @@ export const galleryData = {
 
                 trainings: [
                     {
-                        id: "ds",
+                        id: "automation",
 
-                        title: "Data Science",
+                        title: "Automation ( PLC & SCADA )",
 
-                        coverImage: ds,
+                        coverImage: automation,
 
                         date: "18 January 2026",
 
@@ -3048,7 +2717,7 @@ export const galleryData = {
                         participants: 220,
 
                         technologies: [
-                            "Data Science"
+                            "Automation ( PLC & SCADA )"
                         ],
 
                         description:
@@ -3077,77 +2746,12 @@ export const galleryData = {
                     
                 ]
             },
-             {
-                id: "svnit",
-
-                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
-
-                cover: svnitCover,
-
-                city: "Surat",
-
-                state: "Gujarat",
-
-                type: "Institute of National Importance",
-
-                totalTrainings: 12,
-
-                totalParticipants: 1350,
-
-                trainings: [
-                    {
-                        id: "da",
-
-                        title: "Data Analytics",
-
-                        coverImage: da,
-
-                        date: "18 January 2026",
-
-                        year: 2026,
-
-                        duration: "3 Days",
-
-                        location: "SVNIT Campus",
-
-                        trainer: "SSM LEC",
-
-                        participants: 220,
-
-                        technologies: [
-                            "Data Analytics"
-                        ],
-
-                        description:
-                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
-
-                        images: [
-                            svnit1,
-                            svnit2,
-                            svnit3
-                        ],
-
-                        videos: [],
-
-                        certificates: [],
-
-                        feedback: [
-                            {
-                                name: "Rahul Patel",
-                                designation: "Final Year Student",
-                                comment:
-                                    "Excellent practical workshop with industry-oriented examples."
-                            }
-                        ]
-                    },
-
-                    
-                ]
-            },
+        
+        
                {
                 id: "ppsavani",
 
-                name: "PP Savani University",
+                name: "PP Savani University Kosamba, Surat Kosamba, Surat",
 
                 cover: ppsavani,
 
@@ -3211,77 +2815,11 @@ export const galleryData = {
                     
                 ]
             },
-                 {
-                id: "svnit",
-
-                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
-
-                cover: svnitCover,
-
-                city: "Surat",
-
-                state: "Gujarat",
-
-                type: "Institute of National Importance",
-
-                totalTrainings: 12,
-
-                totalParticipants: 1350,
-
-                trainings: [
-                    {
-                        id: "mern",
-
-                        title: "MERN",
-
-                        coverImage: mern,
-
-                        date: "18 January 2026",
-
-                        year: 2026,
-
-                        duration: "3 Days",
-
-                        location: "SVNIT Campus",
-
-                        trainer: "SSM LEC",
-
-                        participants: 220,
-
-                        technologies: [
-                            "MERN"
-                        ],
-
-                        description:
-                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
-
-                        images: [
-                            svnit1,
-                            svnit2,
-                            svnit3
-                        ],
-
-                        videos: [],
-
-                        certificates: [],
-
-                        feedback: [
-                            {
-                                name: "Rahul Patel",
-                                designation: "Final Year Student",
-                                comment:
-                                    "Excellent practical workshop with industry-oriented examples."
-                            }
-                        ]
-                    },
-
-                    
-                ]
-            },
+       
                {
                 id: "ppsavani",
 
-                name: "PP Savani University",
+                name: "PP Savani University Kosamba, Surat",
 
                 cover: ppsavani,
 
@@ -3345,73 +2883,7 @@ export const galleryData = {
                     
                 ]
             },
-              {
-                id: "svnit",
-
-                name: "Sardar Vallabhbhai National Institute of Technology (SVNIT)",
-
-                cover: svnitCover,
-
-                city: "Surat",
-
-                state: "Gujarat",
-
-                type: "Institute of National Importance",
-
-                totalTrainings: 12,
-
-                totalParticipants: 1350,
-
-                trainings: [
-                    {
-                        id: "react",
-
-                        title: "ReactJS",
-
-                        coverImage: react,
-
-                        date: "18 January 2026",
-
-                        year: 2026,
-
-                        duration: "3 Days",
-
-                        location: "SVNIT Campus",
-
-                        trainer: "SSM LEC",
-
-                        participants: 220,
-
-                        technologies: [
-                            "ReactJS"
-                        ],
-
-                        description:
-                            "Hands-on workshop covering Python fundamentals, data analysis and introductory Machine Learning concepts with practical implementation.",
-
-                        images: [
-                            svnit1,
-                            svnit2,
-                            svnit3
-                        ],
-
-                        videos: [],
-
-                        certificates: [],
-
-                        feedback: [
-                            {
-                                name: "Rahul Patel",
-                                designation: "Final Year Student",
-                                comment:
-                                    "Excellent practical workshop with industry-oriented examples."
-                            }
-                        ]
-                    },
-
-                    
-                ]
-            },
+         
  
  
  
