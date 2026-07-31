@@ -13,7 +13,7 @@ const categories = Object.keys(categoryMeta) as CourseCategory[];
 const quickLinks = [
   { to: "/about", label: "About Us" },
   { to: "/courses", label: "Courses" },
-  { to: "/placements", label: "Placements" },
+  // { to: "/placements", label: "Placements" },
   { to: "/gallery", label: "Gallery" },
   { to: "/blog", label: "Blog" },
   { to: "/events", label: "Events" },

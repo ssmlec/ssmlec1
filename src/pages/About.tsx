@@ -152,9 +152,9 @@ export default function AboutPage() {
         subtitle="SSM Learning Excellence Centre is an industry-centered gateway that turns aspiring engineers into industry-ready technocrats."
         crumbs={[{ label: "About" }]}
       /> */}
-      <section className="relative overflow-hidden bg-gradient-hero pb-0 pt-32 text-white sm:pb-20 sm:pt-36">
+      <section className="relative overflow-hidden bg-gradient-hero pb-0 pt-20 text-white sm:pb-8 sm:pt-24">
 
-        <section className="py-10 sm:py-2">
+        <section className="py-6 sm:py-2">
 
           <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
 
@@ -298,7 +298,7 @@ Through a unique blend of experiential learning, industry-led curriculum, hands-
         </div>
       </section> */}
       {/* Mission / Vision / Promise */}
-      <section className="bg-gradient-soft py-20 sm:py-28">
+      <section className="bg-gradient-soft py-10 sm:py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* <SectionHeading eyebrow="What Drives Us" title="Mission, Vision & Purpose" /> */}
           <center>
@@ -346,7 +346,7 @@ Through a unique blend of experiential learning, industry-led curriculum, hands-
       </section>
 
       {/* History timeline */}
-      <section className="py-20 sm:py-28">
+      <section className="py-10 sm:py-14">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           {/* <SectionHeading eyebrow="Our Journey" title="A history of excellence" /> */}
 
@@ -411,7 +411,7 @@ Through a unique blend of experiential learning, industry-led curriculum, hands-
       </section>
 
       {/* Leadership */}
-      <section className="bg-gradient-soft py-20 sm:py-28">
+      <section className="bg-gradient-soft py-10 sm:py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* <SectionHeading eyebrow="Leadership" title="Meet the team behind SSMLEC" /> */}
           <center>
@@ -451,7 +451,7 @@ Through a unique blend of experiential learning, industry-led curriculum, hands-
       </section>
 
       {/* Infrastructure & Certifications */}
-      <section className="py-20 sm:py-28">
+      <section className="py-10 sm:py-14">
         <center>
           <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] sm:text-5xl lg:text-6xl">
             {/* Craft your inner{" "} */}
