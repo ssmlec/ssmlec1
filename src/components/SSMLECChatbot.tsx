@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { MessageCircle, X, Send, Sparkles } from "lucide-react";
 
 /**
- * SSMLEC Website Chatbot Widget
+ * LEXA — SSMLEC Website Chatbot Widget
  * ------------------------------------------------------------
  * Drop this component anywhere in your React app (e.g. once in App.jsx,
  * outside your main <Routes>) and it renders a floating chat button
@@ -126,15 +126,14 @@ const KNOWLEDGE_BASE = [
   },
   {
     keywords: ["hello", "hi", "hey", "namaste"],
-    answer: "Hi there! I'm the SSMLEC assistant. Ask me about our AVEVA/automation training, corporate clients, campus programs, placements, or how to get in touch.",
+    answer: "Hi there! I'm LEXA, SSMLEC's assistant. Ask me about our AVEVA/automation training, corporate clients, campus programs, placements, or how to get in touch.",
   },
 ];
 
 const FALLBACK_ANSWER =
   "I don't have an exact answer for that yet. Could you rephrase, or would you like our contact details so our team can help directly?";
 
-const WELCOME_MESSAGE =
-  "Hi! I'm here to help you craft your inner technocrat 🚀 Ask me about our Automation, AI, or CAD programs, placements, fees, or how to reach us.";
+const WELCOME_MESSAGE = "Hello, I am LEXA. Ready to Assist You!";
 
 function findAnswer(userText) {
   const text = userText.toLowerCase();
@@ -192,7 +191,7 @@ export default function SSMLECChatbot() {
       <style>{CSS}</style>
 
       {open && (
-        <div className="ssmlec-panel" role="dialog" aria-label="SSMLEC chat assistant">
+        <div className="ssmlec-panel" role="dialog" aria-label="LEXA chat assistant">
           <div className="ssmlec-glow" aria-hidden="true" />
           <div className="ssmlec-panel-header">
             <div className="ssmlec-header-left">
@@ -201,7 +200,7 @@ export default function SSMLECChatbot() {
               </span>
               <div>
                 <div className="ssmlec-title">LEXA</div>
-                <div className="ssmlec-subtitle">Craft your inner technocrat</div>
+                <div className="ssmlec-subtitle">Ready to assist you</div>
               </div>
             </div>
             <button
@@ -253,7 +252,7 @@ export default function SSMLECChatbot() {
         aria-label={open ? "Close chatbot" : "Open chatbot"}
       >
         {open ? <X size={18} /> : <MessageCircle size={18} />}
-        <span>{open ? "Close" : "Chat with us"}</span>
+        <span>{open ? "Close" : "Chat with LEXA"}</span>
       </button>
     </div>
   );
