@@ -47,7 +47,7 @@ import {
   videoTestimonials,
   type CourseCategory,
 } from "@/lib/site-data";
-
+import CorporateTestimonials from "@/components/CorporateTestimonials";
 import ReviewsSection from "@/components/ReviewsSection.tsx";
 const categories = Object.keys(categoryMeta) as CourseCategory[];
 const featured = featuredCourseSlugs.map(getCourse).filter(Boolean);
@@ -79,6 +79,7 @@ export default function Home() {
       {/* <FeaturedCourses /> */}
       {/* <PlacementHighlights /> */}
       {/* <SuccessStories /> */}
+      <CorporateTestimonials/>
       <ReviewsSection />
       {/* <VideoTestimonials /> */}
       {/* <GalleryPreview /> */}
