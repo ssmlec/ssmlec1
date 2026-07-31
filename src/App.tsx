@@ -44,7 +44,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/courses/:slug" element={<CourseDetail />} />
-        <Route path="/placements" element={<Placements />} />
+        {/* <Route path="/placements" element={<Placements />} /> */}
 
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/events" element={<EventsPage/>} />
