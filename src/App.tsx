@@ -27,7 +27,7 @@ import GalleryCategory from "./pages/GalleryCategory.js";
 
 import Gallery from "./pages/gallery/Gallery.js";
 import EventsPage from "./pages/gallery/Events.jsx"
-import SSMLECChatbot from "./components/SSMLECChatbot.jsx"
+import SSMLECChatbot from "./components/SSMLECChatbot.tsx"
 
 
 export default function App() {
@@ -64,7 +64,7 @@ export default function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      {/* <SSMLECChatbot /> */}
+      <SSMLECChatbot />
     </main>
 
     <Footer />
