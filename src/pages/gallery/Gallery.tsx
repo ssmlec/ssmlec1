@@ -36,22 +36,43 @@ const categoryMeta: Record< GalleryCategory,{ label: string; icon: typeof Buildi
   "placement-drive": { label: "Placement Drive", icon: CalendarDays },
 };
 
+import st1 from "../../assets/event/s1.png"
+import ct1 from "../../assets/event/e1.jpg"
+import ct2 from "../../assets/event/e2.jpg"
+
+import ct3 from "../../assets/event/e4.jpg"
+
 // Placeholder images — swap `src` for real photography before shipping.
 const galleryImages: GalleryImage[] = [
   { id: "ct-01", src: "https://static.wixstatic.com/media/cdb4cb_2161f5ad1be3418493d8000cfced146b~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Reliance Training at SSM LEC", category: "corporate-training", span: "tall" },
   { id: "ct-02", src: "https://static.wixstatic.com/media/cdb4cb_e88f805236f64f28be4c1e83e6cd08ad~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "OMI Training at Schneider Electric, Navi Mumbai", category: "corporate-training", span: "short" },
-  { id: "ct-03", src: "https://static.wixstatic.com/media/cdb4cb_b4cdd0fba5ab4cac800b182958cd5a53~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "Placement Drive at VNSGU", category: "placement-drive", span: "medium" },
-  { id: "ct-04", src: "https://static.wixstatic.com/media/cdb4cb_50ce27873d6f40c69c2f0deb06892d56~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Placement Drive at P P Savani University", category: "placement-drive", span: "medium" },
+  { id: "ct-03", src: ct1, title: "Onsite Training of AVEVA Batch Management at MORIMATSU, Navi Mumbai", category: "corporate-training", span: "tall" },
+  { id: "ct-04", src:ct2, title: "Onsite Training of AVEVA System Platform at Reliance JioBP Pvt.Ltd. , Navi Mumbai", category: "corporate-training", span: "short" },
+  { id: "ct-05", src:"https://static.wixstatic.com/media/cdb4cb_55d6a37c562c453ba47fa6c4ccea2060~mv2.jpg/v1/fill/w_1280,h_758,al_c,q_85,enc_avif,quality_auto/cdb4cb_55d6a37c562c453ba47fa6c4ccea2060~mv2.jpg", title: "Onsite Training of AVEVA System Platform at BridgeStone India Pvt. Ltd., Pune", category: "corporate-training", span: "short" },
+  { id: "ct-06", src:ct3, title: "Training of AVEVA System Platform to Mahanagar Gas Limited(MGL), Mumbai", category: "corporate-training", span: "short" },
+
   // { id: "ct-05", src: "https://picsum.photos/seed/corp05/800/1000", title: "Executive Coaching", category: "placement-drive", span: "tall" },
   { id: "st-01", src: "https://static.wixstatic.com/media/cdb4cb_88df014a6eee4872adb2929a22afdaf9~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Workshop on Coding Skills and Programming Logic at P P Savani University", category: "students-training", span: "tall" },
   { id: "st-02", src: "https://static.wixstatic.com/media/cdb4cb_29406d7b8fa4474aba048803caa7cdc6~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Workshop on AutoCAD: Hands on Workshop at GEC, Surat", category: "students-training", span: "short" },
   { id: "st-03", src: "https://static.wixstatic.com/media/cdb4cb_8bc3386a64bc49e18206b56683066498~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "Configuration of Hadoop and Execution of MapReduce Programming at R. N. G Patel", category: "students-training", span: "medium" },
+  { id: "st-06", src: "https://static.wixstatic.com/media/cdb4cb_8d3a67e0e8624dd3b72d55282e17db95~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Workshop on IoT: Hands on Workshop at GEC, Surat", category: "students-training", span: "short" },
+  { id: "ev-11", src: "https://static.wixstatic.com/media/cdb4cb_7e6bcbb2a64c44179db4890a41432eca~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "MOU signed with C.K Pithawalla College of Engineering & Technology", category: "events", span: "tall" },
+  { id: "st-07", src: st1, title: "Workshop on Automation: Hands on Workshop at ngpatel", category: "students-training", span: "short" },
+
+
   { id: "st-04", src: "https://www.ssmlec.com/assets/about-page-4XwIqAgf.jpeg", title: "Expert Lecture", category: "students-training", span: "medium" },
   { id: "st-05", src: "https://static.wixstatic.com/media/cdb4cb_1958537dcded4c19b55bc0eddcbbd76b~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "3 Months in campus final year project training on PHP at Bilimora ITI", category: "students-training", span: "short" },
   { id: "ev-01", src: "https://static.wixstatic.com/media/cdb4cb_39b18f3dee184913900ebc820ce49360~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Valedictory Ceremony of SSM LEC - Batch 2024-25", category: "events", span: "tall" },
   { id: "ev-02", src: "https://static.wixstatic.com/media/cdb4cb_8fbe365100cf437ea9a5330752e27faa~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "MOU signed with NG Patel Polytechnic, Bardoli", category: "events", span: "medium" },
-  { id: "ev-03", src: "https://static.wixstatic.com/media/cdb4cb_a933d49adb454a528e18b343c53620af~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "GInvited at PP Savani University to attend inauguration of Career & Professional Development Centre as a Guest.", category: "events", span: "short" },
+  { id: "ev-03", src: "https://static.wixstatic.com/media/cdb4cb_a933d49adb454a528e18b343c53620af~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Invited at PP Savani University to attend inauguration of Career & Professional Development Centre as a Guest.", category: "events", span: "short" },
   { id: "ev-04", src: "https://static.wixstatic.com/media/cdb4cb_62833875558944168211a77189562768~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "MOU signed with Kaushalya The skill University", category: "events", span: "medium" },
+  { id: "ev-05", src: "https://static.wixstatic.com/media/cdb4cb_cf593f8802174dc3a66cad59bcfc6b6c~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-place-holder.jpg", title: "MOU signed with P P Savani University", category: "events", span: "medium" },
+  { id: "ev-06", src: "https://static.wixstatic.com/media/cdb4cb_9550f7ef47f440f4a21d404ce04c0cbb~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-place-holder.jpg", title: "MOU signed with Bhagwan Mahavir Polytechnic, Bhagwan Mahavir University", category: "events", span: "medium" },
+    { id: "ev-07", src: "https://static.wixstatic.com/media/cdb4cb_b4cdd0fba5ab4cac800b182958cd5a53~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "Placement Drive at VNSGU", category: "events", span: "medium" },
+  { id: "ev-08", src: "https://static.wixstatic.com/media/cdb4cb_50ce27873d6f40c69c2f0deb06892d56~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Placement Drive at P P Savani University", category: "events", span: "tall" },
+  { id: "ev-09", src: "https://static.wixstatic.com/media/cdb4cb_ef8107984d834900b50dad471a5c7bde~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "Placement Drive at Vidyadeep University", category: "events", span: "short" },
+  { id: "ev-10", src: "https://static.wixstatic.com/media/cdb4cb_b94df3c566c64d3c9eced02b7ea25243~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-place-holder.jpg", title: "MOU signed with Uka Tarsadia University(UTU)", category: "events", span: "tall" },
+
 ];
 
 const spanClass: Record<GalleryImage["span"], string> = {

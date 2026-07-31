@@ -34,7 +34,7 @@ const events = [
     id: "ev-01",
     title: "Industrial Visit",
     date: "2026-08-05T10:00:00",
-    location: "Luxuxria Business Hub",
+    location: "Luxuria Business Hub",
     category: "Visit",
     description:
       "Industrial Visit offers students practical exposure to real-world industries, manufacturing processes, modern technologies, and workplace practices.",
@@ -408,18 +408,18 @@ export function EventsPage() {
                                   className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-blue-700 hover:text-blue-800"
                                 >
                                   <ImageIcon className="size-4" />
-                                  View photos from this event
+                                  View photos
                                 </Link>
                               ) : (
                                 <div
                                   className="mt-4"
                                   onClick={(e) => e.stopPropagation()}
                                 >
-                                  <EnquiryDialog>
+                                  {/* <EnquiryDialog>
                                     <Button variant="hero" size="sm">
                                       Reserve Your Spot
                                     </Button>
-                                  </EnquiryDialog>
+                                  </EnquiryDialog> */}
                                 </div>
                               )}
                             </motion.div>
