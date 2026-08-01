@@ -229,7 +229,7 @@ export default function CourseDetail() {
           </section>
 
           {/* Placement support */}
-          <section className="rounded-2xl bg-gradient-hero p-8 text-white shadow-glow">
+          {/* <section className="rounded-2xl bg-gradient-hero p-8 text-white shadow-glow">
             <h2 className="text-2xl font-bold">Placement Support</h2>
             <p className="mt-3 max-w-xl text-white/80">
               Get end-to-end placement assistance — resume building, portfolio guidance, mock interviews
@@ -238,7 +238,7 @@ export default function CourseDetail() {
             <Button asChild variant="accent" className="mt-6">
               <Link to="/placements">View Placement Dashboard <ArrowRight className="size-4" /></Link>
             </Button>
-          </section>
+          </section> */}
 
           {/* FAQs */}
           <section>
