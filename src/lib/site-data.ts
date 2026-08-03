@@ -708,7 +708,8 @@ export const generalFaqs = [
 export const contactInfo = {
   phone: "+91 99740 61290",
   email: "Learning@ssm-infotech.com",
-  address: "SSM Learning Excellence Centre, 704 Luxuria Business Hub, Near Y Junction, Dumas Road, Surat - 395007, Gujarat, India",
+  surataddress: "Surat Branch - SSM Learning Excellence Centre, 704 Luxuria Business Hub, Near Y Junction, Dumas Road, Surat - 395007, Gujarat, India",
+  bilimoraaddress:"Bilimora Branch - 23,24, Sthapatya Complex, Next to Bipico, Bilimora - 396321, Gujarat, INDIA",
   mapQuery: "704 Luxuria Business Hub, Near Y Junction, Dumas Road, Surat, Gujarat, India",
 };
 

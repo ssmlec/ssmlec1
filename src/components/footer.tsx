@@ -15,7 +15,7 @@ const quickLinks = [
   { to: "/courses", label: "Courses" },
   // { to: "/placements", label: "Placements" },
   { to: "/gallery", label: "Gallery" },
-  { to: "/blog", label: "Blog" },
+  // { to: "/blog", label: "Blog" },
   { to: "/events", label: "Events" },
   { to: "/faqs", label: "FAQs" },
   { to: "/contact", label: "Contact" },
@@ -42,7 +42,7 @@ export function Footer() {
           <div className="lg:col-span-4">
             <Logo light />
             <p className="mt-4 max-w-sm text-sm text-primary-foreground/70">
-              Craft your inner technocrat and shape your professional future. An industry-centered
+              Transforming Learners into Future-Ready Technocrats. An industry-centered
               Learning Excellence Centre for Automation, AI and Industry 4.0.
             </p>
             {/* <div className="mt-5 flex gap-2">
@@ -141,10 +141,20 @@ export function Footer() {
           <div className="lg:col-span-3">
             <h3 className="mb-4 text-sm font-bold uppercase tracking-wide text-white">Get in Touch</h3>
             <ul className="space-y-3 text-sm text-primary-foreground/70">
+              <a href="https://maps.app.goo.gl/PzsJ4NT8Kaph3kkn6" target="_blank">
               <li className="flex items-start gap-2">
                 <MapPin className="mt-0.5 size-4 shrink-0 text-accent" />
-                <span>{contactInfo.address}</span>
+                <span>{contactInfo.surataddress}</span>
+                
               </li>
+              </a>
+              <a href="https://maps.app.goo.gl/4awpk3u7TmgyfuNi7" target="_blank">
+              <li className="flex items-start gap-2">
+                <MapPin className="mt-0.5 size-4 shrink-0 text-accent" />
+                <span>{contactInfo.bilimoraaddress}</span>
+                
+              </li>
+              </a>
               <li className="flex items-center gap-2">
                 <Phone className="size-4 shrink-0 text-accent" />
                 <a href={`tel:${contactInfo.phone}`} className="hover:text-accent">{contactInfo.phone}</a>

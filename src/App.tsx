@@ -28,6 +28,7 @@ import GalleryCategory from "./pages/GalleryCategory.js";
 import Gallery from "./pages/gallery/Gallery.js";
 import EventsPage from "./pages/gallery/Events.jsx"
 import SSMLECChatbot from "./components/SSMLECChatbot.tsx"
+import MBGWebchatWidget from "./components/MBGWebchatWidget.tsx";
 
 
 export default function App() {
@@ -56,7 +57,7 @@ export default function App() {
           element={<TrainingPage />}
         />
 
-        <Route path="/blog" element={<Blog />} />
+        {/* <Route path="/blog" element={<Blog />} /> */}
         <Route path="/Success_Stories" element={<Success_Stories />} />
         <Route path="/faqs" element={<Faqs />} />
         <Route path="/contact" element={<Contact />} />
@@ -65,6 +66,7 @@ export default function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <SSMLECChatbot />
+      {/* <MBGWebchatWidget/> */}
     </main>
 
     <Footer />
