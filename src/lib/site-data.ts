@@ -684,9 +684,8 @@ export const generalFaqs = [
     a: "SSMLEC is an industry-centered Learning Excellence Centre focused on Industry 4.0, automation and AI. We combine expert-led training, live hands-on labs and dedicated placement support with 250+ hiring partners.",
   },
   {
-    q: "Do you offer placement assistance?",
-    a: "Yes. Every program includes end-to-end placement support — resume building, portfolio guidance, mock interviews and direct referrals to our partner companies.",
-  },
+    q: "Can you make me interview ready?",
+    a: "Yes. I help candidates become interview-ready through resume building, mock interviews, interview coaching, and job-specific preparation to improve confidence and increase their chances of success."},
   {
     q: "Are the programs suitable for beginners?",
     a: "Absolutely. Most programs start from foundations and progress to advanced, industry-ready skills, making them ideal for students, graduates and career switchers.",
