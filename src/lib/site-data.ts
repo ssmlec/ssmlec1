@@ -65,8 +65,8 @@ const faqBase = [
     a: "The program is open to engineering students, graduates, working professionals and career switchers who meet the eligibility criteria.",
   },
   {
-    q: "Do you provide placement assistance?",
-    a: "Yes. Every SSMLEC program includes dedicated placement support — resume building, mock interviews and direct referrals to our hiring partners.",
+    q: "How can you help me become interview-ready?",
+    a: "We help candidates become interview-ready through resume building, mock interviews, personalized feedback, and interview coaching to boost confidence and improve performance.",
   },
   {
     q: "Will I receive a certificate?",
