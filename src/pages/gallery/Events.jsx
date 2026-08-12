@@ -9,6 +9,8 @@ import laravel from "../../assets/student_training/laravel.png"
 import automation from "../../assets/student_training/automation.png"
 import autocad from "../../assets/student_training/autocad.jpg"
 
+import malibavisit from "../../assets/event/malibavisit.jpg"
+
 import {
   CalendarDays,
   MapPin,
@@ -33,12 +35,12 @@ const events = [
   {
     id: "ev-01",
     title: "Industrial Visit",
-    date: "2026-08-05T10:00:00",
+    date: "2026-08-11T10:00:00",
     location: "Luxuria Business Hub",
     category: "Visit",
     description:
-      "Industrial Visit offers students practical exposure to real-world industries, manufacturing processes, modern technologies, and workplace practices.",
-    image: e1,
+      "Industrial Visit Conducted at SSM LEC for Computer Science Students from Diwaliba Polytechnic College, Mahuva",
+    image: malibavisit,
   },
   {
     id: "ev-02",

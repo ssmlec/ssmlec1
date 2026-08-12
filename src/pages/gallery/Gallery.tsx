@@ -12,6 +12,10 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
+import malibavisit from "../../assets/event/malibavisit.jpg"
+import ppaiml from "../../assets/event/ppaiml.jpg"
+import ppdevops from "../../assets/event/ppdevops.jpg"
+
 /**
  * ---------------------------------------------------------------------------
  * GALLERY DATA
@@ -57,7 +61,10 @@ const galleryImages: GalleryImage[] = [
   { id: "st-03", src: "https://static.wixstatic.com/media/cdb4cb_8bc3386a64bc49e18206b56683066498~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "Configuration of Hadoop and Execution of MapReduce Programming at R. N. G Patel", category: "students-training", span: "medium" },
   { id: "st-06", src: "https://static.wixstatic.com/media/cdb4cb_8d3a67e0e8624dd3b72d55282e17db95~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Workshop on IoT: Hands on Workshop at GEC, Surat", category: "students-training", span: "short" },
   { id: "ev-11", src: "https://static.wixstatic.com/media/cdb4cb_7e6bcbb2a64c44179db4890a41432eca~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "MOU signed with C.K Pithawalla College of Engineering & Technology", category: "events", span: "tall" },
-  { id: "st-07", src: st1, title: "Workshop on Automation: Hands on Workshop at ngpatel", category: "students-training", span: "short" },
+  { id: "st-07", src: st1, title: "Summer Internship on Automation: Hands on Workshop at ngpatel", category: "students-training", span: "short" },
+    { id: "st-08", src: ppaiml, title: "Workshop Conducted at PPSavani on AI & ML", category: "events", span: "medium" },
+  { id: "st-09", src: ppdevops, title: "Workshop Conducted at PPSavani on Devops and Agile Methodology", category: "events", span: "tall" },
+
 
 
   { id: "st-04", src: "https://www.ssmlec.com/assets/about-page-4XwIqAgf.jpeg", title: "Expert Lecture", category: "students-training", span: "medium" },
@@ -72,6 +79,7 @@ const galleryImages: GalleryImage[] = [
   { id: "ev-08", src: "https://static.wixstatic.com/media/cdb4cb_50ce27873d6f40c69c2f0deb06892d56~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Placement Drive at P P Savani University", category: "events", span: "tall" },
   { id: "ev-09", src: "https://static.wixstatic.com/media/cdb4cb_ef8107984d834900b50dad471a5c7bde~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "Placement Drive at Vidyadeep University", category: "events", span: "short" },
   { id: "ev-10", src: "https://static.wixstatic.com/media/cdb4cb_b94df3c566c64d3c9eced02b7ea25243~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-place-holder.jpg", title: "MOU signed with Uka Tarsadia University(UTU)", category: "events", span: "tall" },
+  { id: "ev-12", src: malibavisit, title: "Industrial Visit Conducted at SSM LEC for Computer Science Students from Diwaliba Polytechnic College, Mahuva", category: "events", span: "short" },
 
 ];
 
