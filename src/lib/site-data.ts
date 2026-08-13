@@ -89,7 +89,7 @@ export const courses: Course[] = [
     level: "Intermediate to Advanced",
     icon: Factory,
     skills: ["PLC Programming", "SCADA", "IIoT", "HMI Design", "Digital Twin", "Industrial Networking"],
-    technologies: ["AVEVA", "OPC-UA"],
+    technologies: ["AVEVA", "Comminication Driver", "MBTCP"],
     careers: ["Automation Engineer", "Manufacturing Systems Engineer", "IIoT Specialist", "Control Systems Engineer"],
     outcomes: [
       "Design and commission automated production lines",
@@ -118,7 +118,7 @@ export const courses: Course[] = [
     level: "Beginner to Advanced",
     icon: Cpu,
     skills: ["Industrial Robotics", "Motion Control", "MES", "Lean Automation", "Sensors & Actuators"],
-    technologies: ["FANUC", "ABB Robotics", "Siemens", "Ignition MES", "Cobots"],
+    technologies: ["SCADA", "Power BI", "Communication Driver"],
     careers: ["Smart Manufacturing Engineer", "Robotics Technician", "MES Analyst", "Process Automation Engineer"],
     outcomes: [
       "Program and integrate industrial robots",
@@ -127,10 +127,9 @@ export const courses: Course[] = [
     ],
     curriculum: [
       { title: "Smart Factory Essentials", detail: "Sensors, actuators and industrial communication." },
-      { title: "Robotics & Cobots", detail: "Programming and safe integration of industrial robots." },
-      { title: "Motion & Drives", detail: "Servo, VFD and precise motion control systems." },
-      { title: "MES & Traceability", detail: "Manufacturing execution systems and shop-floor analytics." },
-      { title: "Capstone Project", detail: "End-to-end automated work cell integration." },
+      { title: "Advance SCADA", detail: "Application Server, OMI, InTouch for System Platform" },
+      { title: "Power BI", detail: "Interactice and decision ready dashboard" },
+      { title: "Project", detail: "End-to-end automated work cell integration." },
     ],
     projects: ["Robotic pick & place cell", "MES traceability module"],
     faqs: faqBase,
@@ -148,7 +147,7 @@ export const courses: Course[] = [
     level: "Intermediate",
     icon: BarChart3,
     skills: ["Industrial Data Modeling", "Predictive Maintenance", "Python", "Time-Series Analytics", "Dashboards"],
-    technologies: ["Python", "Power BI", "InfluxDB", "Grafana", "Azure IoT"],
+    technologies: ["SCADA", "MES", "MBTCP", "Predictive Analysis"],
     careers: ["Industrial Data Engineer", "Analytics Engineer", "Predictive Maintenance Analyst"],
     outcomes: [
       "Build data pipelines from PLCs to the cloud",
@@ -157,10 +156,10 @@ export const courses: Course[] = [
     ],
     curriculum: [
       { title: "Industrial Data Sources", detail: "Sensors, historians and edge data acquisition." },
-      { title: "Data Engineering Basics", detail: "Cleaning, modeling and time-series storage." },
-      { title: "Analytics with Python", detail: "Statistical and ML models for machine data." },
-      { title: "Visualization & Reporting", detail: "Grafana and Power BI operational dashboards." },
-      { title: "Predictive Capstone", detail: "Deploy a predictive maintenance solution." },
+      { title: "Advance SCADA", detail: "AVEVA Application Server, OMI, Historian" },
+      { title: "AVEVA MES", detail: "Operations, Performance, Quality" },
+
+      { title: "Predictive Analysis", detail: "Deploy a predictive maintenance solution." },
     ],
     projects: ["Vibration-based failure prediction", "Energy consumption analytics"],
     faqs: faqBase,
