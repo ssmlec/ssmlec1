@@ -128,7 +128,7 @@ export const courses: Course[] = [
     curriculum: [
       { title: "Smart Factory Essentials", detail: "Sensors, actuators and industrial communication." },
       { title: "Advance SCADA", detail: "Application Server, OMI, InTouch for System Platform" },
-      { title: "Power BI", detail: "Interactice and decision ready dashboard" },
+      { title: "Visualization and Reporting", detail: "Interactice and decision ready dashboard" },
       { title: "Project", detail: "End-to-end automated work cell integration." },
     ],
     projects: ["Robotic pick & place cell", "MES traceability module"],
