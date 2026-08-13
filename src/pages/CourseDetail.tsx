@@ -177,7 +177,7 @@ export default function CourseDetail() {
           </section>
 
           {/* Practical projects (if any) */}
-          {course.projects && (
+          {/* {course.projects && (
             <section>
               <h2 className="mb-4 flex items-center gap-2 text-2xl font-bold">
                 <Rocket className="size-6 text-accent" /> Practical Projects
@@ -190,7 +190,7 @@ export default function CourseDetail() {
                 ))}
               </div>
             </section>
-          )}
+          )} */}
 
           {/* Skills & Outcomes */}
           <section className="grid gap-8 sm:grid-cols-2">

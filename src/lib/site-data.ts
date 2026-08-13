@@ -88,8 +88,8 @@ export const courses: Course[] = [
     mode: "Classroom + Live Lab",
     level: "Intermediate to Advanced",
     icon: Factory,
-    skills: ["PLC Programming", "SCADA", "IIoT", "HMI Design", "Digital Twin", "Industrial Networking"],
-    technologies: ["AVEVA", "Comminication Driver", "MBTCP"],
+    skills: [ "SCADA", "IIoT", "HMI Design", "Digital Twin", "Industrial Networking"],
+    technologies: ["AVEVA", "Communication Driver", "MBTCP"],
     careers: ["Automation Engineer", "Manufacturing Systems Engineer", "IIoT Specialist", "Control Systems Engineer"],
     outcomes: [
       "Design and commission automated production lines",
@@ -117,7 +117,7 @@ export const courses: Course[] = [
     mode: "Classroom + Live Lab",
     level: "Beginner to Advanced",
     icon: Cpu,
-    skills: ["Industrial Robotics", "Motion Control", "MES", "Lean Automation", "Sensors & Actuators"],
+    skills: ["Basic Automation","SCADA","Power BI"],
     technologies: ["SCADA", "Power BI", "Communication Driver"],
     careers: ["Smart Manufacturing Engineer", "Robotics Technician", "MES Analyst", "Process Automation Engineer"],
     outcomes: [
@@ -146,7 +146,7 @@ export const courses: Course[] = [
     mode: "Classroom + Live Lab",
     level: "Intermediate",
     icon: BarChart3,
-    skills: ["Industrial Data Modeling", "Predictive Maintenance", "Python", "Time-Series Analytics", "Dashboards"],
+    skills: ["Industrial Data Modeling", "Predictive Maintenance"],
     technologies: ["SCADA", "MES", "MBTCP", "Predictive Analysis"],
     careers: ["Industrial Data Engineer", "Analytics Engineer", "Predictive Maintenance Analyst"],
     outcomes: [
