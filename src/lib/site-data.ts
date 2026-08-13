@@ -89,7 +89,7 @@ export const courses: Course[] = [
     level: "Intermediate to Advanced",
     icon: Factory,
     skills: ["PLC Programming", "SCADA", "IIoT", "HMI Design", "Digital Twin", "Industrial Networking"],
-    technologies: ["Siemens TIA", "AVEVA", "Rockwell", "Node-RED", "MQTT", "OPC-UA"],
+    technologies: ["AVEVA", "OPC-UA"],
     careers: ["Automation Engineer", "Manufacturing Systems Engineer", "IIoT Specialist", "Control Systems Engineer"],
     outcomes: [
       "Design and commission automated production lines",
@@ -98,10 +98,9 @@ export const courses: Course[] = [
     ],
     curriculum: [
       { title: "Foundations of Industry 4.0", detail: "Smart factory architecture, digital transformation & standards." },
-      { title: "PLC & HMI Engineering", detail: "Ladder logic, structured text and operator interface design." },
-      { title: "SCADA & Supervisory Control", detail: "AVEVA/Rockwell SCADA, alarms, trends and historians." },
-      { title: "IIoT & Connectivity", detail: "MQTT, OPC-UA, edge gateways and cloud dashboards." },
-      { title: "Digital Twin & Capstone", detail: "Simulate, optimize and deploy a full manufacturing cell." },
+      { title: "Advance SCADA", detail: "AVEVA Application Server, OMI, Historian" },
+      { title: "AVEVA MES", detail: "Operations, Performance, Quality" },
+      { title: "Capstone Project", detail: "Simulate, optimize and deploy a full manufacturing cell" },
     ],
     projects: ["Automated bottling line", "Real-time OEE dashboard", "Predictive downtime alerting"],
     faqs: faqBase,

@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import e1 from "../../assets/about-page.jpeg"
 
-import devops from "../../assets/student_training/devoops.png"
-import aiml from "../../assets/student_training/aiml1.jpg"
+import aiml from "../../assets/event/ppaiml.jpg"
+import rgnpitplcscada from "../../assets/event/rngpitplcscada.jpg"
+import ngpplcscada from "../../assets/event/ngpplcscada.jpg"
 import laravel from "../../assets/student_training/laravel.png"
 import automation from "../../assets/student_training/automation.png"
-import autocad from "../../assets/student_training/autocad.jpg"
+import autocad from "../../assets/event/rngpiyautocad.jpg"
+import devops from "../../assets/event/ppdevops.jpg"
 
 import malibavisit from "../../assets/event/malibavisit.jpg"
 
@@ -101,7 +103,7 @@ const events = [
     category: "Campus Skill Development",
     description:
       "Campus Skill Development Program on Industrial Automation.",
-    image: automation,
+    image: rgnpitplcscada,
   },
 
   {
@@ -112,7 +114,7 @@ const events = [
     category: "Campus Skill Development",
     description:
       "Campus Skill Development Program on Industrial Automation.",
-    image: automation,
+    image: ngpplcscada,
   },
 ];
 
