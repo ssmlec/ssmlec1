@@ -65,7 +65,7 @@ export default function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <SSMLECChatbot />
+      {/* <SSMLECChatbot /> */}
       <MBGWebchatWidget/>
     </main>
 
