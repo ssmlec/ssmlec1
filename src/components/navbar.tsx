@@ -209,7 +209,7 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-2">
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
           <EnquiryDialog>
             <Button variant="hero" size="sm" className="hidden sm:inline-flex">
               <Phone className="size-4" /> Enquire Now
