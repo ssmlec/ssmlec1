@@ -132,7 +132,7 @@ export function Navbar() {
 
                           <ul className="space-y-0.5">
                             {coursesByCategory(cat).map((c) => (
-                              <li key={c.slug}>
+                              <li key={c.slug} onClick={()=>{setMegaOpen(false)}}>
                                 <Link
                                   to={`/courses/${c.slug}`}
                                   className="block rounded-lg px-2 py-1.5 text-xs text-gray-600 transition-colors hover:bg-blue-50 hover:text-blue-700"
