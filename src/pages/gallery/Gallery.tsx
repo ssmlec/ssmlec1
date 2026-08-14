@@ -43,6 +43,7 @@ const categoryMeta: Record< GalleryCategory,{ label: string; icon: typeof Buildi
 import st1 from "../../assets/event/s1.png"
 import ct1 from "../../assets/event/e1.jpg"
 import ct2 from "../../assets/event/e2.jpg"
+import ppphp from "../../assets/event/ppphp.jpg"
 
 import ct3 from "../../assets/event/e4.jpg"
 
@@ -64,6 +65,7 @@ const galleryImages: GalleryImage[] = [
   { id: "st-07", src: st1, title: "Summer Internship on Automation: Hands on Workshop at ngpatel", category: "students-training", span: "short" },
     { id: "st-08", src: ppaiml, title: "Workshop Conducted at PPSavani on AI & ML", category: "events", span: "medium" },
   { id: "st-09", src: ppdevops, title: "Workshop Conducted at PPSavani on Devops and Agile Methodology", category: "events", span: "tall" },
+  { id: "st-10", src: ppphp, title: "Workshop Conducted at PPSavani on php with database connectivity", category: "events", span: "tall" },
 
 
 

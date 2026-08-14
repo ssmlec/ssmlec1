@@ -10,6 +10,7 @@ import laravel from "../../assets/student_training/laravel.png"
 import automation from "../../assets/student_training/automation.png"
 import autocad from "../../assets/event/rngpiyautocad.jpg"
 import devops from "../../assets/event/ppdevops.jpg"
+import ppphp from "../../assets/event/ppphp.jpg"
 
 import malibavisit from "../../assets/event/malibavisit.jpg"
 
@@ -73,7 +74,7 @@ const events = [
     category: "Campus Skill Development",
     description:
       "Campus Skill Development Program on Devops",
-    image: laravel,
+    image: ppphp,
   },
   {
     id: "ev-04",
