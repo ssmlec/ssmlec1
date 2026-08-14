@@ -111,7 +111,7 @@ export const courses: Course[] = [
     category: "industrial-automation",
     tagline: "Become a shop-floor-ready smart manufacturing engineer.",
     description:
-      "Hands-on training on robotics, motion control, MES and lean smart-factory practices for next-generation manufacturing.",
+      " motion control, MES and lean smart-factory practices for next-generation manufacturing.",
     duration: "5 Months",
     eligibility: "Diploma / B.E / B.Tech in Engineering",
     mode: "Classroom + Live Lab",
@@ -459,7 +459,7 @@ import {
 export const stats = [
   { value: 800, suffix: "+", label: "Learners Trained", icon: GraduationCap },
   { value: 300, suffix: "+", label: "Corporate Training", icon: BadgeCheck },
-  { value: 45, suffix: "+", label: "Corporate Clients", icon: Handshake },
+  { value: 60, suffix: "+", label: "Corporate Clients", icon: Handshake },
   { value: 4, suffix: "+", label: "Years of Excellence", icon: Trophy },
 ];
 export const placementStats = [
