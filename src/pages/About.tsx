@@ -69,7 +69,7 @@ const timeline = [
       },
       {
         title: "Corporate Clients",
-        desc: "Successfully partnered with 45+ corporate clients.",
+        desc: "Successfully partnered with 60+ corporate clients.",
       },
       {
         title: "MoU",
