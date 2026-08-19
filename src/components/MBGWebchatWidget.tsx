@@ -67,7 +67,7 @@ const KNOWLEDGE_BASE = [
   {
     keywords: ["automation", "plc", "scada", "robotics", "industry 4.0", "industrial"],
     answer:
-      "Our Industrial Automation track covers PLC programming, SCADA systems, and robotics, with hands-on lab work aimed at Industry 4.0 job roles.",
+      "Our Industrial Automation track covers PLC programming, SCADA systems, with hands-on lab work aimed at Industry 4.0 job roles.",
   },
   {
     keywords: [
@@ -141,7 +141,7 @@ const KNOWLEDGE_BASE = [
   {
     keywords: ["contact", "phone", "number", "call", "email", "reach"],
     answer:
-      "You can reach SSMLEC at [ADD PHONE NUMBER] or [ADD EMAIL ADDRESS]. You can also use our Contact page for a callback.",
+      "You can reach SSMLEC at +91 99740 61290 or Learning@ssm-infotech.com . You can also use our Contact page for a callback.",
   },
   {
     keywords: ["event", "events", "workshop", "workshops", "seminar", "webinar", "upcoming", "techfest"],
@@ -151,7 +151,7 @@ const KNOWLEDGE_BASE = [
   {
     keywords: ["admission", "admissions", "apply", "enroll", "enrolment", "enrollment", "register", "join"],
     answer:
-      "To enroll, you can reach out through our Contact page or [ADD ADMISSIONS PROCESS / LINK HERE] and our team will guide you through the next steps.",
+      "To enroll, you can reach out through our Contact page or +91 99740 61290 and our team will guide you through the next steps.",
   },
   {
     keywords: ["hello", "hi", "hey", "namaste"],

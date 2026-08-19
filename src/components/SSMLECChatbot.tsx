@@ -29,104 +29,234 @@ import { MessageCircle, X, Send, Sparkles } from "lucide-react";
 //    "keywords" = words that trigger this answer.
 //    "answer"   = what the bot replies (plain text, keep it short).
 // ---------------------------------------------------------------
+// ============================================================================
+// SSMLEC Chatbot Knowledge Base — Expanded
+// Drop this in place of your current KNOWLEDGE_BASE + FALLBACK_ANSWER +
+// WELCOME_MESSAGE. Keyword matching logic (findAnswer) stays the same.
+// ============================================================================
+
 const KNOWLEDGE_BASE = [
+  // ---------------------------------------------------------------------
+  // GREETING
+  // ---------------------------------------------------------------------
   {
-    keywords: ["course", "courses", "program", "programs", "training", "offer", "teach", "learn"],
+    keywords: ["hello", "hi", "hey", "namaste", "good morning", "good afternoon", "good evening"],
     answer:
-      "SSMLEC offers career-focused training in Industrial Automation & AVEVA software (SCADA, HMI, MES, Historian), AI & Software Technologies, and CAD Design — delivered both as corporate training for companies and as campus skill-development programs for engineering colleges. Which one would you like details on?",
+      "Hi there! I'm LEXA, SSM LEC's assistant. Ask me about our courses, AVEVA/automation training, corporate clients, campus programs, placements, or how to get in touch.",
+  },
+
+  // ---------------------------------------------------------------------
+  // ABOUT / COMPANY
+  // ---------------------------------------------------------------------
+  {
+    keywords: ["about", "who are you", "what is ssmlec", "what is ssm lec", "company", "who is ssm", "background", "history", "founded", "established"],
+    answer:
+      "SSM Learning Excellence Centre (SSM LEC) is the talent development and workforce transformation division of SSM Infotech Solutions, which has 25+ years of expertise in Industrial Software, Industrial Automation, Digital Engineering, and IT solutions. SSM LEC was established in April 2023 to bridge the gap between academic education and industry expectations by building industry-ready professionals for engineering and digital transformation.",
   },
   {
-    keywords: ["automation", "plc", "scada", "robotics", "industry 4.0", "industrial"],
+    keywords: ["vision"],
     answer:
-      "Our Industrial Automation track covers PLC programming, SCADA systems, and robotics, with hands-on lab work aimed at Industry 4.0 job roles.",
+      "Our vision is empowering India's future workforce through industry-led learning that accelerates careers, inspires innovation, and transforms businesses.",
+  },
+  {
+    keywords: ["mission"],
+    answer:
+      "Our mission: bridge the gap between academia and industry through experiential learning, develop professionals ready for Industry 4.0 and beyond, partner with enterprises to build agile future-ready workforces, deliver globally benchmarked learning experiences, and create meaningful career opportunities through skill development and industry partnerships.",
+  },
+  {
+    keywords: ["promise", "philosophy", "values"],
+    answer:
+      "At SSM LEC, we believe education should create measurable outcomes, not just certificates. Every program is designed to build competence, confidence, and career success — while helping organizations develop skilled talent that delivers business impact from day one.",
+  },
+  {
+    keywords: ["different", "why choose", "unique", "usp", "what makes you", "special"],
+    answer:
+      "SSM LEC delivers an industry-driven learning ecosystem, not conventional classroom training. That means: curriculum designed around current and future workforce needs, hands-on learning through real projects and case studies, training from experienced industry-certified practitioners, globally recognized technology platforms and certifications, strong career-readiness and placement support, and customized corporate learning for enterprise capability development.",
+  },
+  {
+    keywords: ["domain", "domains", "focus area", "what do you cover", "core areas"],
+    answer:
+      "Our core learning domains include Industrial Automation, Industrial Software & Digital Engineering, AVEVA Technologies, SCADA & HMI Systems, PLC/DCS & Process Automation, Manufacturing Execution Systems (MES), Industrial Data Intelligence & PI System, Industrial AI & Digital Transformation, Data Analytics & Power BI, Full Stack Development, SQL & Database Technologies, Artificial Intelligence & Machine Learning, and Leadership/Professional/Corporate Capability Development.",
+  },
+
+  // ---------------------------------------------------------------------
+  // COURSES / PROGRAMS — GENERAL
+  // ---------------------------------------------------------------------
+  {
+    keywords: ["course", "courses", "program", "programs", "training", "offer", "teach", "learn", "curriculum"],
+    answer:
+      "SSMLEC offers career-focused training across three academies: the AI-Driven Industrial Automation Academy (Automation, SCADA, MES, AVEVA), the AI-Powered Software Engineering Academy (AI/ML, full stack, data, Power BI), and the Engineering Design Academy (AutoCAD). We deliver this as corporate training for companies and as campus skill-development programs for engineering colleges. Which one would you like details on?",
+  },
+  {
+    keywords: ["solutions", "services", "what services", "internship program", "certification program", "corporate learning"],
+    answer:
+      "Our learning & workforce development solutions include: Corporate Learning & Technical Training (including Authorized AVEVA Certified Training), Industry Internship Programs (project-based, bridging academics and industry), Professional Certification Programs, Campus Skill Development Programs for universities, and Workshops/Seminars/Faculty Development sessions on emerging tech.",
+  },
+
+  // ---------------------------------------------------------------------
+  // TECHNOLOGY ACADEMIES / FLAGSHIP PROGRAMS
+  // ---------------------------------------------------------------------
+  {
+    keywords: ["academy", "academies", "flagship", "technology academy"],
+    answer:
+      "We run three Technology Academies: 1) AI-Driven Industrial Automation Academy, 2) AI-Powered Software Engineering Academy, and 3) Engineering Design Academy. Ask me about any one of these for its flagship programs.",
+  },
+  {
+    keywords: ["automation academy", "smart manufacturing", "intelligent manufacturing", "industrial data analytics engineer"],
+    answer:
+      "The AI-Driven Industrial Automation Academy offers: the Intelligent Manufacturing Systems Program, the Smart Manufacturing Engineer Program, and the Industrial Data Analytics Engineer Program.",
+  },
+  {
+    keywords: ["software engineering academy", "genai", "asp.net", "mvc", "front-end engineering", "power bi specialist", "nextgen ai", "predictive analytics program", "full stack program"],
+    answer:
+      "The AI-Powered Software Engineering Academy offers: SQL Database Specialist with GenAI, AI-Integrated Full Stack Program (MERN/Python), AI-Embedded Laravel Program, AI-Accelerated ASP.NET Core MVC Program, AI-Assisted Front-End Engineering Program, Power BI Specialist Program, NextGen AI & Machine Learning Program, and Industrial Data Science & Predictive Analytics Program.",
+  },
+  {
+    keywords: ["engineering design academy", "autocad 2d", "autocad 3d", "mechanical design", "electrical design"],
+    answer:
+      "The Engineering Design Academy offers AutoCAD (2D & 3D) training, specialized for Mechanical and Electrical Engineering applications.",
+  },
+
+  // ---------------------------------------------------------------------
+  // INDUSTRIAL AUTOMATION / AVEVA
+  // ---------------------------------------------------------------------
+  {
+    keywords: ["automation", "plc", "scada", "robotics", "industry 4.0", "industrial", "dcs", "process automation"],
+    answer:
+      "Our Industrial Automation track covers PLC programming, SCADA systems, DCS & process automation, and Manufacturing Execution Systems, with hands-on lab work aimed at Industry 4.0 job roles.",
   },
   {
     keywords: [
-      "aveva",
-      "hmi",
-      "historian",
-      "mes",
-      "batch management",
-      "system platform",
-      "intouch",
-      "omi",
-      "work tasks",
-      "gisize",
+      "aveva", "hmi", "historian", "mes", "batch management", "system platform",
+      "intouch", "omi", "work tasks", "gisize", "reports for operation", "edge hmi",
+      "wonderware", "pi system",
     ],
     answer:
-      "We specialize in AVEVA industrial software: System Platform, InTouch & Edge HMI, Historian, MES (including Model-Driven MES), Batch Management, OMI, Work Tasks, GISIZE, and Reports for Operation. These are the core of our corporate training programs.",
+      "We specialize in AVEVA industrial software: System Platform, InTouch & Edge HMI, Historian, MES (including Model-Driven MES), Batch Management, OMI, Work Tasks, GISIZE, and Reports for Operation — plus PI System and Industrial Data Intelligence. These are the core of our corporate training programs, and we're an Authorized AVEVA Certified Training provider, so certification is available.",
   },
+
+  // ---------------------------------------------------------------------
+  // AI / SOFTWARE
+  // ---------------------------------------------------------------------
   {
-    keywords: ["ai", "ml", "machine learning", "python", "data science", "data analytics", "software", "coding", "programming", "development", "it", "mern", "dotnet", ".net", "devops", "laravel", "database", "react"],
+    keywords: ["ai", "ml", "machine learning", "python", "data science", "data analytics", "software", "coding", "programming", "development", "it", "mern", "dotnet", ".net", "devops", "laravel", "database", "react", "sql", "power bi", "genai"],
     answer:
-      "Our AI & Software Technologies programs cover Python, AI/ML, Data Science & Analytics, MERN, .NET, DevOps, PHP Laravel, React, and databases — run for both corporate teams and college students.",
+      "Our AI & Software Technologies programs cover Python, AI/ML, Data Science & Analytics, Power BI, MERN, .NET, DevOps, PHP Laravel, React, SQL/databases, and GenAI-integrated development — run for both corporate teams and college students under our AI-Powered Software Engineering Academy.",
   },
+
+  // ---------------------------------------------------------------------
+  // CAD
+  // ---------------------------------------------------------------------
   {
     keywords: ["cad", "design", "drafting", "solidworks", "autocad"],
     answer:
-      "The CAD Design program (including AutoCAD) builds practical design and drafting skills used in engineering and manufacturing roles.",
+      "The CAD Design program (AutoCAD 2D & 3D, specialized for Mechanical & Electrical Engineering) builds practical design and drafting skills used in engineering and manufacturing roles.",
   },
+
+  // ---------------------------------------------------------------------
+  // CORPORATE CLIENTS / CASE STUDIES
+  // ---------------------------------------------------------------------
   {
     keywords: [
-      "corporate",
-      "clients",
-      "companies trained",
-      "who have you trained",
-      "case studies",
-      "past clients",
-      "worked with",
+      "corporate", "clients", "companies trained", "who have you trained", "case studies",
+      "past clients", "worked with", "corporate clients", "customers",
     ],
     answer:
-      "We've delivered corporate training for companies including Reliance Industries, TCS, Accenture, Infosys, LTIMindtree, Schneider Electric, Rockwell Automation, GAIL, Colgate-Palmolive, Bridgestone, SAIL, Tetra Pak, Hitachi Energy, and more — mostly on AVEVA industrial software.",
+      "We've delivered 60+ corporate training programs for companies including Reliance Industries, TCS, Accenture, Infosys, LTIMindtree, Schneider Electric, Rockwell Automation, GAIL, Colgate-Palmolive, Bridgestone, SAIL, Tetra Pak, Hitachi Energy, Jio-bp, Nestle, Optima India, Pharmadule (Morimatsu Group), Sage Automation, Mahanagar Gas, Safe-Tronics, Aztec Consulting, M.B. Control & Systems, AD Automatos, Veolia Water, KRIBHCO, Wave Infratech, Syntegon Technology, and Fox Solutions — mostly on AVEVA industrial software.",
   },
+  {
+    keywords: ["success stories", "stats", "numbers", "how many students", "how many companies", "track record", "impact"],
+    answer:
+      "SSM LEC has trained 750+ students and ambitious professionals through industry-aligned, expert-led training, and delivered 60+ customized corporate training programs to elevate workforce performance.",
+  },
+  {
+    keywords: ["testimonial", "testimonials", "review", "reviews", "feedback", "what do clients say"],
+    answer:
+      "Clients like Hitachi Energy, Pharmadule (Morimatsu Group), TCS (Unilever MES program), and Bridgestone have praised our training for being well-structured, practically valuable, and delivered by knowledgeable, patient trainers who supported them through certification. Happy to share more specific feedback if you tell me which program you're interested in.",
+  },
+
+  // ---------------------------------------------------------------------
+  // COLLEGES / CAMPUS PROGRAMS / MOUs
+  // ---------------------------------------------------------------------
   {
     keywords: [
-      "college",
-      "colleges",
-      "university",
-      "universities",
-      "campus program",
-      "campus training",
-      "student training",
-      "workshop for students",
-      "institute",
+      "college", "colleges", "university", "universities", "campus program", "campus training",
+      "student training", "workshop for students", "institute", "mou", "mous", "partnership with college",
     ],
     answer:
-      "Our Campus Skill Development Program has run hands-on workshops at colleges like PP Savani University, R. N. G. Patel Institute of Technology, Dr. S.&S.S. Gandhi College of Engineering & Technology, and N. G. Patel Polytechnic — covering AI & ML, AutoCAD, PLC & SCADA Automation, PHP Laravel, and DevOps.",
+      "Our Campus Skill Development Program has run hands-on workshops at colleges including PP Savani University (Kosamba, Surat), R. N. G. Patel Institute of Technology (Bardoli), Dr. S.&S.S. Gandhi College of Engineering & Technology (Surat), N. G. Patel Polytechnic (Bardoli), Uka Tarsadia University, and Kaushalya The Skill University — covering AI & ML, AutoCAD, PLC & SCADA Automation, PHP Laravel, and DevOps. We hold formal MOUs with several of these institutions.",
   },
+
+  // ---------------------------------------------------------------------
+  // PLACEMENT
+  // ---------------------------------------------------------------------
   {
-    keywords: ["placement", "job", "jobs", "career", "hire", "hiring", "company", "companies"],
+    keywords: ["placement", "job", "jobs", "career", "hire", "hiring", "company", "companies", "internship", "internships"],
     answer:
-      "SSMLEC provides placement support backed by 250+ hiring partners, plus internships and live-project exposure to help you land national and multinational company roles.",
+      "SSMLEC provides placement support backed by 250+ hiring partners, plus internships and live-project exposure to help you land national and multinational company roles. We also run dedicated Industry Internship Programs that bridge academic learning with real industry requirements.",
   },
+
+  // ---------------------------------------------------------------------
+  // FEES / PRICING
+  // ---------------------------------------------------------------------
   {
     keywords: ["fee", "fees", "cost", "price", "pricing", "payment"],
     answer:
-      "Fees vary by program. [ADD YOUR FEE INFO OR A LINK TO YOUR FEES PAGE HERE] — or contact us directly and we'll share the latest fee structure.",
+      "Fees vary by program. Contact us directly at +91 99740 61290 or learning@ssm-infotech.com and our team will share the latest fee structure for the program you're interested in.",
   },
+
+  // ---------------------------------------------------------------------
+  // LOCATION
+  // ---------------------------------------------------------------------
   {
-    keywords: ["address", "location", "where", "located", "directions"],
+    keywords: ["address", "location", "where", "located", "directions", "office"],
     answer:
-      "SSMLEC is located at 704, Luxuria Business Hub, Udhana Magdalla Road, New Magdalla, Surat, Gujarat – 395007.",
+      "SSMLEC is located at 704, Luxuria Business Hub, Udhana Magdalla Road, New Magdalla, Surat, Gujarat – 395007, India.",
   },
+
+  // ---------------------------------------------------------------------
+  // CONTACT
+  // ---------------------------------------------------------------------
   {
-    keywords: ["contact", "phone", "number", "call", "email", "reach"],
+    keywords: ["contact", "phone", "email address", "number", "call", "email", "reach", "whatsapp", "instagram", "facebook", "social media"],
     answer:
-      "You can reach SSMLEC at [ADD PHONE NUMBER] or [ADD EMAIL ADDRESS]. You can also use our Contact page for a callback.",
+      "You can reach SSM LEC at +91 99740 61290 / 74860 22026 / 99740 61293, or email learning@ssm-infotech.com. Find us on Facebook (facebook.com/ssminfotech.biz) and Instagram (@ssmlec24), or visit www.ssmlec.com. You can also use our Contact page for a callback.",
   },
+
+  // ---------------------------------------------------------------------
+  // EVENTS
+  // ---------------------------------------------------------------------
   {
-    keywords: ["event", "events", "workshop", "workshops", "seminar", "webinar", "upcoming", "techfest"],
+    keywords: ["event", "events", "workshop", "workshops", "seminar", "webinar", "upcoming", "techfest", "industrial visit"],
     answer:
-      "We regularly run hands-on workshops and expert sessions for both corporates and colleges. Check the Events page on this site for the latest schedule.",
+      "We regularly run hands-on workshops, industrial visits, and expert sessions for both corporates and colleges — recent examples include AI & ML, DevOps, PHP Laravel, AutoCAD, and PLC & SCADA Automation workshops at partner universities. Check the Events page on this site for the latest schedule and countdown to the next one.",
   },
+
+  // ---------------------------------------------------------------------
+  // ADMISSIONS / ENROLLMENT
+  // ---------------------------------------------------------------------
   {
-    keywords: ["admission", "admissions", "apply", "enroll", "enrolment", "enrollment", "register", "join"],
+    keywords: ["admission", "admissions", "apply", "enroll", "enrolment", "enrollment", "register", "join", "how to start", "get started"],
     answer:
-      "To enroll, you can reach out through our Contact page or [ADD ADMISSIONS PROCESS / LINK HERE] and our team will guide you through the next steps.",
+      "To enroll, you can reach out through our Contact page or call/WhatsApp +91 99740 61290, and our team will guide you through the next steps — whether it's a corporate training program, a campus workshop, or an individual certification course.",
   },
+
+  // ---------------------------------------------------------------------
+  // GALLERY
+  // ---------------------------------------------------------------------
   {
-    keywords: ["hello", "hi", "hey", "namaste"],
-    answer: "Hi there! I'm LEXA, SSMLEC's assistant. Ask me about our AVEVA/automation training, corporate clients, campus programs, placements, or how to get in touch.",
+    keywords: ["gallery", "photos", "pictures", "images of training"],
+    answer:
+      "You can browse photos from our corporate training sessions, student programs, and events on our Gallery page — filter by Corporate Training, Students Training, or Events.",
+  },
+
+  // ---------------------------------------------------------------------
+  // CERTIFICATION
+  // ---------------------------------------------------------------------
+  {
+    keywords: ["certificate", "certification", "certified", "aveva certified", "globally recognized"],
+    answer:
+      "We offer industry-recognized certifications, including Authorized AVEVA Certified Training with optional AVEVA certification, designed to enhance your technical expertise and career opportunities.",
   },
 ];
 
@@ -134,6 +264,8 @@ const FALLBACK_ANSWER =
   "I don't have an exact answer for that yet. Could you rephrase, or would you like our contact details so our team can help directly?";
 
 const WELCOME_MESSAGE = "Hello, I am LEXA. Ready to Assist You!";
+
+// export { KNOWLEDGE_BASE, FALLBACK_ANSWER, WELCOME_MESSAGE };
 
 function findAnswer(userText) {
   const text = userText.toLowerCase();
