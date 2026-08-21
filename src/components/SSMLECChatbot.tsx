@@ -36,6 +36,11 @@ import { MessageCircle, X, Send, Sparkles } from "lucide-react";
 // ============================================================================
 
 const KNOWLEDGE_BASE = [
+   {
+    keywords: ["google location", "map"],
+    answer:
+      "Google map : google.com/maps?ll=21.147038,72.759704&z=15&t=m&hl=en&gl=US&mapclient=embed&cid=7659867885406725320",
+  },
   // ---------------------------------------------------------------------
   // GREETING
   // ---------------------------------------------------------------------
@@ -208,11 +213,17 @@ const KNOWLEDGE_BASE = [
   // ---------------------------------------------------------------------
   // LOCATION
   // ---------------------------------------------------------------------
+   {
+    keywords: ["google location", "map"],
+    answer:
+      "Google map : google.com/maps?ll=21.147038,72.759704&z=15&t=m&hl=en&gl=US&mapclient=embed&cid=7659867885406725320",
+  },
   {
     keywords: ["address", "location", "where", "located", "directions", "office"],
     answer:
-      "SSMLEC is located at 704, Luxuria Business Hub, Udhana Magdalla Road, New Magdalla, Surat, Gujarat – 395007, India.",
+      "SSMLEC is located at 704, Luxuria Business Hub, Udhana Magdalla Road, New Magdalla, Surat, Gujarat – 395007, India. Google map : google.com/maps?ll=21.147038,72.759704&z=15&t=m&hl=en&gl=US&mapclient=embed&cid=7659867885406725320",
   },
+ 
 
   // ---------------------------------------------------------------------
   // CONTACT

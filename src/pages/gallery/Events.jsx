@@ -117,6 +117,26 @@ const events = [
       "Campus Skill Development Program on Industrial Automation.",
     image: ngpplcscada,
   },
+   {
+    id: "ev-10",
+    title: "Workshop on Automation Basic & PLC programming",
+    date: "2026-08-24T09:30:00",
+    location: "GEC Surat",
+    category: "Campus Skill Development",
+    description:
+      "Campus Skill Development Program on Automation Basic & PLC programming.",
+    image: automation,
+  },
+  {
+    id: "ev-11",
+    title: "Workshop on Automation Basic & PLC programming",
+    date: "2026-08-25T09:30:00",
+    location: "GEC Surat",
+    category: "Campus Skill Development",
+    description:
+      "Campus Skill Development Program on Automation Basic & PLC programming.",
+    image: automation,
+  },
 ];
 
 function formatDatePart(iso) {
