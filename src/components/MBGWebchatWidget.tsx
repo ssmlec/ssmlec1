@@ -155,14 +155,14 @@ const KNOWLEDGE_BASE = [
   },
   {
     keywords: ["hello", "hi", "hey", "namaste"],
-    answer: "Hi there! I'm LEXA, SSMLEC's assistant. Ask me about our AVEVA/automation training, corporate clients, campus programs, placements, or how to get in touch.",
+    answer: "Hi there! I'm LEO AI, SSMLEC's assistant. Ask me about our AVEVA/automation training, corporate clients, campus programs, placements, or how to get in touch.",
   },
 ];
 
 const FALLBACK_ANSWER =
   "I don't have an exact answer for that yet. Could you rephrase, or would you like our contact details so our team can help directly?";
 
-const WELCOME_MESSAGE = "Hello, I am LEXA. Ready to Assist You!";
+const WELCOME_MESSAGE = "Hello, I am LEO AI. Ready to Assist You!";
 
 function findAnswer(userText) {
   const text = userText.toLowerCase();
@@ -220,7 +220,7 @@ export default function SSMLECChatbot() {
       <style>{CSS}</style>
 
       {open && (
-        <div className="ssmlec-panel" role="dialog" aria-label="LEXA chat assistant">
+        <div className="ssmlec-panel" role="dialog" aria-label="LEO AI chat assistant">
           <div className="ssmlec-glow" aria-hidden="true" />
           <div className="ssmlec-panel-header">
             <div className="ssmlec-header-left">
@@ -228,7 +228,7 @@ export default function SSMLECChatbot() {
                 <Sparkles size={16} />
               </span>
               <div>
-                <div className="ssmlec-title">LEXA</div>
+                <div className="ssmlec-title">LEO AI</div>
                 <div className="ssmlec-subtitle">Ready to assist you</div>
               </div>
             </div>
@@ -281,7 +281,7 @@ export default function SSMLECChatbot() {
         aria-label={open ? "Close chatbot" : "Open chatbot"}
       >
         {open ? <X size={18} /> : <MessageCircle size={18} />}
-        <span>{open ? "Close" : "Chat with LEXA"}</span>
+        <span>{open ? "Close" : "Chat with LEO AI"}</span>
       </button>
     </div>
   );

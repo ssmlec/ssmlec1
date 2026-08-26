@@ -44,6 +44,7 @@ import st1 from "../../assets/event/s1.png"
 import ct1 from "../../assets/event/e1.jpg"
 import ct2 from "../../assets/event/e2.jpg"
 import ppphp from "../../assets/event/ppphp.jpg"
+import gecplcscada2026 from "../../assets/event/gecplcscada2026.jpg"
 
 import ct3 from "../../assets/event/e4.jpg"
 
@@ -61,6 +62,7 @@ const galleryImages: GalleryImage[] = [
   { id: "st-02", src: "https://static.wixstatic.com/media/cdb4cb_29406d7b8fa4474aba048803caa7cdc6~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Workshop on AutoCAD: Hands on Workshop at GEC, Surat", category: "students-training", span: "short" },
   { id: "st-03", src: "https://static.wixstatic.com/media/cdb4cb_8bc3386a64bc49e18206b56683066498~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "Configuration of Hadoop and Execution of MapReduce Programming at R. N. G Patel", category: "students-training", span: "medium" },
   { id: "st-06", src: "https://static.wixstatic.com/media/cdb4cb_8d3a67e0e8624dd3b72d55282e17db95~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "Workshop on IoT: Hands on Workshop at GEC, Surat", category: "students-training", span: "short" },
+  { id: "st-11", src: gecplcscada2026, title: "Workshop on PLC & SCADA Hands on Workshop at GEC, Surat", category: "students-training", span: "short" },
   { id: "ev-11", src: "https://static.wixstatic.com/media/cdb4cb_7e6bcbb2a64c44179db4890a41432eca~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,enc_avif,quality_auto/Image-place-holder.jpg", title: "MOU signed with C.K Pithawalla College of Engineering & Technology", category: "events", span: "tall" },
   { id: "st-07", src: st1, title: "Summer Internship on Automation: Hands on Workshop at ngpatel", category: "students-training", span: "short" },
     { id: "st-08", src: ppaiml, title: "Workshop Conducted at PPSavani on AI & ML", category: "events", span: "medium" },
