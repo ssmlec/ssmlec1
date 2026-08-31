@@ -24,9 +24,9 @@ export function CourseCard({ course }: { course: Course }) {
         <p className="mt-2 line-clamp-3 text-sm text-muted-foreground">{course.description}</p>
 
         <div className="mt-4 flex flex-wrap gap-3 text-xs text-muted-foreground">
-          <span className="inline-flex items-center gap-1">
+          {/* <span className="inline-flex items-center gap-1">
             <Clock className="size-3.5 text-accent" /> {course.duration}
-          </span>
+          </span> */}
           <span className="inline-flex items-center gap-1">
             <Signal className="size-3.5 text-accent" /> {course.level}
           </span>
