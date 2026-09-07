@@ -84,10 +84,6 @@ const leadership = [
     role: "Head",
   },
   {
-    name: "Hemin Motiwala",
-    role: "BDM",
-  },
-  {
     name: "Dhaval Kansara",
     role: "BDC",
   },
