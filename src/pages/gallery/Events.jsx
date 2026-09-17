@@ -137,6 +137,26 @@ const events = [
       "Campus Skill Development Program on Automation Basic & PLC programming.",
     image: automation,
   },
+   {
+    id: "ev-12",
+    title: "Workshop on Electrical AutoCAD",
+    date: "2026-09-19T10:30:00",
+    location: "GEC Surat",
+    category: "Campus Skill Development",
+    description:
+      "Campus Skill Development Program on Electrical AutoCAD.",
+    image: autocad,
+  },
+  {
+    id: "ev-13",
+    title: "Workshop on Electrical AutoCAD",
+    date: "2026-09-19T10:30:00",
+    location: "GEC Surat",
+    category: "Campus Skill Development",
+    description:
+      "Campus Skill Development Program on Electrical AutoCAD.",
+    image: autocad,
+  },
 ];
 
 function formatDatePart(iso) {
