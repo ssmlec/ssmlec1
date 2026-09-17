@@ -150,7 +150,7 @@ const events = [
   {
     id: "ev-13",
     title: "Workshop on Electrical AutoCAD",
-    date: "2026-09-19T10:30:00",
+    date: "2026-09-20T10:30:00",
     location: "GEC Surat",
     category: "Campus Skill Development",
     description:
