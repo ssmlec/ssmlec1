@@ -11,6 +11,7 @@ import automation from "../../assets/student_training/automation.png"
 import autocad from "../../assets/event/rngpiyautocad.jpg"
 import devops from "../../assets/event/ppdevops.jpg"
 import ppphp from "../../assets/event/ppphp.jpg"
+import camget from "../../assets/gallery/events/placementdrive/campus-hiring-250x250.webp"
 
 import malibavisit from "../../assets/event/malibavisit.jpg"
 
@@ -165,7 +166,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },
    {
     id: "ev-15",
@@ -175,7 +176,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },
    {
     id: "ev-16",
@@ -185,7 +186,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },
    {
     id: "ev-17",
@@ -195,7 +196,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },
    {
     id: "ev-18",
@@ -205,7 +206,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },
    {
     id: "ev-19",
@@ -215,7 +216,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },
   {
     id: "ev-20",
@@ -225,7 +226,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },{
     id: "ev-21",
     title: "GET Campus Hiring 2026 - 2027",
@@ -234,7 +235,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },{
     id: "ev-22",
     title: "GET Campus Hiring 2026 - 2027",
@@ -243,7 +244,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },{
     id: "ev-23",
     title: "GET Campus Hiring 2026 - 2027",
@@ -252,7 +253,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },{
     id: "ev-24",
     title: "GET Campus Hiring 2026 - 2027",
@@ -261,7 +262,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },
   {
     id: "ev-24",
@@ -271,7 +272,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },{
     id: "ev-25",
     title: "GET Campus Hiring 2026 - 2027",
@@ -280,7 +281,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },
   {
     id: "ev-26",
@@ -290,7 +291,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },
   {
     id: "ev-25",
@@ -300,7 +301,7 @@ const events = [
     category: "GET Campus Hiring",
     description:
       "GET Campus Hiring 2026 - 2027",
-    image: devops,
+    image: camget,
   },
 ];
 
