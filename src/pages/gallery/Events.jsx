@@ -157,6 +157,151 @@ const events = [
       "Campus Skill Development Program on Electrical AutoCAD.",
     image: autocad,
   },
+   {
+    id: "ev-14",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-09-30T09:00:00",
+    location: "P P Savani University Kosamba",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },
+   {
+    id: "ev-15",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-09-30T09:00:00",
+    location: "Navrachana University, Vadodara",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },
+   {
+    id: "ev-16",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-01T09:00:00",
+    location: "Veer Narmad South Gujarat University - JP Dawar, Surat",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },
+   {
+    id: "ev-17",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-03T09:00:00",
+    location: "School of Engineering, Indrashil University, Kadi",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },
+   {
+    id: "ev-18",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-05T09:00:00",
+    location: "Government Engineering College, Rajkot",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },
+   {
+    id: "ev-19",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-07T09:00:00",
+    location: "Sarvajanik College of Engineering & Technology  - Surat",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },
+  {
+    id: "ev-20",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-12T09:00:00",
+    location: "Ganpat University, U.V.Patel College of Engineering, Kherva (Mehsana)",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },{
+    id: "ev-21",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-14T09:00:00",
+    location: "Shri Swami Atmanand Saraswati Institute of Tech, Surat",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },{
+    id: "ev-22",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-15T09:00:00",
+    location: "Laxmi Institute of Technology - Sarigam (Vapi)",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },{
+    id: "ev-23",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-16T09:00:00",
+    location: "Veer Narmad South Gujarat University - MCA Department, Surat",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },{
+    id: "ev-24",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-19T09:00:00",
+    location: "Sardar Patel College of Engineering and Technology, Bakrol (Anand)",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },
+  {
+    id: "ev-24",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-21T09:00:00",
+    location: "Parul University, Vadodara",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },{
+    id: "ev-25",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-22T09:00:00",
+    location: "Institute of Science & Technology for Advanced Studies & Research - ISTAR",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },
+  {
+    id: "ev-26",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-23T09:00:00",
+    location: "Government Engineering College, Dahod",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },
+  {
+    id: "ev-25",
+    title: "GET Campus Hiring 2026 - 2027",
+    date: "2026-10-26T09:00:00",
+    location: "R. C. Patel Institute of Technology, Shirpur",
+    category: "GET Campus Hiring",
+    description:
+      "GET Campus Hiring 2026 - 2027",
+    image: devops,
+  },
 ];
 
 function formatDatePart(iso) {
