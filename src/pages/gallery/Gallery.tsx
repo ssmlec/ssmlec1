@@ -46,6 +46,7 @@ import ct2 from "../../assets/event/e2.jpg"
 import ppphp from "../../assets/event/ppphp.jpg"
 import gecplcscada2026 from "../../assets/event/gecplcscada2026.jpg"
 import gecautocad2026 from "../../assets/event/shared image (1).jfif"
+import ppsucampushiring from "../../assets/event/image (1).jfif"
 
 import ct3 from "../../assets/event/e4.jpg"
 
@@ -86,6 +87,7 @@ const galleryImages: GalleryImage[] = [
   { id: "ev-09", src: "https://static.wixstatic.com/media/cdb4cb_ef8107984d834900b50dad471a5c7bde~mv2.png/v1/fill/w_442,h_334,al_c,q_85,enc_avif,quality_auto/Image-place-holder.png", title: "Placement Drive at Vidyadeep University", category: "events", span: "short" },
   { id: "ev-10", src: "https://static.wixstatic.com/media/cdb4cb_b94df3c566c64d3c9eced02b7ea25243~mv2.jpg/v1/fill/w_442,h_334,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Image-place-holder.jpg", title: "MOU signed with Uka Tarsadia University(UTU)", category: "events", span: "tall" },
   { id: "ev-12", src: malibavisit, title: "Industrial Visit Conducted at SSM LEC for Computer Science Students from Diwaliba Polytechnic College, Mahuva", category: "events", span: "short" },
+  { id: "ev-13", src: ppsucampushiring, title: "PPSU - GET Campus Hiring", category: "events", span: "short" },
 
 ];
 
