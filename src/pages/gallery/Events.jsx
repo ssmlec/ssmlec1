@@ -12,6 +12,7 @@ import autocad from "../../assets/event/rngpiyautocad.jpg"
 import devops from "../../assets/event/ppdevops.jpg"
 import ppphp from "../../assets/event/ppphp.jpg"
 import camget from "../../assets/gallery/events/placementdrive/campus-hiring-250x250.webp"
+import nlp from "../../assets/gallery/events/placementdrive/360_F_614015247_EWZHvC6AAOsaIOepakhyJvMqUu5tpLfY.jpg"
 
 import malibavisit from "../../assets/event/malibavisit.jpg"
 
@@ -302,6 +303,16 @@ const events = [
     description:
       "GET Campus Hiring 2026 - 2027",
     image: camget,
+  },
+  {
+    id: "ev-26",
+    title: "From NLP to RAG: How Modern AI Understands, Generates, and Retrieves Information",
+    date: "2026-10-06T14:15:00",
+    location: "Parul University, Varodara",
+    category: "Campus Skill Development",
+    description:
+      "Virtual Workshop on NLP to RAG: How Modern AI Understands, Generates, and Retrieves Information",
+    image: nlp,
   },
 ];
 
