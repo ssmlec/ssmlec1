@@ -78,31 +78,39 @@ export const courses: Course[] = [
   // ---------------- Industrial Automation ----------------
   {
     slug: "intelligent-manufacturing-systems",
-    title: "Intelligent Manufacturing Systems Program",
+    title: "Industrial Automation & PLC Programming Certification Program",
     category: "industrial-automation",
     tagline: "Master connected factories & Industry 4.0 systems.",
     description:
       "A comprehensive program covering PLC, SCADA, IIoT and cyber-physical systems that power modern intelligent manufacturing lines.",
     duration: "6 Months",
-    eligibility: "Diploma / B.E / B.Tech (Mechanical, Electrical, E&TC, Instrumentation)",
-    mode: "Classroom + Live Lab",
-    level: "Intermediate to Advanced",
+    eligibility: "Diploma / B.E. / B.Tech (Electrical, Electronics, Instrumentation, Mechanical, Mechatronics and related disciplines)",
+    mode: "Classroom + Hands-on Lab",
+    level: "Beginner to Intermediate",
     icon: Factory,
-    skills: [ "SCADA", "IIoT", "HMI Design", "Digital Twin", "Industrial Networking"],
-    technologies: ["AVEVA", "Communication Driver", "MBTCP"],
-    careers: ["Automation Engineer", "Manufacturing Systems Engineer", "IIoT Specialist", "Control Systems Engineer"],
+    skills: [ "Industrial Automation Basics","PLC Hardware Configuration","PLC Ladder Logic Programming","Digital & Analog I/O","Timers, Counters & Interlocks","PLC Troubleshooting","Motor Control Applications","Industrial Safety Basics"
+
+
+],
+    technologies: ["Rockwell Automation","Siemens PLC","Schneider Electric","Ladder Logic","PLC I/O","Industrial Automation"
+],
+    careers: ["Junior PLC Programmer","PLC Technician","Automation Technician","Junior Automation Engineer","Control Panel Technician","PLC Maintenance Technician"],
     outcomes: [
-      "Design and commission automated production lines",
-      "Build IIoT dashboards for real-time monitoring",
-      "Integrate cyber-physical systems end to end",
+      "Understand industrial automation systems and PLC fundamentals.",
+"Identify and configure PLC hardware and I/O modules.",
+"Develop, test and troubleshoot PLC ladder logic programs.",
+"Implement basic automation applications using the selected PLC platform",
+"Design and demonstrate a small PLC-based control system."
+
     ],
     curriculum: [
-      { title: "Foundations of Industry 4.0", detail: "Smart factory architecture, digital transformation & standards." },
-      { title: "Advance SCADA", detail: "AVEVA Application Server, OMI, Historian" },
-      { title: "AVEVA MES", detail: "Operations, Performance, Quality" },
-      { title: "Capstone Project", detail: "Simulate, optimize and deploy a full manufacturing cell" },
+      { title: "Fundamentals of Industrial Automation", detail: "Introduction to automation, industrial control systems, sensors, actuators, relays, contactors and automation architecture." },
+      { title: "Overview of PLC Systems", detail: "PLC architecture, CPU, power supply, digital and analog I/O modules, PLC working principles, wiring and communication basics." },
+      { title: "PLC Programming & Configuration", detail: "PLC hardware configuration, IEC 61131-3 programming concepts, ladder logic, timers, counters, comparison instructions and interlocking." },
+      { title: "Hands-on PLC Programming & Applications", detail: "Practical exercises using one PLC platform (Rockwell, Siemens or Schneider), motor control, sequencing, fault diagnostics and troubleshooting." },
+      { title: "Mini Project & Certification Assessment", detail: "Design, program, test and demonstrate a PLC-based industrial automation application." },
     ],
-    projects: ["Automated bottling line", "Real-time OEE dashboard", "Predictive downtime alerting"],
+    projects: ["Design, program, test and demonstrate a PLC-based industrial automation application."],
     faqs: faqBase,
   },
   {
