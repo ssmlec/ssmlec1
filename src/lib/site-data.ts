@@ -115,31 +115,44 @@ export const courses: Course[] = [
   },
   {
     slug: "smart-manufacturing-engineer",
-    title: "Smart Manufacturing Engineer Program",
+    title: "Industrial Automation, SCADA & HMI Development Certification Program",
     category: "industrial-automation",
     tagline: "Become a shop-floor-ready smart manufacturing engineer.",
     description:
-      " motion control, MES and lean smart-factory practices for next-generation manufacturing.",
+      "A comprehensive, industry-oriented certification program designed to develop practical skills in Supervisory Control and Data Acquisition (SCADA) systems and Human Machine Interface (HMI) development using AVEVA InTouch HMI software. Participants will learn SCADA fundamentals, HMI screen development, tag configuration, real-time data monitoring, alarm management, historical trending, PLC communication and industrial process visualization through hands-on applications.",
     duration: "5 Months",
-    eligibility: "Diploma / B.E / B.Tech in Engineering",
-    mode: "Classroom + Live Lab",
-    level: "Beginner to Advanced",
+    eligibility: "Diploma / B.E. / B.Tech (Electrical, Electronics, Instrumentation, Mechanical, Mechatronics and related disciplines)",
+    mode: "Classroom + Hands-on Lab",
+    level: "Beginner to Intermediate",
     icon: Cpu,
-    skills: ["Basic Automation","SCADA","Power BI"],
-    technologies: ["SCADA", "Power BI", "Communication Driver"],
-    careers: ["Smart Manufacturing Engineer", "Robotics Technician", "MES Analyst", "Process Automation Engineer"],
+    skills: ["SCADA System Fundamentals","AVEVA InTouch HMI Development",
+             "Graphical Screen Design","Tag Database Configuration",
+             "Animation & Navigation","Alarm Configuration","Real-Time & Historical","Trending","PLC-SCADA Communication",
+             "Basic InTouch Scripting","SCADA Troubleshooting"
+
+],
+    technologies: ["AVEVA InTouch HMI","WindowMaker","WindowViewer","SCADA","HMI Development","OPC Communication","Industrial PLC"
+],
+    careers: ["Junior SCADA Engineer","HMI Developer","SCADA Application Engineer",
+              "Automation Engineer – Trainee","SCADA Support Engineer","Industrial Automation Technician"
+],
     outcomes: [
-      "Program and integrate industrial robots",
-      "Deploy MES for production traceability",
-      "Optimize lines using lean automation principles",
+      "Understand SCADA architecture, HMI fundamentals and industrial automation applications.",
+"Develop and configure industrial HMI applications using AVEVA InTouch.",
+"Create interactive process visualization screens with real-time data.",
+"Configure tags, animations, alarms and historical trends.",
+"Establish basic communication between PLCs and SCADA systems.",
+"Design, test and troubleshoot a complete basic HMI application."
+
     ],
     curriculum: [
-      { title: "Smart Factory Essentials", detail: "Sensors, actuators and industrial communication." },
-      { title: "Advance SCADA", detail: "Application Server, OMI, InTouch for System Platform" },
-      { title: "Visualization and Reporting", detail: "Interactice and decision ready dashboard" },
-      { title: "Project", detail: "End-to-end automated work cell integration." },
+      { title: "Fundamentals of Industrial Automation & SCADA", detail: "Introduction to industrial automation, SCADA architecture, HMI concepts, PLC-SCADA integration, applications and industrial communication basics." },
+      { title: "Introduction to AVEVA InTouch HMI", detail: "Overview of AVEVA InTouch HMI, WindowMaker, WindowViewer, application creation, navigation and development environment." },
+      { title: "HMI Screen Development & Tag Configuration", detail: "Design graphical process screens, configure tags, animation links, symbols, navigation, user inputs and real-time process visualization." },
+      { title: "Alarm Management, Trending & PLC Communication", detail: "Configure alarms, alarm displays, real-time and historical trends, basic scripting and PLC data connectivity using supported communication interfaces." },
+      { title: "SCADA Application Development & Capstone Project", detail: "Develop, test and demonstrate an InTouch HMI application for an industrial process, including monitoring, control, alarms and trends." }
     ],
-    projects: ["Robotic pick & place cell", "MES traceability module"],
+    projects: ["Develop, test and demonstrate an InTouch HMI application for an industrial process, including monitoring, control, alarms and trends."],
     faqs: faqBase,
   },
   {
