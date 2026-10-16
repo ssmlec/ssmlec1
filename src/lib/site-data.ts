@@ -96,7 +96,11 @@ export const courses: Course[] = [
 ],
     careers: ["Junior PLC Programmer","PLC Technician","Automation Technician","Junior Automation Engineer","Control Panel Technician","PLC Maintenance Technician"],
     outcomes: [
-      "A comprehensive, industry-oriented certification program designed to develop practical skills in Industrial Automation, Programmable Logic Controllers (PLC), and PLC Programming. Participants will learn automation fundamentals, PLC hardware configuration, ladder logic programming, troubleshooting, and industrial applications using any one leading PLC platform: Rockwell Automation (Allen-Bradley), Siemens, or Schneider Electric."
+      "Understand industrial automation systems and PLC fundamentals.",
+"Identify and configure PLC hardware and I/O modules.",
+"Develop, test and troubleshoot PLC ladder logic programs.",
+"Implement basic automation applications using the selected PLC platform.",
+"Design and demonstrate a small PLC-based control system."
 
     ],
     curriculum: [
