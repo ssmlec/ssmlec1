@@ -68,7 +68,7 @@ export function Footer() {
                 {
                   icon: Linkedin,
                   label: "LinkedIn",
-                  url: "https://www.linkedin.com/in/harshal-patel-70111a344/"
+                  url: "https://www.linkedin.com/company/ssmlec/home/"
                 },
                 {
                   icon: Facebook,
